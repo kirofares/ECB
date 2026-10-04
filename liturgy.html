@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#211a16">
+  <meta name="description" content="ECB Coptic Liturgical Library — Divine Liturgies, Katameros, Agpeya, Psalmody, Pascha, rites and services.">
+  <title>المكتبة الطقسية القبطية — ECB</title>
+  <style>
+    :root{
+      --ink:#201915;--paper:#f6f0e5;--paper2:#eee3d2;--gold:#a57732;--red:#7f2d2d;
+      --muted:#75695e;--line:rgba(76,57,42,.18);--card:rgba(255,252,246,.84);--shadow:0 18px 50px rgba(46,31,20,.09);
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);background:linear-gradient(180deg,#faf6ef 0%,var(--paper) 100%);
+      font-family:"Noto Naskh Arabic","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.75}
+    a{color:inherit;text-decoration:none}.shell{width:min(1240px,calc(100% - 28px));margin:auto}
+    header{position:sticky;top:0;z-index:50;background:rgba(249,245,237,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{height:68px;display:flex;justify-content:space-between;align-items:center;gap:14px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:900}.seal{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(165,119,50,.45);background:#fff7e9;color:var(--red);font-size:21px}
+    .nav-actions{display:flex;gap:8px;align-items:center}.btn{border:1px solid var(--line);background:#fffaf3;border-radius:12px;padding:9px 13px;font:inherit;font-weight:800;cursor:pointer}
+    .hero{padding:62px 0 34px}.eyebrow{display:inline-block;color:var(--red);font-weight:900;font-size:13px;border:1px solid rgba(127,45,45,.16);background:#fffaf3;padding:6px 11px;border-radius:999px}
+    h1,h2{font-family:Georgia,"Times New Roman","Noto Naskh Arabic",serif}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.08;margin:14px 0}.hero p{font-size:18px;color:#62564c;max-width:900px}
+    .quick{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}.quick a{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:19px;box-shadow:var(--shadow)}
+    .quick .ico{font-size:24px}.quick b{display:block;margin-top:8px}.quick small{color:var(--muted)}
+    .toolbar{display:grid;grid-template-columns:1fr auto;gap:12px;margin:24px 0}
+    input[type=search]{width:100%;border:1px solid var(--line);background:#fffaf3;border-radius:14px;padding:13px 15px;font:inherit;font-size:16px}
+    .pills{display:flex;flex-wrap:wrap;gap:8px}.pill{border:1px solid var(--line);background:#fffaf3;border-radius:999px;padding:8px 13px;cursor:pointer;font-weight:800}.pill.active{background:var(--ink);color:#fff}
+    .section{padding:30px 0 8px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}.section h2{font-size:30px;margin:0}.section-head p{color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:19px;padding:18px;box-shadow:0 8px 30px rgba(65,43,27,.045)}
+    .card-top{display:flex;justify-content:space-between;gap:12px;align-items:start}.card h3{margin:0;font-size:18px}.card .en{color:var(--muted);font-size:12px;margin-top:3px;direction:ltr;text-align:right}
+    .badge{font-size:10px;font-weight:900;border-radius:999px;padding:5px 8px;background:#efe1ca;color:#6f4c24;white-space:nowrap}
+    .meta{margin-top:12px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+    .notice{margin:38px 0;background:#241d18;color:#f6ede1;border-radius:24px;padding:24px}.notice p{color:#dacfc4;margin-bottom:0}
+    .source{font-size:12px;color:#76685d;margin:16px 0 44px}
+    .empty{display:none;padding:30px;text-align:center;color:var(--muted)}
+    footer{padding:28px 0 45px;color:var(--muted);font-size:12px}
+    @media(max-width:900px){.quick{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr 1fr}.toolbar{grid-template-columns:1fr}}
+    @media(max-width:620px){.quick,.grid{grid-template-columns:1fr}.hero{padding-top:42px}.section-head{display:block}.nav .label{display:none}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="shell nav">
+    <a class="brand" href="./">
+      <span class="seal">☦</span>
+      <span><span class="label">الكتاب المقدس القبطي المصري</span><small style="display:block;color:var(--muted)">ECB Liturgical Library</small></span>
+    </a>
+    <div class="nav-actions">
+      <a class="btn" href="./reader.html">قارئ الكتاب المقدس</a>
+      <a class="btn" href="./">الرئيسية</a>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="hero">
+    <span class="eyebrow">المكتبة الطقسية القبطية</span>
+    <h1>كل القداسات والقراءات والطقوس<br>في مكان واحد</h1>
+    <p>
+      واجهة موحّدة للقداسات والقطمارس والقراءات والأجبية والتسبحة والبصخة والخدمات الكنسية.
+      كل قسم منفصل وسهل الوصول، مع خطة لربط القراءات مباشرة بنص الكتاب المقدس داخل ECB.
+    </p>
+    <div class="quick">
+      <a href="#liturgies"><span class="ico">☦</span><b>القداسات</b><small>باسيليوس • غريغوريوس • كيرلس • رفع البخور</small></a>
+      <a href="#readings"><span class="ico">📖</span><b>القراءات والقطمارس</b><small>سنوي • صوم • بصخة • خماسين • أعياد</small></a>
+      <a href="#prayer-praise"><span class="ico">🕯</span><b>الصلوات والتسابيح</b><small>الأجبية • الإبصلمودية • الإبصاليات • الذكصولوجيات</small></a>
+      <a href="#rites-services"><span class="ico">⛪</span><b>الخدمات والطقوس</b><small>معمودية • إكليل • جناز • لقان • تدشين • رسامات</small></a>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="ابحث: قداس باسيليوس، البولس، البصخة، الأجبية، جناز...">
+    <div class="pills" id="filters">
+      <button class="pill active" data-filter="all">الكل</button>
+      <button class="pill" data-filter="liturgies">القداسات</button>
+      <button class="pill" data-filter="readings">القراءات</button>
+      <button class="pill" data-filter="prayer-praise">الصلوات والتسابيح</button>
+      <button class="pill" data-filter="rites-services">الخدمات والطقوس</button>
+    </div>
+  </div>
+
+  <div id="library"></div>
+  <div class="empty" id="empty">لا توجد نتائج مطابقة.</div>
+
+  <section class="notice">
+    <strong>سياسة الاعتماد داخل ECB</strong>
+    <p>
+      الفهرس هنا شامل هيكليًا، لكن النصوص الكاملة لن تُنسخ من مصادر غير موثقة. كل نص سيحمل مصدره وحالة مراجعته.
+      قراءات القطمارس ستُخزن كمراجع كتابية وطقسية ثم تُعرض من نص ECB نفسه متى كان السفر متاحًا، حتى لا توجد نسخ متعارضة من نفس الآية.
+    </p>
+  </section>
+
+  <div class="source">
+    المرجع الهيكلي: Coptic Reader — Coptic Orthodox Diocese of the Southern USA.
+    ترتيب القطمارس: السنوي، الصوم الكبير، البصخة، والخماسين، مع قراءات عشية وباكر والقداس.
+  </div>
+</main>
+
+<footer><div class="shell">ECB — The Egyptian Coptic Bible • Liturgical Library</div></footer>
+
+<script>
+let data=null, active='all';
+const library=document.getElementById('library');
+const search=document.getElementById('search');
+const empty=document.getElementById('empty');
+
+function render(){
+  if(!data) return;
+  const q=search.value.trim().toLowerCase();
+  let visible=0;
+  library.innerHTML=data.groups.map(group=>{
+    if(active!=='all' && active!==group.id) return '';
+    const items=group.items.filter(item=>{
+      const hay=(item.title_ar+' '+item.title_en+' '+item.type).toLowerCase();
+      return !q || hay.includes(q);
+    });
+    if(!items.length) return '';
+    visible+=items.length;
+    return `
+      <section class="section" id="${group.id}">
+        <div class="section-head">
+          <div><h2>${group.icon} ${group.title_ar}</h2><p>${group.title_en}</p></div>
+          <p>${items.length} قسم</p>
+        </div>
+        <div class="grid">
+          ${items.map(item=>`
+            <article class="card">
+              <div class="card-top">
+                <div>
+                  <h3>${item.title_ar}</h3>
+                  <div class="en">${item.title_en}</div>
+                </div>
+                <span class="badge">مُدرج</span>
+              </div>
+              <div class="meta">حالة النص: قيد توثيق المصدر والاستيراد المعتمد</div>
+            </article>`).join('')}
+        </div>
+      </section>`;
+  }).join('');
+  empty.style.display=visible?'none':'block';
+}
+
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('.pill'); if(!b)return;
+  document.querySelectorAll('.pill').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); active=b.dataset.filter; render();
+});
+search.addEventListener('input',render);
+
+fetch('./data/liturgical-library.json')
+  .then(r=>{if(!r.ok)throw new Error('تعذر تحميل المكتبة');return r.json()})
+  .then(d=>{data=d;render()})
+  .catch(err=>{library.innerHTML='<div class="notice">'+err.message+'</div>'});
+</script>
+</body>
+</html>
