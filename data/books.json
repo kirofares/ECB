@@ -642,10 +642,19 @@
       "order": 1,
       "section": "gospels",
       "chapter_count": 28,
-      "status": "catalogued",
+      "status": "translation_draft",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "source_status": "source_linked",
+      "publication_status": "free_electronic_attributed",
+      "review_version": "0.1",
+      "source_file": "data/books/matthew.json",
+      "chapters": [
+        {
+          "number": 1,
+          "status": "translation_draft_partial",
+          "coverage": "1-7"
+        }
+      ]
     },
     {
       "id": "mark",
