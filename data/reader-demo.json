@@ -1,0 +1,56 @@
+{
+  "project": "ECB",
+  "schemaVersion": 1,
+  "note": "Technical alignment demo only. Not approved biblical text.",
+  "books": [
+    {
+      "id": "john-demo",
+      "testament": "NT",
+      "name_en": "John — Demo",
+      "name_ar": "يوحنا — نموذج",
+      "chapters": [
+        {
+          "number": 1,
+          "verses": [
+            {
+              "number": 1,
+              "coptic": [
+                {"id":"c-1","text":"Ⲁ","gloss":"Demo token A","align":["a-1"]},
+                {"id":"c-2","text":"Ⲃ","gloss":"Demo token B","align":["a-2","a-3"]},
+                {"id":"c-3","text":"Ⲅ","gloss":"Demo token C","align":["a-4"]},
+                {"id":"c-4","text":"Ⲇ","gloss":"Demo token D","align":["a-5"]}
+              ],
+              "arabic": [
+                {"id":"a-1","text":"كلمة","gloss":"Demo Arabic token 1","align":["c-1"]},
+                {"id":"a-2","text":"تقابل","gloss":"Demo Arabic token 2","align":["c-2"]},
+                {"id":"a-3","text":"كلمتين","gloss":"Demo Arabic token 3","align":["c-2"]},
+                {"id":"a-4","text":"في","gloss":"Demo Arabic token 4","align":["c-3"]},
+                {"id":"a-5","text":"النموذج","gloss":"Demo Arabic token 5","align":["c-4"]}
+              ]
+            },
+            {
+              "number": 2,
+              "coptic": [
+                {"id":"c2-1","text":"Ⲉ","align":["a2-1"]},
+                {"id":"c2-2","text":"Ⲋ","align":["a2-2"]},
+                {"id":"c2-3","text":"Ⲍ","align":["a2-3"]}
+              ],
+              "arabic": [
+                {"id":"a2-1","text":"ربط","align":["c2-1"]},
+                {"id":"a2-2","text":"ثنائي","align":["c2-2"]},
+                {"id":"a2-3","text":"الاتجاه","align":["c2-3"]}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"ot-placeholder",
+      "testament":"OT",
+      "name_en":"Old Testament — awaiting source plan",
+      "name_ar":"العهد القديم — في انتظار خطة المصادر",
+      "chapters":[]
+    }
+  ]
+}
