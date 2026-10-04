@@ -163,27 +163,27 @@
     </div>
 
     <div class="hint">
-      <span data-ar>اضغط أي كلمة قبطية أو عربية لعرض الكلمة المقابلة. الرابط ينقلك مباشرة إليها، والتظليل يوضح كل العلاقات المرتبطة.</span>
-      <span data-en>Click any Coptic or Arabic word to reveal its aligned counterpart. The hyperlink jumps to the first match and highlighting shows all linked words.</span>
+      <span data-ar>الربط الحالي في إنجيل مرقس هو عدد ↔ عدد. اضغط على النص القبطي أو العربي ليظهر المقابل مباشرة. الربط كلمة ↔ كلمة سيُضاف فقط بعد المراجعة اللغوية لكل عدد.</span>
+      <span data-en>Mark is currently aligned verse ↔ verse. Click either the Sahidic or Arabic text to highlight its counterpart. Word-level alignment will be added only after linguistic review.</span>
     </div>
   </aside>
 
   <section>
     <div class="reader-head">
       <div>
-        <div class="status"><span data-ar>إنجيل مرقس — مسودة عربية v0.2 قيد المراجعة</span><span data-en>Gospel of Mark — Arabic draft v0.2 under review</span></div>
+        <div class="status"><span data-ar>إنجيل مرقس — قبطي صعيدي ↔ عربي • ربط آية بآية</span><span data-en>Gospel of Mark — Sahidic ↔ Arabic • verse-level alignment</span></div>
         <h1 id="readerTitle">ECB Parallel Reader</h1>
         <div class="meta" id="readerMeta"></div>
       </div>
-      <div class="meta"><span data-ar>قبطي ↔ عربي • ربط على مستوى الكلمة</span><span data-en>Coptic ↔ Arabic • word-level alignment</span></div>
+      <div class="meta"><span data-ar>قبطي صعيدي ↔ عربي • ربط على مستوى العدد</span><span data-en>Sahidic Coptic ↔ Arabic • verse-level alignment</span></div>
     </div>
 
     <div id="verses"></div>
 
     <div class="notice">
       <strong data-ar>مهم:</strong><strong data-en>Important:</strong>
-      <span data-ar> إنجيل مرقس متاح الآن بالعربية كمسودة v0.2 قيد المراجعة. النص القبطي والربط كلمة بكلمة سيُضافان تدريجيًا بعد اكتمال المراجعة اللغوية والنصية لكل عدد.</span>
-      <span data-en> The Gospel of Mark is now available as Arabic working draft v0.2. Sahidic Coptic text and word-level alignment will be added progressively after linguistic and textual review.</span>
+      <span data-ar> إنجيل مرقس 1–16 مرتبط الآن قبطيًا صعيديًا ↔ عربيًا على مستوى كل عدد. مصدر القبطي: Coptic SCRIPTORIUM، corpus sahidica.mark، بترخيص CC BY 4.0. الربط كلمة بكلمة سيُضاف بعد المراجعة اللغوية لكل عدد.</span>
+      <span data-en> Mark 1–16 is now linked Sahidic ↔ Arabic verse by verse. Sahidic source: Coptic SCRIPTORIUM, sahidica.mark corpus, CC BY 4.0. Word-level alignment will follow verse-level linguistic review.</span>
     </div>
   </section>
 </main>
@@ -266,14 +266,14 @@
       ? book.name_ar + ' ' + chapter.number + ':' + verse.number
       : book.name_en + ' ' + chapter.number + ':' + verse.number;
     metaEl.textContent = currentLang()==='ar'
-      ? 'المسودة العربية v0.2 • النص القبطي والربط قيد المراجعة'
-      : 'Arabic draft v0.2 • Sahidic text and alignment under review';
+      ? 'النص القبطي الصعيدي مرتبط بالترجمة العربية عددًا بعدد • v0.2 قيد المراجعة'
+      : 'Sahidic Coptic linked to the Arabic translation verse by verse • v0.2 under review';
 
     versesEl.innerHTML = `
       <article class="verse-card" data-verse="${verse.number}">
         <div class="verse-toolbar">
           <div class="verse-no">${currentLang()==='ar'?'عدد':'Verse'} ${verse.number}</div>
-          <div class="legend">${currentLang()==='ar'?'اضغط على كلمة لرؤية مقابلها':'Click a word to see its counterpart'}</div>
+          <div class="legend">${currentLang()==='ar'?'اضغط على النص لرؤية المقابل':'Click the text to see its counterpart'}</div>
         </div>
         <div class="parallel">
           <div class="pane coptic">
