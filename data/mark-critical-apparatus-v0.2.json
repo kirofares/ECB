@@ -1,0 +1,110 @@
+{
+  "project": "ECB",
+  "book": "mark",
+  "version": "0.2",
+  "base": "Sahidic Coptic",
+  "purpose": "First-pass critical register for the Arabic translation. Entries record verified editorial problems, lacunae, and corrections that must not be silently normalized.",
+  "entries": [
+    {
+      "chapter": 1,
+      "verse": 1,
+      "type": "variant_editorial",
+      "status": "review_required",
+      "arabic_policy": "Keep [ابن الله] in square brackets until the witness-level review is completed.",
+      "note_ar": "تُعامل عبارة «ابن الله» كموضع نصي يحتاج توثيقًا مستقلًا، ولا تُزال الأقواس في النسخة الحالية."
+    },
+    {
+      "chapter": 2,
+      "verse": 26,
+      "type": "preserved_reading",
+      "status": "retain",
+      "arabic_policy": "في أيام أبياثار رئيس الكهنة",
+      "note_ar": "يُبقى اسم أبياثار في المتن ولا يُصحَّح من رواية موازية."
+    },
+    {
+      "chapter": 5,
+      "verse": 1,
+      "type": "proper_name_reading",
+      "status": "retain",
+      "arabic_policy": "منطقة الجراسيين",
+      "note_ar": "لا تُستبدل تلقائيًا بقراءة مألوفة من ترجمة عربية أخرى."
+    },
+    {
+      "chapter": 7,
+      "verse": 16,
+      "type": "lacuna",
+      "source_marker": "[..]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "النص القبطي في الطبعة المستخدمة ممثل بفجوة؛ لا تُطبع صياغة عربية وكأنها ترجمة مباشرة من الصعيدي."
+    },
+    {
+      "chapter": 8,
+      "verse": 10,
+      "type": "partial",
+      "source_marker": "[..]",
+      "status": "translate_preserved_portion_only",
+      "note_ar": "بداية قصيرة مفقودة، بينما بقية الآية محفوظة وتشمل دلمانوثا."
+    },
+    {
+      "chapter": 9,
+      "verse": 10,
+      "type": "lacuna",
+      "source_marker": "[...]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "الآية غير محفوظة في الشاهد الرقمي المستخدم؛ أي قراءة موازية توضع في طبقة المقارنة لا في الترجمة الصعيدية."
+    },
+    {
+      "chapter": 9,
+      "verse": 29,
+      "type": "translation_correction",
+      "status": "corrected",
+      "coptic_key_terms": [
+        "ϣⲗⲏⲗ",
+        "ⲛⲏⲥⲧⲓⲁ"
+      ],
+      "previous_ar": "هذا الجنس لا يستطيع أن يخرج إلا بالصلاة.",
+      "approved_ar": "هذا الجنس لا يستطيع أن يخرج إلا بالصلاة والصوم.",
+      "note_ar": "الصعيدي يذكر الصلاة والصوم صراحة."
+    },
+    {
+      "chapter": 9,
+      "verse": 44,
+      "type": "lacuna",
+      "source_marker": "[...]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "الموضع ممثل بفجوة في الطبعة؛ لا يوصف بأنه «محذوف» دون تحديد الشاهد."
+    },
+    {
+      "chapter": 9,
+      "verse": 46,
+      "type": "lacuna",
+      "source_marker": "[...]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "الموضع ممثل بفجوة في الطبعة؛ لا يوصف بأنه «محذوف» دون تحديد الشاهد."
+    },
+    {
+      "chapter": 11,
+      "verse": 26,
+      "type": "lacuna",
+      "source_marker": "..]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "النص القبطي لهذا الموضع غير محفوظ/مبتور في الطبعة المستخدمة."
+    },
+    {
+      "chapter": 15,
+      "verse": 28,
+      "type": "lacuna",
+      "source_marker": "[--]",
+      "status": "do_not_reconstruct_in_base_text",
+      "note_ar": "موضع الآية ممثل بعلامة فراغ؛ لا تُنسب صياغة «وأُحصي مع أثمة» إلى الصعيدي في المتن دون شاهد."
+    },
+    {
+      "chapter": 16,
+      "verse": "9-20",
+      "type": "ending",
+      "status": "retain_with_note",
+      "arabic_policy": "Keep the long ending in the Sahidic-based text, clearly label it for textual-critical discussion.",
+      "note_ar": "النهاية 16:9–20 موجودة في النص الصعيدي المستخدم للمشروع، لذلك تُثبت في المتن مع حاشية عن تاريخها النصي العام."
+    }
+  ]
+}
