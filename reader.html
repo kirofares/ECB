@@ -201,7 +201,7 @@
   <section>
     <div class="reader-head">
       <div>
-        <div class="status"><span data-ar>إنجيل مرقس — قبطي صعيدي ↔ عربي • ربط آية بآية</span><span data-en>Gospel of Mark — Sahidic ↔ Arabic • verse-level alignment</span></div>
+        <div class="status" id="readerStatus"><span data-ar>ECB — قبطي صعيدي ↔ عربي</span><span data-en>ECB — Sahidic ↔ Arabic</span></div>
         <h1 id="readerTitle">ECB Parallel Reader</h1>
         <div class="meta" id="readerMeta"></div>
       </div>
@@ -212,14 +212,14 @@
 
     <div class="notice">
       <strong data-ar>مهم:</strong><strong data-en>Important:</strong>
-      <span data-ar> إنجيل مرقس 1–16 مرتبط الآن قبطيًا صعيديًا ↔ عربيًا على مستوى كل عدد. مصدر القبطي: Coptic SCRIPTORIUM، corpus sahidica.mark، بترخيص CC BY 4.0. الربط كلمة بكلمة سيُضاف بعد المراجعة اللغوية لكل عدد.</span>
-      <span data-en> Mark 1–16 is now linked Sahidic ↔ Arabic verse by verse. Sahidic source: Coptic SCRIPTORIUM, sahidica.mark corpus, CC BY 4.0. Word-level alignment will follow verse-level linguistic review.</span>
+      <span data-ar id="sourceNoticeAr"> تعرض الصفحة فقط النصوص التي أُدخلت إلى ECB مع حالة المراجعة ومصدرها.</span>
+      <span data-en id="sourceNoticeEn"> The reader displays only text entered into ECB with its review status and source record.</span>
     </div>
   </section>
 </main>
 
 <script>
-  const state = { data:null, catalog:null, selected:null, viewMode:'verse' };
+  const state = { data:null, catalog:null, selected:null, viewMode:'verse', loadingBook:null };
 
   const el = id => document.getElementById(id);
   const testamentEl = el('testament');
@@ -232,6 +232,9 @@
   const verseModeBtn = el('verseModeBtn');
   const chapterModeBtn = el('chapterModeBtn');
   const verseJumpControl = el('verseJumpControl');
+  const readerStatus = el('readerStatus');
+  const sourceNoticeAr = el('sourceNoticeAr');
+  const sourceNoticeEn = el('sourceNoticeEn');
 
   function option(value,label){ return '<option value="' + value + '">' + label + '</option>'; }
   function currentLang(){ return document.body.classList.contains('en') ? 'en' : 'ar'; }
@@ -240,11 +243,14 @@
     return state.data.books.filter(b => b.testament === testament);
   }
 
-  function fillBooks(){
+  async function fillBooks(){
     const books = booksFor(testamentEl.value);
+    const previous = bookEl.value;
     bookEl.innerHTML = books.length
       ? books.map(b => option(b.id, b.name_ar + ' / ' + b.name_en)).join('')
       : option('', currentLang()==='ar' ? 'لا توجد بيانات بعد' : 'No data yet');
+    if(previous && books.some(b => b.id === previous)) bookEl.value = previous;
+    await loadSelectedBookData();
     fillChapters();
   }
 
@@ -252,12 +258,38 @@
     return state.data.books.find(b => b.id === bookEl.value);
   }
 
+  async function loadSelectedBookData(){
+    const book = selectedBook();
+    if(!book || !book.source_file || book._sourceLoaded || state.loadingBook === book.id) return;
+    state.loadingBook = book.id;
+    try{
+      const r = await fetch('./' + book.source_file);
+      if(!r.ok) throw new Error('Book data failed to load: ' + book.id);
+      const external = await r.json();
+      const index = state.data.books.findIndex(b => b.id === book.id);
+      if(index >= 0){
+        state.data.books[index] = {
+          ...book,
+          ...external,
+          chapter_count: book.chapter_count || external.chapter_count,
+          source_file: book.source_file,
+          _sourceLoaded:true
+        };
+      }
+    }catch(err){
+      console.error(err);
+    }finally{
+      state.loadingBook = null;
+    }
+  }
+
   function fillChapters(){
     const book = selectedBook();
     const chapters = book?.chapters || [];
-    const nums = chapters.length
-      ? chapters.map(c => Number(c.number))
-      : Array.from({length:Number(book?.chapter_count || 0)},(_,i)=>i+1);
+    const declaredCount = Number(book?.chapter_count || 0);
+    const nums = declaredCount
+      ? Array.from({length:declaredCount},(_,i)=>i+1)
+      : chapters.map(c => Number(c.number));
     chapterEl.innerHTML = nums.length
       ? nums.map(n => option(n, (currentLang()==='ar'?'إصحاح ':'Chapter ') + n)).join('')
       : option('', '—');
@@ -313,6 +345,21 @@
     titleEl.textContent = currentLang()==='ar'
       ? book.name_ar + ' — الإصحاح ' + chapter.number
       : book.name_en + ' — Chapter ' + chapter.number;
+
+    const review = book.review_version ? ' v' + book.review_version : '';
+    if(readerStatus){
+      readerStatus.innerHTML = currentLang()==='ar'
+        ? 'ECB — ' + book.name_ar + ' • ' + (book.status || 'catalogued') + review
+        : 'ECB — ' + book.name_en + ' • ' + (book.status || 'catalogued') + review;
+    }
+    const source = book.source;
+    if(source){
+      sourceNoticeAr.textContent = ' المصدر القبطي: ' + (source.source_title || source.project || 'موثّق في ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • حالة النص: ' + (chapter.status || book.status || 'draft') + '.';
+      sourceNoticeEn.textContent = ' Coptic source: ' + (source.source_title || source.project || 'documented in ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • text status: ' + (chapter.status || book.status || 'draft') + '.';
+    }else{
+      sourceNoticeAr.textContent = ' هذا السفر مُدرج في ECB، وسيظهر النص عند اكتمال إدخال المصدر والترجمة ومراجعتها.';
+      sourceNoticeEn.textContent = ' This book is catalogued in ECB; text will appear after source entry, translation, and review.';
+    }
     return {book,chapter,verses:chapter.verses || []};
   }
 
@@ -460,7 +507,10 @@
   }
 
   testamentEl.addEventListener('change',fillBooks);
-  bookEl.addEventListener('change',fillChapters);
+  bookEl.addEventListener('change',async() => {
+    await loadSelectedBookData();
+    fillChapters();
+  });
   chapterEl.addEventListener('change',fillVerses);
   verseModeBtn.addEventListener('click',() => { state.viewMode='verse'; renderReader(); });
   chapterModeBtn.addEventListener('click',() => { state.viewMode='chapter'; renderReader(); });
@@ -469,14 +519,13 @@
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
   });
 
-  el('langBtn').addEventListener('click',() => {
+  el('langBtn').addEventListener('click',async() => {
     document.body.classList.toggle('en');
     const en = document.body.classList.contains('en');
     document.documentElement.lang = en ? 'en' : 'ar';
     document.documentElement.dir = en ? 'ltr' : 'rtl';
     el('langBtn').textContent = en ? 'AR' : 'EN';
-    fillBooks();
-    renderReader();
+    await fillBooks();
   });
 
   Promise.all([

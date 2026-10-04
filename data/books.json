@@ -642,10 +642,26 @@
       "order": 1,
       "section": "gospels",
       "chapter_count": 28,
-      "status": "catalogued",
+      "status": "translation_draft",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "source_status": "source_linked",
+      "publication_status": "free_electronic_attributed",
+      "review_version": "0.1",
+      "source_file": "data/books/matthew.json",
+      "chapters": [
+        {
+          "number": 1,
+          "status": "translation_draft_partial",
+          "coverage": "1-7"
+        }
+      ],
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "mark",
@@ -658,7 +674,7 @@
       "status": "in_review",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_linked",
-      "publication_status": "draft_review",
+      "publication_status": "free_electronic_attributed",
       "review_version": "0.2",
       "chapters": [
         {
@@ -725,7 +741,14 @@
           "number": 16,
           "status": "draft_review"
         }
-      ]
+      ],
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "luke",
@@ -738,7 +761,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "john",
@@ -751,7 +781,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "acts",
@@ -764,7 +801,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "romans",
@@ -777,7 +821,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "1-corinthians",
@@ -790,7 +841,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "2-corinthians",
@@ -803,7 +861,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "galatians",
@@ -816,7 +881,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "ephesians",
@@ -829,7 +901,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "philippians",
@@ -842,7 +921,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "colossians",
@@ -855,7 +941,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "1-thessalonians",
@@ -868,7 +961,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "2-thessalonians",
@@ -881,7 +981,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "1-timothy",
@@ -894,7 +1001,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "2-timothy",
@@ -907,7 +1021,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "titus",
@@ -920,7 +1041,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "philemon",
@@ -933,7 +1061,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "hebrews",
@@ -946,7 +1081,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "james",
@@ -959,7 +1101,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "1-peter",
@@ -972,7 +1121,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "2-peter",
@@ -985,7 +1141,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "1-john",
@@ -998,7 +1161,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "2-john",
@@ -1011,7 +1181,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "3-john",
@@ -1024,7 +1201,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "jude",
@@ -1037,7 +1221,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     },
     {
       "id": "revelation",
@@ -1050,7 +1241,14 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic",
       "source_status": "source_identified",
-      "publication_status": "rights_review"
+      "publication_status": "free_electronic_attributed",
+      "source_license": "Sahidica NT specific license",
+      "source_attribution": {
+        "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+        "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+        "electronic_use": "free electronic New Testament editions with required attribution",
+        "print_use": "separate written permission required"
+      }
     }
   ]
 }

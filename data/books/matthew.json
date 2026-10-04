@@ -1,0 +1,192 @@
+{
+  "id": "matthew",
+  "testament": "NT",
+  "name_en": "Matthew",
+  "name_ar": "متى",
+  "translation_base": "Sahidic Coptic",
+  "status": "translation_draft",
+  "review_version": "0.1",
+  "source": {
+    "project": "Coptic SCRIPTORIUM",
+    "corpus": "sahidica.nt",
+    "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+    "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+    "urn": "urn:cts:copticLit:nt.matt.sahidica:1",
+    "use_note": "Used by ECB for a free electronic edition with source title and copyright attribution; print use requires separate permission."
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "status": "translation_draft_partial",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 7,
+        "total_verses": 25
+      },
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-1-c",
+              "text": "ⲡ ϫⲱⲱⲙⲉ ⲙ ⲡⲉ ϫⲡⲟ ⲛ ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲭⲣⲓⲥⲧⲟⲥ ⲡ ϣⲏⲣⲉ ⲛ ⲇⲁⲩⲉⲓⲇ ⲡ ϣⲏⲣⲉ ⲛ ⲁⲃⲣⲁϩⲁⲙ .",
+              "align": [
+                "mt-1-1-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-1-a",
+              "text": "كتاب ميلاد يسوع المسيح، ابن داود، ابن إبراهيم.",
+              "align": [
+                "mt-1-1-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-2-c",
+              "text": "ⲁⲃⲣⲁϩⲁⲙ ⲁ ϥ ϫⲡⲟ ⲛ ⲓⲥⲁⲁⲕ ⲓⲥⲁⲁⲕ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲓⲁⲕⲱⲃ ⲓⲁⲕⲱⲃ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲓⲟⲩⲇⲁⲥ ⲙⲛ ⲛⲉϥ ⲥⲛⲏⲩ .",
+              "align": [
+                "mt-1-2-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-2-a",
+              "text": "إبراهيم أنجب إسحاق. وإسحاق أنجب يعقوب. ويعقوب أنجب يهوذا وإخوته.",
+              "align": [
+                "mt-1-2-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-3-c",
+              "text": "ⲓⲟⲩⲇⲁⲥ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲙ ⲫⲁⲣⲉⲥ ⲙⲛ ⲍⲁⲣⲁ ⲉⲃⲟⲗ ϩⲛ ⲑⲁⲙⲁⲣ ⲫⲁⲣⲉⲥ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲉⲥⲣⲱⲙ . ⲉⲥⲣⲱⲙ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲁⲣⲁⲙ .",
+              "align": [
+                "mt-1-3-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-3-a",
+              "text": "ويهوذا أنجب فارص وزارح من ثامار. وفارص أنجب حصرون. وحصرون أنجب أرام.",
+              "align": [
+                "mt-1-3-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-4-c",
+              "text": "ⲁⲣⲁⲙ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲁⲙⲓⲛⲁⲇⲁⲃ . ⲁⲙⲓⲛⲁⲇⲁⲃ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲛⲁⲁⲥⲥⲱⲛ ⲛⲁⲁⲥⲥⲱⲛ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲥⲁⲗⲙⲱⲛ .",
+              "align": [
+                "mt-1-4-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-4-a",
+              "text": "وأرام أنجب أميناداب. وأميناداب أنجب نحشون. ونحشون أنجب سلمون.",
+              "align": [
+                "mt-1-4-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-5-c",
+              "text": "ⲥⲁⲗⲙⲱⲛ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲃⲟⲉⲥ ⲉⲃⲟⲗ ϩⲛ ϩⲣⲁⲭⲁⲃ . ⲃⲟⲉⲥ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲓⲱⲃⲏⲇ ⲉⲃⲟⲗ ϩⲛ ϩⲣⲟⲩⲑ . ⲓⲱⲃⲏⲇ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲓⲉⲥⲥⲁⲓ .",
+              "align": [
+                "mt-1-5-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-5-a",
+              "text": "وسلمون أنجب بوعز من راحاب. وبوعز أنجب عوبيد من راعوث. وعوبيد أنجب يسى.",
+              "align": [
+                "mt-1-5-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "coptic": [
+            {
+              "id": "mt-1-6-c",
+              "text": "ⲓⲉⲥⲥⲁⲓ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲇⲁⲩⲉⲓⲇ ⲡ ⲣⲣⲟ . ⲇⲁⲩⲉⲓⲇ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲥⲟⲗⲟⲙⲱⲛ ⲉⲃⲟⲗ ϩⲛ ⲧ ϩⲓⲙⲉ ⲛ ⲟⲩⲣⲓⲁⲥ .",
+              "align": [
+                "mt-1-6-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-6-a",
+              "text": "ويسى أنجب داود الملك. وداود أنجب سليمان من امرأة أوريا.",
+              "align": [
+                "mt-1-6-c"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "textual_note": "The Sahidic display reads ⲁⲥⲁⲫ; ECB draft preserves the corresponding Arabic name as آساف rather than silently normalizing it.",
+          "coptic": [
+            {
+              "id": "mt-1-7-c",
+              "text": "ⲥⲟⲗⲟⲙⲱⲛ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ϩⲣⲟⲃⲟⲁⲙ ϩⲣⲟⲃⲟⲁⲙ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲁⲃⲓⲁ ⲁⲃⲓⲁⲥ ⲇⲉ ⲁ ϥ ϫⲡⲟ ⲛ ⲁⲥⲁⲫ .",
+              "align": [
+                "mt-1-7-a"
+              ]
+            }
+          ],
+          "arabic": [
+            {
+              "id": "mt-1-7-a",
+              "text": "وسليمان أنجب رحبعام. ورحبعام أنجب أبيا. وأبيا أنجب آساف.",
+              "align": [
+                "mt-1-7-c"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
