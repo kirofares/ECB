@@ -349,7 +349,7 @@
       const body = tokens.length
         ? tokens.map(t => tokenHtml(t,side)).join(' ')
         : '<span class="empty">—</span>';
-      return `<span class="chapter-verse" id="${side}-verse-${verse.number}"><a class="chapter-verse-number" href="#verse-${verse.number}">${verse.number}</a> ${body} </span>`;
+      return `<span class="chapter-verse" id="${side}-verse-${verse.number}"><span class="chapter-verse-number">${verse.number}</span> ${body} </span>`;
     }).join(' ');
   }
 
