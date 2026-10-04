@@ -1,0 +1,11 @@
+{
+  "project": "The Egyptian Coptic Bible – Arabic Translation",
+  "shortName": "ECB",
+  "version": 1,
+  "books": [
+    {"id":"matthew","name_en":"Matthew","name_ar":"متى","testament":"NT","status":"planned","chapters":[]},
+    {"id":"mark","name_en":"Mark","name_ar":"مرقس","testament":"NT","status":"planned","chapters":[]},
+    {"id":"luke","name_en":"Luke","name_ar":"لوقا","testament":"NT","status":"planned","chapters":[]},
+    {"id":"john","name_en":"John","name_ar":"يوحنا","testament":"NT","status":"planned","chapters":[]}
+  ]
+}
