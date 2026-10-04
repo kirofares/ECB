@@ -97,6 +97,28 @@
       margin-top:14px;padding:13px 15px;border:1px dashed rgba(127,45,45,.28);border-radius:14px;
       background:rgba(127,45,45,.045);color:#654b43;font-size:13px
     }
+    .view-switch{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+    .view-btn{
+      border:1px solid var(--line);background:#fffaf3;color:var(--ink);border-radius:12px;
+      min-height:42px;padding:8px 10px;font:inherit;font-weight:850;cursor:pointer
+    }
+    .view-btn.active{background:var(--ink);color:#fffaf0;border-color:var(--ink)}
+    .chapter-reader{
+      background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;
+      box-shadow:var(--shadow)
+    }
+    .chapter-parallel{display:grid;grid-template-columns:1fr 1fr}
+    .chapter-pane{padding:28px;min-height:420px}
+    .chapter-pane + .chapter-pane{border-right:1px solid var(--line)}
+    .chapter-text{font-size:clamp(22px,2vw,29px);line-height:2.05}
+    .chapter-verse{display:inline}
+    .chapter-verse-number{
+      display:inline-flex;align-items:center;justify-content:center;
+      min-width:24px;height:24px;padding:0 6px;margin:0 4px;
+      border-radius:999px;background:var(--paper2);color:var(--red);
+      font-size:12px;font-weight:900;vertical-align:super;text-decoration:none
+    }
+    .chapter-details{border-top:1px solid var(--line);padding:16px 20px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
     .mobile-tabs{display:none}
     [data-en]{display:none}
     body.en{direction:ltr}
@@ -110,9 +132,9 @@
     @media(max-width:700px){
       .shell{width:min(100% - 18px,1320px)}
       .brand span:last-child{max-width:190px}
-      .parallel{grid-template-columns:1fr}
-      .pane + .pane{border-right:0!important;border-left:0!important;border-top:1px solid var(--line)}
-      .details{grid-template-columns:1fr}
+      .parallel,.chapter-parallel{grid-template-columns:1fr}
+      .pane + .pane,.chapter-pane + .chapter-pane{border-right:0!important;border-left:0!important;border-top:1px solid var(--line)}
+      .details,.chapter-details{grid-template-columns:1fr}
       .reader-head{align-items:start;flex-direction:column}
       .tokens{font-size:24px}
     }
@@ -158,6 +180,14 @@
     </div>
 
     <div class="control">
+      <label><span data-ar>طريقة العرض</span><span data-en>Display mode</span></label>
+      <div class="view-switch">
+        <button class="view-btn active" id="verseModeBtn" type="button"><span data-ar>بالعدد</span><span data-en>By verse</span></button>
+        <button class="view-btn" id="chapterModeBtn" type="button"><span data-ar>الإصحاح كامل</span><span data-en>Full chapter</span></button>
+      </div>
+    </div>
+
+    <div class="control" id="verseJumpControl">
       <label for="verse"><span data-ar>انتقل إلى عدد</span><span data-en>Jump to verse</span></label>
       <select class="select" id="verse"></select>
     </div>
@@ -189,7 +219,7 @@
 </main>
 
 <script>
-  const state = { data:null, selected:null };
+  const state = { data:null, selected:null, viewMode:'verse' };
 
   const el = id => document.getElementById(id);
   const testamentEl = el('testament');
@@ -199,6 +229,9 @@
   const versesEl = el('verses');
   const titleEl = el('readerTitle');
   const metaEl = el('readerMeta');
+  const verseModeBtn = el('verseModeBtn');
+  const chapterModeBtn = el('chapterModeBtn');
+  const verseJumpControl = el('verseJumpControl');
 
   function option(value,label){ return '<option value="' + value + '">' + label + '</option>'; }
   function currentLang(){ return document.body.classList.contains('en') ? 'en' : 'ar'; }
@@ -239,7 +272,7 @@
     verseEl.innerHTML = verses.length
       ? verses.map(v => option(v.number, (currentLang()==='ar'?'عدد ':'Verse ') + v.number)).join('')
       : option('', '—');
-    renderChapter();
+    renderReader();
   }
 
   function tokenHtml(token, side){
@@ -249,38 +282,52 @@
     return '<a class="' + classes + '" id="' + token.id + '" href="' + href + '" data-id="' + token.id + '" data-side="' + side + '" data-targets="' + targets.join(',') + '" title="' + (token.gloss || '') + '">' + token.text + '</a>';
   }
 
-  function renderChapter(){
+  function updateViewButtons(){
+    verseModeBtn.classList.toggle('active', state.viewMode === 'verse');
+    chapterModeBtn.classList.toggle('active', state.viewMode === 'chapter');
+    verseJumpControl.style.display = state.viewMode === 'verse' ? '' : 'none';
+  }
+
+  function renderReader(){
+    updateViewButtons();
+    if(state.viewMode === 'chapter') renderContinuousChapter();
+    else renderVerseCards();
+  }
+
+  function readerContext(){
     const book = selectedBook();
     const chapter = selectedChapter();
-
     if(!book || !chapter){
       titleEl.textContent = currentLang()==='ar' ? 'لا توجد بيانات منشورة بعد' : 'No published data yet';
       metaEl.textContent = '';
       versesEl.innerHTML = '';
-      return;
+      return null;
     }
-
-    const verses = chapter.verses || [];
     titleEl.textContent = currentLang()==='ar'
       ? book.name_ar + ' — الإصحاح ' + chapter.number
       : book.name_en + ' — Chapter ' + chapter.number;
+    return {book,chapter,verses:chapter.verses || []};
+  }
 
+  function renderVerseCards(){
+    const ctx = readerContext();
+    if(!ctx) return;
     metaEl.textContent = currentLang()==='ar'
-      ? 'الإصحاح كاملًا • قبطي مقابل عربي • ربط على مستوى الكلمة'
-      : 'Full chapter • Coptic beside Arabic • word-level alignment';
+      ? 'عرض بالعدد • كل عدد قبطي مقابل العربي'
+      : 'Verse view • each Coptic verse beside its Arabic translation';
 
-    versesEl.innerHTML = verses.map(verse => `
+    versesEl.innerHTML = ctx.verses.map(verse => `
       <article class="verse-card" id="verse-${verse.number}" data-verse="${verse.number}">
         <div class="verse-toolbar">
           <div class="verse-no">${currentLang()==='ar'?'عدد':'Verse'} ${verse.number}</div>
-          <div class="legend">${currentLang()==='ar'?'اضغط على كلمة لرؤية مقابلها':'Click a word to see its counterpart'}</div>
+          <div class="legend">${currentLang()==='ar'?'اضغط على النص لرؤية المقابل':'Click the text to see its counterpart'}</div>
         </div>
         <div class="parallel">
           <div class="pane coptic">
             <div class="pane-title">COPTIC</div>
             <div class="tokens">${verse.coptic?.length
               ? verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ')
-              : `<span class="empty">${currentLang()==='ar' ? 'النص القبطي قيد الربط والمراجعة لهذا العدد' : 'Sahidic Coptic text is being reviewed and aligned for this verse'}</span>`}
+              : `<span class="empty">${currentLang()==='ar' ? 'النص القبطي قيد المراجعة لهذا العدد' : 'Coptic text under review for this verse'}</span>`}
             </div>
           </div>
           <div class="pane arabic">
@@ -289,11 +336,47 @@
           </div>
         </div>
         <div class="details">
-          <div class="detail-box"><b>${currentLang()==='ar'?'الكلمة المختارة':'Selected word'}</b><span class="selected-word empty">—</span></div>
-          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل / المقابلات':'Counterpart(s)'}</b><span class="counterpart-words empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'النص المختار':'Selected text'}</b><span class="selected-word empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل':'Counterpart'}</b><span class="counterpart-words empty">—</span></div>
         </div>
       </article>`).join('');
+    bindTokens();
+  }
 
+  function chapterSideHtml(verses, side){
+    return verses.map(verse => {
+      const tokens = verse[side] || [];
+      const body = tokens.length
+        ? tokens.map(t => tokenHtml(t,side)).join(' ')
+        : '<span class="empty">—</span>';
+      return `<span class="chapter-verse" id="${side}-verse-${verse.number}"><span class="chapter-verse-number">${verse.number}</span> ${body} </span>`;
+    }).join(' ');
+  }
+
+  function renderContinuousChapter(){
+    const ctx = readerContext();
+    if(!ctx) return;
+    metaEl.textContent = currentLang()==='ar'
+      ? 'عرض الإصحاح كاملًا • نص متصل قبطي مقابل عربي'
+      : 'Full chapter view • continuous Coptic beside continuous Arabic';
+
+    versesEl.innerHTML = `
+      <article class="chapter-reader">
+        <div class="chapter-parallel">
+          <div class="chapter-pane coptic">
+            <div class="pane-title">COPTIC — FULL CHAPTER</div>
+            <div class="chapter-text">${chapterSideHtml(ctx.verses,'coptic')}</div>
+          </div>
+          <div class="chapter-pane arabic">
+            <div class="pane-title">العربية — الإصحاح كامل</div>
+            <div class="chapter-text">${chapterSideHtml(ctx.verses,'arabic')}</div>
+          </div>
+        </div>
+        <div class="chapter-details">
+          <div class="detail-box"><b>${currentLang()==='ar'?'النص المختار':'Selected text'}</b><span class="selected-word empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل':'Counterpart'}</b><span class="counterpart-words empty">—</span></div>
+        </div>
+      </article>`;
     bindTokens();
   }
 
@@ -308,9 +391,9 @@
     const matches = ids.map(id => document.getElementById(id)).filter(Boolean);
     matches.forEach(n => n.classList.add('counterpart'));
 
-    const card = node.closest('.verse-card');
-    const selected = card?.querySelector('.selected-word');
-    const counterparts = card?.querySelector('.counterpart-words');
+    const scope = node.closest('.verse-card') || node.closest('.chapter-reader');
+    const selected = scope?.querySelector('.selected-word');
+    const counterparts = scope?.querySelector('.counterpart-words');
     if(selected){
       selected.textContent = node.textContent;
       selected.classList.remove('empty');
@@ -340,6 +423,8 @@
   testamentEl.addEventListener('change',fillBooks);
   bookEl.addEventListener('change',fillChapters);
   chapterEl.addEventListener('change',fillVerses);
+  verseModeBtn.addEventListener('click',() => { state.viewMode='verse'; renderReader(); });
+  chapterModeBtn.addEventListener('click',() => { state.viewMode='chapter'; renderReader(); });
   verseEl.addEventListener('change',() => {
     const target = document.getElementById('verse-' + verseEl.value);
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
@@ -352,6 +437,7 @@
     document.documentElement.dir = en ? 'ltr' : 'rtl';
     el('langBtn').textContent = en ? 'AR' : 'EN';
     fillBooks();
+    renderReader();
   });
 
   fetch('./data/reader-data.json')
