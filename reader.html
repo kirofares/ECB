@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#211a16" />
+  <meta name="description" content="ECB parallel Coptic–Arabic Bible reader with word-level alignment." />
+  <title>ECB Reader — Coptic ↔ Arabic</title>
+  <style>
+    :root{
+      --ink:#201915;--paper:#f6f0e5;--paper2:#efe4d3;--card:#fffaf3;
+      --gold:#a57732;--gold2:#d5b06b;--red:#7f2d2d;--muted:#75695e;
+      --line:rgba(76,57,42,.18);--shadow:0 18px 50px rgba(46,31,20,.10);
+      --link:#6f4b1d;--active:#f4d28d;--counterpart:#e8c0b8;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;color:var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%,rgba(165,119,50,.08),transparent 22%),
+        linear-gradient(180deg,#faf6ef 0%,var(--paper) 100%);
+      font-family:"Noto Naskh Arabic","Segoe UI",Tahoma,Arial,sans-serif;
+      line-height:1.8;
+    }
+    a{color:inherit}
+    .shell{width:min(1320px,calc(100% - 28px));margin:auto}
+    header{
+      position:sticky;top:0;z-index:40;background:rgba(249,245,237,.9);
+      backdrop-filter:blur(14px);border-bottom:1px solid var(--line)
+    }
+    .nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:900}
+    .seal{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+      border:1px solid rgba(165,119,50,.45);background:#fff7e9;color:var(--red);font-size:21px}
+    .brand small{display:block;color:var(--muted);font-size:11px;font-weight:700;line-height:1.2}
+    .nav-actions{display:flex;gap:8px;align-items:center}
+    .button,.select{
+      border:1px solid var(--line);background:#fffaf3;color:var(--ink);border-radius:12px;
+      min-height:40px;padding:8px 12px;font:inherit;font-weight:750
+    }
+    .button{cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
+    .layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:18px;padding:24px 0 56px}
+    aside{
+      background:rgba(255,250,243,.82);border:1px solid var(--line);border-radius:20px;
+      padding:18px;align-self:start;position:sticky;top:88px
+    }
+    .aside-title{font-size:12px;color:var(--muted);font-weight:900;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+    .control{margin-bottom:14px}
+    .control label{display:block;font-size:12px;color:var(--muted);font-weight:800;margin-bottom:5px}
+    .control select{width:100%}
+    .hint{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:16px}
+    .reader-head{
+      background:rgba(255,250,243,.74);border:1px solid var(--line);border-radius:22px;
+      padding:20px 22px;margin-bottom:14px;display:flex;justify-content:space-between;gap:18px;align-items:end
+    }
+    h1{font-family:Georgia,"Times New Roman","Noto Naskh Arabic",serif;margin:0;font-size:clamp(28px,4vw,46px);line-height:1.15}
+    .meta{color:var(--muted);font-size:13px}
+    .status{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:850;color:#735826}
+    .status:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold)}
+    .verse-card{
+      background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;
+      box-shadow:var(--shadow);margin-bottom:16px
+    }
+    .verse-toolbar{
+      padding:12px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;
+      align-items:center;gap:12px;background:rgba(239,228,211,.5)
+    }
+    .verse-no{font-weight:900}
+    .legend{font-size:12px;color:var(--muted)}
+    .parallel{display:grid;grid-template-columns:1fr 1fr}
+    .pane{padding:26px;min-height:240px}
+    .pane + .pane{border-right:1px solid var(--line)}
+    .pane-title{font-size:11px;color:var(--muted);font-weight:900;letter-spacing:1.1px;margin-bottom:18px}
+    .coptic{direction:ltr;text-align:left;font-family:Georgia,"Times New Roman",serif}
+    .arabic{direction:rtl;text-align:right}
+    .tokens{font-size:clamp(23px,2.2vw,31px);line-height:2.15}
+    .token{
+      display:inline-block;text-decoration:none;color:var(--link);
+      border-radius:7px;padding:0 4px;margin:0 1px;
+      border-bottom:1px dotted rgba(111,75,29,.55);
+      transition:background .12s,box-shadow .12s,color .12s;
+      cursor:pointer;outline:none
+    }
+    .token:hover,.token:focus-visible{background:#f1e3c8}
+    .token.selected{background:var(--active);box-shadow:0 0 0 2px rgba(165,119,50,.2)}
+    .token.counterpart{background:var(--counterpart);box-shadow:0 0 0 2px rgba(127,45,45,.12)}
+    .token.unlinked{color:#8d8176;border-bottom-color:transparent}
+    .details{
+      border-top:1px solid var(--line);padding:16px 20px;background:rgba(255,255,255,.34);
+      display:grid;grid-template-columns:1fr 1fr;gap:14px
+    }
+    .detail-box{border:1px solid var(--line);border-radius:14px;padding:12px 14px;min-height:72px}
+    .detail-box b{display:block;font-size:11px;color:var(--muted);margin-bottom:5px;text-transform:uppercase;letter-spacing:.8px}
+    .empty{color:var(--muted)}
+    .notice{
+      margin-top:14px;padding:13px 15px;border:1px dashed rgba(127,45,45,.28);border-radius:14px;
+      background:rgba(127,45,45,.045);color:#654b43;font-size:13px
+    }
+    .mobile-tabs{display:none}
+    [data-en]{display:none}
+    body.en{direction:ltr}
+    body.en [data-ar]{display:none}
+    body.en [data-en]{display:initial}
+    body.en .pane + .pane{border-right:0;border-left:1px solid var(--line)}
+    @media(max-width:900px){
+      .layout{grid-template-columns:1fr}
+      aside{position:static}
+    }
+    @media(max-width:700px){
+      .shell{width:min(100% - 18px,1320px)}
+      .brand span:last-child{max-width:190px}
+      .parallel{grid-template-columns:1fr}
+      .pane + .pane{border-right:0!important;border-left:0!important;border-top:1px solid var(--line)}
+      .details{grid-template-columns:1fr}
+      .reader-head{align-items:start;flex-direction:column}
+      .tokens{font-size:24px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="shell nav">
+    <a class="brand" href="./">
+      <span class="seal">☦</span>
+      <span>
+        <span>ECB Reader</span>
+        <small>The Egyptian Coptic Bible — Arabic Translation</small>
+      </span>
+    </a>
+    <div class="nav-actions">
+      <a class="button" href="./"><span data-ar>الرئيسية</span><span data-en>Home</span></a>
+      <button class="button" id="langBtn" type="button">EN</button>
+    </div>
+  </div>
+</header>
+
+<main class="shell layout">
+  <aside>
+    <div class="aside-title">Navigation</div>
+
+    <div class="control">
+      <label for="testament"><span data-ar>العهد</span><span data-en>Testament</span></label>
+      <select class="select" id="testament">
+        <option value="NT">العهد الجديد / New Testament</option>
+        <option value="OT">العهد القديم / Old Testament</option>
+      </select>
+    </div>
+
+    <div class="control">
+      <label for="book"><span data-ar>السفر</span><span data-en>Book</span></label>
+      <select class="select" id="book"></select>
+    </div>
+
+    <div class="control">
+      <label for="chapter"><span data-ar>الإصحاح</span><span data-en>Chapter</span></label>
+      <select class="select" id="chapter"></select>
+    </div>
+
+    <div class="control">
+      <label for="verse"><span data-ar>العدد</span><span data-en>Verse</span></label>
+      <select class="select" id="verse"></select>
+    </div>
+
+    <div class="hint">
+      <span data-ar>اضغط أي كلمة قبطية أو عربية لعرض الكلمة المقابلة. الرابط ينقلك مباشرة إليها، والتظليل يوضح كل العلاقات المرتبطة.</span>
+      <span data-en>Click any Coptic or Arabic word to reveal its aligned counterpart. The hyperlink jumps to the first match and highlighting shows all linked words.</span>
+    </div>
+  </aside>
+
+  <section>
+    <div class="reader-head">
+      <div>
+        <div class="status"><span data-ar>قارئ تجريبي — بنية الربط جاهزة</span><span data-en>Prototype reader — alignment engine ready</span></div>
+        <h1 id="readerTitle">ECB Parallel Reader</h1>
+        <div class="meta" id="readerMeta"></div>
+      </div>
+      <div class="meta"><span data-ar>قبطي ↔ عربي • ربط على مستوى الكلمة</span><span data-en>Coptic ↔ Arabic • word-level alignment</span></div>
+    </div>
+
+    <div id="verses"></div>
+
+    <div class="notice">
+      <strong data-ar>مهم:</strong><strong data-en>Important:</strong>
+      <span data-ar> النص الظاهر حاليًا نموذج تقني للربط فقط، وليس نصًا كتابيًا معتمدًا. عند اعتماد المصدر القبطي والترجمة سنستبدل بيانات العرض دون تغيير نظام القارئ.</span>
+      <span data-en> The current text is a technical alignment demo, not an approved biblical text. Once the Coptic source and Arabic translation are approved, the data can be replaced without changing the reader engine.</span>
+    </div>
+  </section>
+</main>
+
+<script>
+  const state = { data:null, selected:null };
+
+  const el = id => document.getElementById(id);
+  const testamentEl = el('testament');
+  const bookEl = el('book');
+  const chapterEl = el('chapter');
+  const verseEl = el('verse');
+  const versesEl = el('verses');
+  const titleEl = el('readerTitle');
+  const metaEl = el('readerMeta');
+
+  function option(value,label){ return '<option value="' + value + '">' + label + '</option>'; }
+  function currentLang(){ return document.body.classList.contains('en') ? 'en' : 'ar'; }
+
+  function booksFor(testament){
+    return state.data.books.filter(b => b.testament === testament);
+  }
+
+  function fillBooks(){
+    const books = booksFor(testamentEl.value);
+    bookEl.innerHTML = books.length
+      ? books.map(b => option(b.id, b.name_ar + ' / ' + b.name_en)).join('')
+      : option('', currentLang()==='ar' ? 'لا توجد بيانات بعد' : 'No data yet');
+    fillChapters();
+  }
+
+  function selectedBook(){
+    return state.data.books.find(b => b.id === bookEl.value);
+  }
+
+  function fillChapters(){
+    const book = selectedBook();
+    const chapters = book?.chapters || [];
+    chapterEl.innerHTML = chapters.length
+      ? chapters.map(c => option(c.number, (currentLang()==='ar'?'إصحاح ':'Chapter ') + c.number)).join('')
+      : option('', '—');
+    fillVerses();
+  }
+
+  function selectedChapter(){
+    const book = selectedBook();
+    return book?.chapters.find(c => String(c.number) === chapterEl.value);
+  }
+
+  function fillVerses(){
+    const chapter = selectedChapter();
+    const verses = chapter?.verses || [];
+    verseEl.innerHTML = verses.length
+      ? verses.map(v => option(v.number, (currentLang()==='ar'?'عدد ':'Verse ') + v.number)).join('')
+      : option('', '—');
+    render();
+  }
+
+  function tokenHtml(token, side){
+    const targets = token.align || [];
+    const href = targets.length ? '#' + targets[0] : '#';
+    const classes = ['token', targets.length ? '' : 'unlinked'].filter(Boolean).join(' ');
+    return '<a class="' + classes + '" id="' + token.id + '" href="' + href + '" data-id="' + token.id + '" data-side="' + side + '" data-targets="' + targets.join(',') + '" title="' + (token.gloss || '') + '">' + token.text + '</a>';
+  }
+
+  function render(){
+    const book = selectedBook();
+    const chapter = selectedChapter();
+    const verseNumber = verseEl.value;
+    if(!book || !chapter){
+      titleEl.textContent = currentLang()==='ar' ? 'لا توجد بيانات منشورة بعد' : 'No published data yet';
+      metaEl.textContent = '';
+      versesEl.innerHTML = '';
+      return;
+    }
+    const verse = chapter.verses.find(v => String(v.number) === verseNumber) || chapter.verses[0];
+    if(!verse) return;
+
+    titleEl.textContent = currentLang()==='ar'
+      ? book.name_ar + ' ' + chapter.number + ':' + verse.number
+      : book.name_en + ' ' + chapter.number + ':' + verse.number;
+    metaEl.textContent = currentLang()==='ar'
+      ? 'عرض متوازٍ مع روابط كلمة بكلمة'
+      : 'Parallel display with word-to-word hyperlinks';
+
+    versesEl.innerHTML = `
+      <article class="verse-card" data-verse="${verse.number}">
+        <div class="verse-toolbar">
+          <div class="verse-no">${currentLang()==='ar'?'عدد':'Verse'} ${verse.number}</div>
+          <div class="legend">${currentLang()==='ar'?'اضغط على كلمة لرؤية مقابلها':'Click a word to see its counterpart'}</div>
+        </div>
+        <div class="parallel">
+          <div class="pane coptic">
+            <div class="pane-title">COPTIC</div>
+            <div class="tokens">${verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ')}</div>
+          </div>
+          <div class="pane arabic">
+            <div class="pane-title">العربية / ARABIC</div>
+            <div class="tokens">${verse.arabic.map(t => tokenHtml(t,'arabic')).join(' ')}</div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="detail-box"><b>${currentLang()==='ar'?'الكلمة المختارة':'Selected word'}</b><span id="selectedWord" class="empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل / المقابلات':'Counterpart(s)'}</b><span id="counterpartWords" class="empty">—</span></div>
+        </div>
+      </article>`;
+
+    bindTokens();
+  }
+
+  function clearHighlights(){
+    document.querySelectorAll('.token').forEach(t => t.classList.remove('selected','counterpart'));
+  }
+
+  function activateToken(node, doScroll=false){
+    clearHighlights();
+    node.classList.add('selected');
+    const ids = (node.dataset.targets || '').split(',').filter(Boolean);
+    const matches = ids.map(id => document.getElementById(id)).filter(Boolean);
+    matches.forEach(n => n.classList.add('counterpart'));
+
+    const selected = el('selectedWord');
+    const counterparts = el('counterpartWords');
+    selected.textContent = node.textContent;
+    selected.classList.remove('empty');
+    counterparts.textContent = matches.length ? matches.map(n => n.textContent).join(' · ') : (currentLang()==='ar'?'لا يوجد ربط':'No alignment');
+    counterparts.classList.toggle('empty', !matches.length);
+
+    if(doScroll && matches[0]){
+      matches[0].scrollIntoView({behavior:'smooth',block:'center'});
+      history.replaceState(null,'','#' + matches[0].id);
+    }
+  }
+
+  function bindTokens(){
+    document.querySelectorAll('.token').forEach(node => {
+      node.addEventListener('mouseenter',() => activateToken(node,false));
+      node.addEventListener('focus',() => activateToken(node,false));
+      node.addEventListener('click',e => {
+        e.preventDefault();
+        activateToken(node,true);
+      });
+    });
+  }
+
+  testamentEl.addEventListener('change',fillBooks);
+  bookEl.addEventListener('change',fillChapters);
+  chapterEl.addEventListener('change',fillVerses);
+  verseEl.addEventListener('change',render);
+
+  el('langBtn').addEventListener('click',() => {
+    document.body.classList.toggle('en');
+    const en = document.body.classList.contains('en');
+    document.documentElement.lang = en ? 'en' : 'ar';
+    document.documentElement.dir = en ? 'ltr' : 'rtl';
+    el('langBtn').textContent = en ? 'AR' : 'EN';
+    fillBooks();
+  });
+
+  fetch('./data/reader-demo.json')
+    .then(r => { if(!r.ok) throw new Error('Reader data failed to load'); return r.json(); })
+    .then(data => { state.data=data; fillBooks(); })
+    .catch(err => {
+      versesEl.innerHTML = '<div class="notice">' + err.message + '</div>';
+    });
+</script>
+</body>
+</html>
