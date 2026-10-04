@@ -158,7 +158,7 @@
     </div>
 
     <div class="control">
-      <label for="verse"><span data-ar>العدد</span><span data-en>Verse</span></label>
+      <label for="verse"><span data-ar>انتقل إلى عدد</span><span data-en>Jump to verse</span></label>
       <select class="select" id="verse"></select>
     </div>
 
@@ -182,8 +182,8 @@
 
     <div class="notice">
       <strong data-ar>مهم:</strong><strong data-en>Important:</strong>
-      <span data-ar> إنجيل مرقس متاح الآن بالعربية كمسودة v0.2 قيد المراجعة. النص القبطي والربط كلمة بكلمة سيُضافان تدريجيًا بعد اكتمال المراجعة اللغوية والنصية لكل عدد.</span>
-      <span data-en> The Gospel of Mark is now available as Arabic working draft v0.2. Sahidic Coptic text and word-level alignment will be added progressively after linguistic and textual review.</span>
+      <span data-ar> يعرض القارئ الآن الإصحاح كاملًا في صفحة واحدة. كل عدد يظهر في صف متوازٍ: القبطي مقابل العربية، وروابط الكلمات تعمل داخل كل عدد حيثما تتوفر بيانات الربط.</span>
+      <span data-en> The reader now displays the entire chapter on one page. Each verse is shown in parallel: Coptic beside Arabic, with word-level hyperlinks wherever alignment data is available.</span>
     </div>
   </section>
 </main>
@@ -239,7 +239,7 @@
     verseEl.innerHTML = verses.length
       ? verses.map(v => option(v.number, (currentLang()==='ar'?'عدد ':'Verse ') + v.number)).join('')
       : option('', '—');
-    render();
+    renderChapter();
   }
 
   function tokenHtml(token, side){
@@ -249,28 +249,28 @@
     return '<a class="' + classes + '" id="' + token.id + '" href="' + href + '" data-id="' + token.id + '" data-side="' + side + '" data-targets="' + targets.join(',') + '" title="' + (token.gloss || '') + '">' + token.text + '</a>';
   }
 
-  function render(){
+  function renderChapter(){
     const book = selectedBook();
     const chapter = selectedChapter();
-    const verseNumber = verseEl.value;
+
     if(!book || !chapter){
       titleEl.textContent = currentLang()==='ar' ? 'لا توجد بيانات منشورة بعد' : 'No published data yet';
       metaEl.textContent = '';
       versesEl.innerHTML = '';
       return;
     }
-    const verse = chapter.verses.find(v => String(v.number) === verseNumber) || chapter.verses[0];
-    if(!verse) return;
 
+    const verses = chapter.verses || [];
     titleEl.textContent = currentLang()==='ar'
-      ? book.name_ar + ' ' + chapter.number + ':' + verse.number
-      : book.name_en + ' ' + chapter.number + ':' + verse.number;
-    metaEl.textContent = currentLang()==='ar'
-      ? 'المسودة العربية v0.2 • النص القبطي والربط قيد المراجعة'
-      : 'Arabic draft v0.2 • Sahidic text and alignment under review';
+      ? book.name_ar + ' — الإصحاح ' + chapter.number
+      : book.name_en + ' — Chapter ' + chapter.number;
 
-    versesEl.innerHTML = `
-      <article class="verse-card" data-verse="${verse.number}">
+    metaEl.textContent = currentLang()==='ar'
+      ? 'الإصحاح كاملًا • قبطي مقابل عربي • ربط على مستوى الكلمة'
+      : 'Full chapter • Coptic beside Arabic • word-level alignment';
+
+    versesEl.innerHTML = verses.map(verse => `
+      <article class="verse-card" id="verse-${verse.number}" data-verse="${verse.number}">
         <div class="verse-toolbar">
           <div class="verse-no">${currentLang()==='ar'?'عدد':'Verse'} ${verse.number}</div>
           <div class="legend">${currentLang()==='ar'?'اضغط على كلمة لرؤية مقابلها':'Click a word to see its counterpart'}</div>
@@ -278,18 +278,21 @@
         <div class="parallel">
           <div class="pane coptic">
             <div class="pane-title">COPTIC</div>
-            <div class="tokens">${verse.coptic.length ? verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ') : `<span class="empty">${currentLang()==='ar' ? 'النص القبطي قيد الربط والمراجعة لهذا العدد' : 'Sahidic Coptic text is being reviewed and aligned for this verse'}</span>`}</div>
+            <div class="tokens">${verse.coptic?.length
+              ? verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ')
+              : `<span class="empty">${currentLang()==='ar' ? 'النص القبطي قيد الربط والمراجعة لهذا العدد' : 'Sahidic Coptic text is being reviewed and aligned for this verse'}</span>`}
+            </div>
           </div>
           <div class="pane arabic">
             <div class="pane-title">العربية / ARABIC</div>
-            <div class="tokens">${verse.arabic.map(t => tokenHtml(t,'arabic')).join(' ')}</div>
+            <div class="tokens">${(verse.arabic || []).map(t => tokenHtml(t,'arabic')).join(' ')}</div>
           </div>
         </div>
         <div class="details">
-          <div class="detail-box"><b>${currentLang()==='ar'?'الكلمة المختارة':'Selected word'}</b><span id="selectedWord" class="empty">—</span></div>
-          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل / المقابلات':'Counterpart(s)'}</b><span id="counterpartWords" class="empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'الكلمة المختارة':'Selected word'}</b><span class="selected-word empty">—</span></div>
+          <div class="detail-box"><b>${currentLang()==='ar'?'المقابل / المقابلات':'Counterpart(s)'}</b><span class="counterpart-words empty">—</span></div>
         </div>
-      </article>`;
+      </article>`).join('');
 
     bindTokens();
   }
@@ -305,12 +308,17 @@
     const matches = ids.map(id => document.getElementById(id)).filter(Boolean);
     matches.forEach(n => n.classList.add('counterpart'));
 
-    const selected = el('selectedWord');
-    const counterparts = el('counterpartWords');
-    selected.textContent = node.textContent;
-    selected.classList.remove('empty');
-    counterparts.textContent = matches.length ? matches.map(n => n.textContent).join(' · ') : (currentLang()==='ar'?'لا يوجد ربط':'No alignment');
-    counterparts.classList.toggle('empty', !matches.length);
+    const card = node.closest('.verse-card');
+    const selected = card?.querySelector('.selected-word');
+    const counterparts = card?.querySelector('.counterpart-words');
+    if(selected){
+      selected.textContent = node.textContent;
+      selected.classList.remove('empty');
+    }
+    if(counterparts){
+      counterparts.textContent = matches.length ? matches.map(n => n.textContent).join(' · ') : (currentLang()==='ar'?'لا يوجد ربط':'No alignment');
+      counterparts.classList.toggle('empty', !matches.length);
+    }
 
     if(doScroll && matches[0]){
       matches[0].scrollIntoView({behavior:'smooth',block:'center'});
@@ -332,7 +340,10 @@
   testamentEl.addEventListener('change',fillBooks);
   bookEl.addEventListener('change',fillChapters);
   chapterEl.addEventListener('change',fillVerses);
-  verseEl.addEventListener('change',render);
+  verseEl.addEventListener('change',() => {
+    const target = document.getElementById('verse-' + verseEl.value);
+    if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+  });
 
   el('langBtn').addEventListener('click',() => {
     document.body.classList.toggle('en');
