@@ -532,7 +532,7 @@
     fetch('./data/reader-data.json').then(r => { if(!r.ok) throw new Error('Reader data failed to load'); return r.json(); }),
     fetch('./data/books.json').then(r => { if(!r.ok) throw new Error('Book catalog failed to load'); return r.json(); })
   ])
-    .then(([data,catalog]) => {
+    .then(async ([data,catalog]) => {
       state.catalog = catalog;
       const actual = new Map((data.books || []).map(b => [b.id,b]));
       const mergedBooks = (catalog.books || []).map(cat => {
@@ -545,7 +545,31 @@
         };
       });
       state.data = {...data, books: mergedBooks};
-      fillBooks();
+
+      const q = new URLSearchParams(location.search);
+      const wantedBook = q.get('book');
+      const wantedChapter = q.get('chapter');
+      const wantedVerse = q.get('verse');
+
+      await fillBooks();
+
+      if(wantedBook && [...bookEl.options].some(o => o.value === wantedBook)){
+        bookEl.value = wantedBook;
+        await loadSelectedBookData();
+        fillChapters();
+      }
+      if(wantedChapter && [...chapterEl.options].some(o => o.value === String(wantedChapter))){
+        chapterEl.value = String(wantedChapter);
+        fillVerses();
+      }
+      if(wantedVerse && [...verseEl.options].some(o => o.value === String(wantedVerse))){
+        verseEl.value = String(wantedVerse);
+        renderReader();
+        requestAnimationFrame(() => {
+          const target = document.getElementById('verse-' + wantedVerse);
+          if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+        });
+      }
     })
     .catch(err => {
       versesEl.innerHTML = '<div class="notice">' + err.message + '</div>';
