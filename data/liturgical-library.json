@@ -1,0 +1,469 @@
+{
+  "project": "ECB",
+  "module": "coptic-liturgical-library",
+  "version": "0.1",
+  "editorial_policy": {
+    "structural_reference": "Coptic Reader / Coptic Orthodox Diocese of the Southern USA",
+    "katameros_structure_reference": "Coptic Orthodox liturgical sources",
+    "text_import_policy": "Only verified church texts with documented source/permission are imported verbatim. Bible readings should resolve to ECB Bible passages whenever available.",
+    "languages": [
+      "Coptic",
+      "Arabic",
+      "English"
+    ]
+  },
+  "groups": [
+    {
+      "id": "liturgies",
+      "title_ar": "القداسات والليتورجيات",
+      "title_en": "Divine Liturgies",
+      "icon": "☦",
+      "items": [
+        {
+          "id": "basil",
+          "title_ar": "قداس القديس باسيليوس",
+          "title_en": "Liturgy of St. Basil",
+          "type": "liturgy",
+          "status": "catalogued"
+        },
+        {
+          "id": "gregory",
+          "title_ar": "قداس القديس غريغوريوس",
+          "title_en": "Liturgy of St. Gregory",
+          "type": "liturgy",
+          "status": "catalogued"
+        },
+        {
+          "id": "cyril",
+          "title_ar": "قداس القديس كيرلس (مرقس)",
+          "title_en": "Liturgy of St. Cyril / St. Mark",
+          "type": "liturgy",
+          "status": "catalogued"
+        },
+        {
+          "id": "vespers-incense",
+          "title_ar": "رفع بخور عشية",
+          "title_en": "Vespers Raising of Incense",
+          "type": "service",
+          "status": "catalogued"
+        },
+        {
+          "id": "matins-incense",
+          "title_ar": "رفع بخور باكر",
+          "title_en": "Matins Raising of Incense",
+          "type": "service",
+          "status": "catalogued"
+        },
+        {
+          "id": "deacons-service",
+          "title_ar": "خدمة الشماس",
+          "title_en": "Service of the Deacons",
+          "type": "service",
+          "status": "catalogued"
+        },
+        {
+          "id": "fractions",
+          "title_ar": "صلوات القسمة",
+          "title_en": "Fraction Prayers",
+          "type": "prayers",
+          "status": "catalogued"
+        },
+        {
+          "id": "distribution-melodies",
+          "title_ar": "ألحان التوزيع",
+          "title_en": "Distribution Melodies",
+          "type": "melodies",
+          "status": "catalogued"
+        }
+      ]
+    },
+    {
+      "id": "readings",
+      "title_ar": "القراءات والقطمارس",
+      "title_en": "Readings & Katameros",
+      "icon": "📖",
+      "items": [
+        {
+          "id": "annual-sundays",
+          "title_ar": "القطمارس السنوي — الآحاد",
+          "title_en": "Annual Katameros — Sundays",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "annual-weekdays",
+          "title_ar": "القطمارس السنوي — الأيام",
+          "title_en": "Annual Katameros — Weekdays",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "great-lent",
+          "title_ar": "قطمارس الصوم الكبير",
+          "title_en": "Great Lent Katameros",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "pascha-katameros",
+          "title_ar": "قطمارس البصخة المقدسة",
+          "title_en": "Holy Pascha Katameros",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "pentecost",
+          "title_ar": "قطمارس الخماسين المقدسة",
+          "title_en": "Pentecostal Katameros",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "feasts",
+          "title_ar": "قراءات الأعياد السيدية والمناسبات",
+          "title_en": "Feasts & Special Occasions",
+          "type": "katameros",
+          "status": "catalogued"
+        },
+        {
+          "id": "vespers-readings",
+          "title_ar": "قراءات عشية — مزمور وإنجيل",
+          "title_en": "Vespers — Psalm & Gospel",
+          "type": "reading-set",
+          "status": "catalogued"
+        },
+        {
+          "id": "matins-readings",
+          "title_ar": "قراءات باكر — مزمور وإنجيل",
+          "title_en": "Matins — Psalm & Gospel",
+          "type": "reading-set",
+          "status": "catalogued"
+        },
+        {
+          "id": "pauline",
+          "title_ar": "البولس",
+          "title_en": "Pauline Epistle",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "catholic",
+          "title_ar": "الكاثوليكون",
+          "title_en": "Catholic Epistle",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "praxis",
+          "title_ar": "الإبركسيس",
+          "title_en": "Praxis / Acts",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "liturgy-psalm",
+          "title_ar": "مزمور القداس",
+          "title_en": "Liturgy Psalm",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "liturgy-gospel",
+          "title_ar": "إنجيل القداس",
+          "title_en": "Liturgy Gospel",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "prophecies",
+          "title_ar": "النبوات الموسمية",
+          "title_en": "Seasonal Prophecies",
+          "type": "reading",
+          "status": "catalogued"
+        },
+        {
+          "id": "synaxarion",
+          "title_ar": "السنكسار",
+          "title_en": "Synaxarion",
+          "type": "commemoration",
+          "status": "catalogued"
+        },
+        {
+          "id": "antiphonary",
+          "title_ar": "الدفنار / الأنطيفوناري",
+          "title_en": "Antiphonary / Difnar",
+          "type": "commemoration",
+          "status": "catalogued"
+        }
+      ]
+    },
+    {
+      "id": "prayer-praise",
+      "title_ar": "الصلوات والتسابيح",
+      "title_en": "Prayers & Praises",
+      "icon": "🕯",
+      "items": [
+        {
+          "id": "agpeya",
+          "title_ar": "الأجبية — صلوات السواعي",
+          "title_en": "Agpeya — Book of Hours",
+          "type": "prayer-book",
+          "status": "catalogued"
+        },
+        {
+          "id": "midnight-praise",
+          "title_ar": "تسبحة نصف الليل",
+          "title_en": "Midnight Praise",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "vespers-praise",
+          "title_ar": "تسبحة عشية",
+          "title_en": "Vespers Praise",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "morning-praise",
+          "title_ar": "تسبحة باكر",
+          "title_en": "Morning Praise",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "standard-psalmody",
+          "title_ar": "الإبصلمودية السنوية",
+          "title_en": "Standard Psalmody",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "kiahk",
+          "title_ar": "الإبصلمودية الكيهكية",
+          "title_en": "Koiahk Psalmody",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "nativity-praise",
+          "title_ar": "تسابيح الميلاد",
+          "title_en": "Nativity Praises",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "theophany-praise",
+          "title_ar": "تسابيح الغطاس",
+          "title_en": "Theophany Praises",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "lent-praise",
+          "title_ar": "تسابيح الصوم الكبير",
+          "title_en": "Great Lent Praises",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "pentecost-praise",
+          "title_ar": "تسابيح الخماسين",
+          "title_en": "Pentecostal Praises",
+          "type": "psalmody",
+          "status": "catalogued"
+        },
+        {
+          "id": "psalies",
+          "title_ar": "الإبصاليات",
+          "title_en": "Psalies",
+          "type": "hymns",
+          "status": "catalogued"
+        },
+        {
+          "id": "doxologies",
+          "title_ar": "الذكصولوجيات",
+          "title_en": "Doxologies",
+          "type": "hymns",
+          "status": "catalogued"
+        },
+        {
+          "id": "melodies",
+          "title_ar": "المدائح والألحان",
+          "title_en": "Melodies & Hymns",
+          "type": "hymns",
+          "status": "catalogued"
+        }
+      ]
+    },
+    {
+      "id": "rites-services",
+      "title_ar": "الخدمات والطقوس",
+      "title_en": "Rites & Services",
+      "icon": "⛪",
+      "items": [
+        {
+          "id": "pascha",
+          "title_ar": "صلوات وخدمات البصخة المقدسة",
+          "title_en": "Holy Pascha Services",
+          "type": "rite",
+          "status": "catalogued"
+        },
+        {
+          "id": "bright-saturday",
+          "title_ar": "سبت النور",
+          "title_en": "Bright Saturday",
+          "type": "rite",
+          "status": "catalogued"
+        },
+        {
+          "id": "baptism",
+          "title_ar": "صلوات المعمودية",
+          "title_en": "Baptism",
+          "type": "sacrament",
+          "status": "catalogued"
+        },
+        {
+          "id": "crowning",
+          "title_ar": "الإكليل والخطوبة",
+          "title_en": "Crowning & Engagement",
+          "type": "sacrament",
+          "status": "catalogued"
+        },
+        {
+          "id": "unction",
+          "title_ar": "مسحة المرضى",
+          "title_en": "Unction of the Sick",
+          "type": "sacrament",
+          "status": "catalogued"
+        },
+        {
+          "id": "funeral-men",
+          "title_ar": "جناز الرجال",
+          "title_en": "Funeral — Men",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "funeral-women",
+          "title_ar": "جناز السيدات",
+          "title_en": "Funeral — Women",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "funeral-boys",
+          "title_ar": "جناز الصبيان",
+          "title_en": "Funeral — Boys",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "funeral-girls",
+          "title_ar": "جناز البنات",
+          "title_en": "Funeral — Girls",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "funeral-monastics",
+          "title_ar": "جناز الرهبان والراهبات",
+          "title_en": "Funeral — Monastics",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "memorials",
+          "title_ar": "صلوات التذكارات",
+          "title_en": "Memorials",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "tomb-prayer",
+          "title_ar": "الصلاة عند القبر",
+          "title_en": "Prayer at the Tomb",
+          "type": "funeral",
+          "status": "catalogued"
+        },
+        {
+          "id": "prostration",
+          "title_ar": "صلوات السجدة",
+          "title_en": "Prostration Prayers",
+          "type": "rite",
+          "status": "catalogued"
+        },
+        {
+          "id": "lakkan",
+          "title_ar": "اللقان",
+          "title_en": "Liturgy of the Waters (Lakkan)",
+          "type": "rite",
+          "status": "catalogued"
+        },
+        {
+          "id": "veneration",
+          "title_ar": "خدمات التمجيد والتكريم",
+          "title_en": "Veneration Services",
+          "type": "rite",
+          "status": "catalogued"
+        },
+        {
+          "id": "consecration-church",
+          "title_ar": "تدشين الكنيسة",
+          "title_en": "Consecration — Church",
+          "type": "consecration",
+          "status": "catalogued"
+        },
+        {
+          "id": "consecration-vessels",
+          "title_ar": "تدشين أواني المذبح",
+          "title_en": "Consecration — Vessels",
+          "type": "consecration",
+          "status": "catalogued"
+        },
+        {
+          "id": "consecration-censers",
+          "title_ar": "تدشين المباخر",
+          "title_en": "Consecration — Censers",
+          "type": "consecration",
+          "status": "catalogued"
+        },
+        {
+          "id": "consecration-icons",
+          "title_ar": "تدشين الأيقونات",
+          "title_en": "Consecration — Icons",
+          "type": "consecration",
+          "status": "catalogued"
+        },
+        {
+          "id": "consecration-baptistery",
+          "title_ar": "تدشين المعمودية",
+          "title_en": "Consecration — Baptistery",
+          "type": "consecration",
+          "status": "catalogued"
+        },
+        {
+          "id": "ordinations",
+          "title_ar": "الرسامات",
+          "title_en": "Ordinations",
+          "type": "clergy",
+          "status": "catalogued"
+        },
+        {
+          "id": "new-priest",
+          "title_ar": "استقبال الكاهن الجديد",
+          "title_en": "Reception of a New Priest",
+          "type": "clergy",
+          "status": "catalogued"
+        },
+        {
+          "id": "home-blessing",
+          "title_ar": "تبريك المنازل",
+          "title_en": "Home Blessing",
+          "type": "service",
+          "status": "catalogued"
+        }
+      ]
+    }
+  ]
+}
