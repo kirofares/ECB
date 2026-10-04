@@ -1,0 +1,70 @@
+{
+  "project": "ECB",
+  "version": "0.1",
+  "sources": [
+    {
+      "id": "coptic-reader",
+      "name": "Coptic Reader",
+      "authority": "Coptic Orthodox Metropolis of the Southern United States",
+      "role": [
+        "service-structure",
+        "current-practice-reference",
+        "official-diocese-translations"
+      ],
+      "status": "reference_only_until_permission",
+      "official": true,
+      "url": "https://copticreader.org/",
+      "notes": "Official Diocese app containing prayer books in English, Coptic, and Arabic. ECB will use it as a current-practice and structure reference, but will not bulk-copy full prayer-book text without explicit republication permission."
+    },
+    {
+      "id": "suscopts",
+      "name": "Coptic Orthodox Metropolis of the Southern United States",
+      "role": [
+        "official-liturgical-reference",
+        "published-pdfs"
+      ],
+      "status": "reference_only_until_item_rights_verified",
+      "official": true,
+      "url": "https://suscopts.org/",
+      "notes": "Official Metropolis website. Individual PDFs or texts require item-level rights verification before verbatim import."
+    },
+    {
+      "id": "katameros-api",
+      "name": "Katameros API",
+      "authority": "pierresaid/katameros-api",
+      "role": [
+        "daily-reading-structure",
+        "reading-references",
+        "feasts",
+        "fasts"
+      ],
+      "status": "approved_for_software_integration",
+      "official": false,
+      "license": "MIT",
+      "url": "https://github.com/pierresaid/katameros-api",
+      "api": "https://api.katameros.app/",
+      "notes": "ECB uses the API to obtain daily reading structure and passage references. Returned third-party Bible text is not copied into ECB; ECB resolves Scripture to its own translation when available."
+    },
+    {
+      "id": "coptic-scriptorium-mark",
+      "name": "Coptic SCRIPTORIUM — sahidica.mark",
+      "role": [
+        "sahidic-source",
+        "linguistic-analysis",
+        "reader-source"
+      ],
+      "status": "in_use_with_attribution",
+      "official": false,
+      "license": "CC BY 4.0",
+      "url": "https://github.com/CopticScriptorium/corpora",
+      "notes": "Used for the Sahidic Mark witness currently displayed in the parallel ECB reader, with source attribution."
+    }
+  ],
+  "importRules": [
+    "Every liturgical text must record sourceId, source locator/version, language, review status, and rights status.",
+    "Daily lectionary data should store references separately from Bible wording.",
+    "When ECB has translated a referenced Bible passage, display the ECB text instead of importing an external Bible translation.",
+    "Do not bulk-copy official prayer-book wording until republication rights are documented.",
+    "Variants between current-practice sources and historical printed witnesses must be retained as provenance rather than silently normalized."
+  ]
+}
