@@ -3,9 +3,104 @@
   "shortName": "ECB",
   "version": 1,
   "books": [
-    {"id":"matthew","name_en":"Matthew","name_ar":"متى","testament":"NT","status":"planned","chapters":[]},
-    {"id":"mark","name_en":"Mark","name_ar":"مرقس","testament":"NT","status":"planned","chapters":[]},
-    {"id":"luke","name_en":"Luke","name_ar":"لوقا","testament":"NT","status":"planned","chapters":[]},
-    {"id":"john","name_en":"John","name_ar":"يوحنا","testament":"NT","status":"planned","chapters":[]}
+    {
+      "id": "matthew",
+      "name_en": "Matthew",
+      "name_ar": "متى",
+      "testament": "NT",
+      "status": "planned",
+      "chapters": []
+    },
+    {
+      "id": "mark",
+      "name_en": "Mark",
+      "name_ar": "مرقس",
+      "testament": "NT",
+      "status": "in_review",
+      "chapters": [
+        {
+          "number": 1,
+          "status": "draft_review"
+        },
+        {
+          "number": 2,
+          "status": "draft_review"
+        },
+        {
+          "number": 3,
+          "status": "draft_review"
+        },
+        {
+          "number": 4,
+          "status": "draft_review"
+        },
+        {
+          "number": 5,
+          "status": "draft_review"
+        },
+        {
+          "number": 6,
+          "status": "draft_review"
+        },
+        {
+          "number": 7,
+          "status": "draft_review"
+        },
+        {
+          "number": 8,
+          "status": "draft_review"
+        },
+        {
+          "number": 9,
+          "status": "draft_review"
+        },
+        {
+          "number": 10,
+          "status": "draft_review"
+        },
+        {
+          "number": 11,
+          "status": "draft_review"
+        },
+        {
+          "number": 12,
+          "status": "draft_review"
+        },
+        {
+          "number": 13,
+          "status": "draft_review"
+        },
+        {
+          "number": 14,
+          "status": "draft_review"
+        },
+        {
+          "number": 15,
+          "status": "draft_review"
+        },
+        {
+          "number": 16,
+          "status": "draft_review"
+        }
+      ],
+      "translation_base": "Sahidic Coptic",
+      "review_version": "0.2"
+    },
+    {
+      "id": "luke",
+      "name_en": "Luke",
+      "name_ar": "لوقا",
+      "testament": "NT",
+      "status": "planned",
+      "chapters": []
+    },
+    {
+      "id": "john",
+      "name_en": "John",
+      "name_ar": "يوحنا",
+      "testament": "NT",
+      "status": "planned",
+      "chapters": []
+    }
   ]
 }
