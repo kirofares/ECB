@@ -219,7 +219,7 @@
 </main>
 
 <script>
-  const state = { data:null, selected:null, viewMode:'verse' };
+  const state = { data:null, catalog:null, selected:null, viewMode:'verse' };
 
   const el = id => document.getElementById(id);
   const testamentEl = el('testament');
@@ -255,15 +255,22 @@
   function fillChapters(){
     const book = selectedBook();
     const chapters = book?.chapters || [];
-    chapterEl.innerHTML = chapters.length
-      ? chapters.map(c => option(c.number, (currentLang()==='ar'?'إصحاح ':'Chapter ') + c.number)).join('')
+    const nums = chapters.length
+      ? chapters.map(c => Number(c.number))
+      : Array.from({length:Number(book?.chapter_count || 0)},(_,i)=>i+1);
+    chapterEl.innerHTML = nums.length
+      ? nums.map(n => option(n, (currentLang()==='ar'?'إصحاح ':'Chapter ') + n)).join('')
       : option('', '—');
     fillVerses();
   }
 
   function selectedChapter(){
     const book = selectedBook();
-    return book?.chapters.find(c => String(c.number) === chapterEl.value);
+    if(!book) return null;
+    const found = (book.chapters || []).find(c => String(c.number) === chapterEl.value);
+    if(found) return found;
+    const n = Number(chapterEl.value);
+    return n ? {number:n,verses:[],status:'catalogued'} : null;
   }
 
   function fillVerses(){
@@ -271,7 +278,7 @@
     const verses = chapter?.verses || [];
     verseEl.innerHTML = verses.length
       ? verses.map(v => option(v.number, (currentLang()==='ar'?'عدد ':'Verse ') + v.number)).join('')
-      : option('', '—');
+      : option('', currentLang()==='ar' ? 'لا توجد أعداد مدخلة بعد' : 'No verses loaded yet');
     renderReader();
   }
 
@@ -316,6 +323,23 @@
       ? 'عرض بالعدد • كل عدد قبطي مقابل العربي'
       : 'Verse view • each Coptic verse beside its Arabic translation';
 
+    if(!ctx.verses.length){
+      versesEl.innerHTML = `
+        <article class="verse-card">
+          <div class="verse-toolbar">
+            <div class="verse-no">${currentLang()==='ar'?'السفر مُدرج في ECB':'Book catalogued in ECB'}</div>
+          </div>
+          <div class="pane">
+            <div class="tokens empty" style="font-size:20px">
+              ${currentLang()==='ar'
+                ? 'هيكل السفر والإصحاحات جاهز. النص القبطي والترجمة العربية لهذا الإصحاح لم يُدخلا بعد، وسيتم نشرهما بعد تثبيت المصدر والمراجعة.'
+                : 'The book and chapter structure is ready. Coptic source text and Arabic translation for this chapter have not yet been loaded and will be published after source verification and review.'}
+            </div>
+          </div>
+        </article>`;
+      return;
+    }
+
     versesEl.innerHTML = ctx.verses.map(verse => `
       <article class="verse-card" id="verse-${verse.number}" data-verse="${verse.number}">
         <div class="verse-toolbar">
@@ -359,6 +383,21 @@
     metaEl.textContent = currentLang()==='ar'
       ? 'عرض الإصحاح كاملًا • نص متصل قبطي مقابل عربي'
       : 'Full chapter view • continuous Coptic beside continuous Arabic';
+
+    if(!ctx.verses.length){
+      versesEl.innerHTML = `
+        <article class="chapter-reader">
+          <div class="chapter-pane">
+            <div class="pane-title">${currentLang()==='ar'?'الإصحاح غير محمّل بعد':'CHAPTER NOT LOADED YET'}</div>
+            <div class="chapter-text empty" style="font-size:20px">
+              ${currentLang()==='ar'
+                ? 'السفر موجود الآن في فهرس ECB، لكن النص القبطي والترجمة العربية لهذا الإصحاح ما زالا في مرحلة إعداد المصدر والترجمة.'
+                : 'This book is now present in the ECB catalog, but Coptic source text and Arabic translation for this chapter are still in source/translation preparation.'}
+            </div>
+          </div>
+        </article>`;
+      return;
+    }
 
     versesEl.innerHTML = `
       <article class="chapter-reader">
@@ -440,9 +479,25 @@
     renderReader();
   });
 
-  fetch('./data/reader-data.json')
-    .then(r => { if(!r.ok) throw new Error('Reader data failed to load'); return r.json(); })
-    .then(data => { state.data=data; fillBooks(); })
+  Promise.all([
+    fetch('./data/reader-data.json').then(r => { if(!r.ok) throw new Error('Reader data failed to load'); return r.json(); }),
+    fetch('./data/books.json').then(r => { if(!r.ok) throw new Error('Book catalog failed to load'); return r.json(); })
+  ])
+    .then(([data,catalog]) => {
+      state.catalog = catalog;
+      const actual = new Map((data.books || []).map(b => [b.id,b]));
+      const mergedBooks = (catalog.books || []).map(cat => {
+        const loaded = actual.get(cat.id);
+        return {
+          ...cat,
+          ...(loaded || {}),
+          chapter_count: cat.chapter_count,
+          chapters: loaded?.chapters || cat.chapters || []
+        };
+      });
+      state.data = {...data, books: mergedBooks};
+      fillBooks();
+    })
     .catch(err => {
       versesEl.innerHTML = '<div class="notice">' + err.message + '</div>';
     });
