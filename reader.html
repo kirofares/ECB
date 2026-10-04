@@ -171,7 +171,7 @@
   <section>
     <div class="reader-head">
       <div>
-        <div class="status"><span data-ar>قارئ تجريبي — بنية الربط جاهزة</span><span data-en>Prototype reader — alignment engine ready</span></div>
+        <div class="status"><span data-ar>إنجيل مرقس — مسودة عربية v0.2 قيد المراجعة</span><span data-en>Gospel of Mark — Arabic draft v0.2 under review</span></div>
         <h1 id="readerTitle">ECB Parallel Reader</h1>
         <div class="meta" id="readerMeta"></div>
       </div>
@@ -182,8 +182,8 @@
 
     <div class="notice">
       <strong data-ar>مهم:</strong><strong data-en>Important:</strong>
-      <span data-ar> النص الظاهر حاليًا نموذج تقني للربط فقط، وليس نصًا كتابيًا معتمدًا. عند اعتماد المصدر القبطي والترجمة سنستبدل بيانات العرض دون تغيير نظام القارئ.</span>
-      <span data-en> The current text is a technical alignment demo, not an approved biblical text. Once the Coptic source and Arabic translation are approved, the data can be replaced without changing the reader engine.</span>
+      <span data-ar> إنجيل مرقس متاح الآن بالعربية كمسودة v0.2 قيد المراجعة. النص القبطي والربط كلمة بكلمة سيُضافان تدريجيًا بعد اكتمال المراجعة اللغوية والنصية لكل عدد.</span>
+      <span data-en> The Gospel of Mark is now available as Arabic working draft v0.2. Sahidic Coptic text and word-level alignment will be added progressively after linguistic and textual review.</span>
     </div>
   </section>
 </main>
@@ -266,8 +266,8 @@
       ? book.name_ar + ' ' + chapter.number + ':' + verse.number
       : book.name_en + ' ' + chapter.number + ':' + verse.number;
     metaEl.textContent = currentLang()==='ar'
-      ? 'عرض متوازٍ مع روابط كلمة بكلمة'
-      : 'Parallel display with word-to-word hyperlinks';
+      ? 'المسودة العربية v0.2 • النص القبطي والربط قيد المراجعة'
+      : 'Arabic draft v0.2 • Sahidic text and alignment under review';
 
     versesEl.innerHTML = `
       <article class="verse-card" data-verse="${verse.number}">
@@ -278,7 +278,7 @@
         <div class="parallel">
           <div class="pane coptic">
             <div class="pane-title">COPTIC</div>
-            <div class="tokens">${verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ')}</div>
+            <div class="tokens">${verse.coptic.length ? verse.coptic.map(t => tokenHtml(t,'coptic')).join(' ') : `<span class="empty">${currentLang()==='ar' ? 'النص القبطي قيد الربط والمراجعة لهذا العدد' : 'Sahidic Coptic text is being reviewed and aligned for this verse'}</span>`}</div>
           </div>
           <div class="pane arabic">
             <div class="pane-title">العربية / ARABIC</div>
@@ -343,7 +343,7 @@
     fillBooks();
   });
 
-  fetch('./data/reader-demo.json')
+  fetch('./data/reader-data.json')
     .then(r => { if(!r.ok) throw new Error('Reader data failed to load'); return r.json(); })
     .then(data => { state.data=data; fillBooks(); })
     .catch(err => {
