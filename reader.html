@@ -286,9 +286,10 @@
   function fillChapters(){
     const book = selectedBook();
     const chapters = book?.chapters || [];
-    const nums = chapters.length
-      ? chapters.map(c => Number(c.number))
-      : Array.from({length:Number(book?.chapter_count || 0)},(_,i)=>i+1);
+    const declaredCount = Number(book?.chapter_count || 0);
+    const nums = declaredCount
+      ? Array.from({length:declaredCount},(_,i)=>i+1)
+      : chapters.map(c => Number(c.number));
     chapterEl.innerHTML = nums.length
       ? nums.map(n => option(n, (currentLang()==='ar'?'إصحاح ':'Chapter ') + n)).join('')
       : option('', '—');
@@ -353,8 +354,8 @@
     }
     const source = book.source;
     if(source){
-      sourceNoticeAr.textContent = ' المصدر القبطي: ' + (source.source_title || source.project || 'موثّق في ECB') + ' • ' + (source.urn || '') + ' • حالة النص: ' + (chapter.status || book.status || 'draft') + '.';
-      sourceNoticeEn.textContent = ' Coptic source: ' + (source.source_title || source.project || 'documented in ECB') + ' • ' + (source.urn || '') + ' • text status: ' + (chapter.status || book.status || 'draft') + '.';
+      sourceNoticeAr.textContent = ' المصدر القبطي: ' + (source.source_title || source.project || 'موثّق في ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • حالة النص: ' + (chapter.status || book.status || 'draft') + '.';
+      sourceNoticeEn.textContent = ' Coptic source: ' + (source.source_title || source.project || 'documented in ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • text status: ' + (chapter.status || book.status || 'draft') + '.';
     }else{
       sourceNoticeAr.textContent = ' هذا السفر مُدرج في ECB، وسيظهر النص عند اكتمال إدخال المصدر والترجمة ومراجعتها.';
       sourceNoticeEn.textContent = ' This book is catalogued in ECB; text will appear after source entry, translation, and review.';
