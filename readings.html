@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#211a16">
+  <title>قراءات اليوم — ECB</title>
+  <style>
+    :root{--ink:#201915;--paper:#f6f0e5;--card:#fffaf3;--gold:#a57732;--red:#7f2d2d;--muted:#75695e;--line:rgba(76,57,42,.18);--shadow:0 14px 40px rgba(46,31,20,.08)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#faf6ef,var(--paper));color:var(--ink);font-family:"Noto Naskh Arabic","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.75}
+    a{color:inherit;text-decoration:none}.shell{width:min(1120px,calc(100% - 26px));margin:auto}
+    header{position:sticky;top:0;z-index:40;background:rgba(249,245,237,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{height:68px;display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-weight:900}.nav a.btn,.btn{border:1px solid var(--line);background:#fffaf3;border-radius:12px;padding:9px 13px;font:inherit;font-weight:800;cursor:pointer}
+    .hero{padding:54px 0 24px}.kicker{color:var(--red);font-weight:900;font-size:13px}.hero h1{font-family:Georgia,"Times New Roman","Noto Naskh Arabic",serif;font-size:clamp(36px,6vw,62px);line-height:1.08;margin:9px 0 12px}.hero p{color:#61564d;font-size:17px;max-width:820px}
+    .datebar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:22px 0}.datebar input{border:1px solid var(--line);background:#fffaf3;border-radius:12px;padding:10px 12px;font:inherit}.datebar .primary{background:var(--ink);color:white}
+    .dayhead{background:#241d18;color:#f6ede1;border-radius:22px;padding:22px;margin:18px 0}.dayhead h2{margin:0 0 4px;font-size:26px}.dayhead p{margin:0;color:#d7cabd}
+    .section{margin:22px 0}.section>h2{font-size:24px;margin:0 0 12px}.sub{margin:14px 0}.sub h3{font-size:18px;margin:0 0 8px;color:#6e4c22}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.reading{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow)}
+    .reading-title{font-weight:900;margin-bottom:8px}.passage{display:flex;justify-content:space-between;gap:12px;align-items:center;border-top:1px solid var(--line);padding-top:10px;margin-top:10px}
+    .ref{font-weight:800}.book{color:var(--muted);font-size:13px}.open{font-size:12px;font-weight:900;color:var(--red);border:1px solid rgba(127,45,45,.25);border-radius:999px;padding:5px 9px;white-space:nowrap}
+    .soon{font-size:11px;color:var(--muted)}.notice{border:1px dashed rgba(127,45,45,.3);background:rgba(127,45,45,.04);border-radius:16px;padding:14px;margin:18px 0;color:#654b43}
+    .loading,.error{text-align:center;padding:40px;color:var(--muted)}.source{font-size:12px;color:var(--muted);margin:30px 0 48px}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}.passage{align-items:flex-start}.nav .brand small{display:none}}
+  </style>
+</head>
+<body>
+<header><div class="shell nav">
+  <div class="brand">☦ ECB <small style="color:var(--muted);font-weight:700">القراءات القبطية اليومية</small></div>
+  <div><a class="btn" href="./liturgy.html">المكتبة الطقسية</a> <a class="btn" href="./">الرئيسية</a></div>
+</div></header>
+
+<main class="shell">
+  <section class="hero">
+    <div class="kicker">القطمارس • Daily Readings</div>
+    <h1>قراءات اليوم</h1>
+    <p>اختر أي تاريخ لعرض ترتيب القراءات ومراجعها. عندما تكون القراءة مترجمة داخل ECB — حاليًا إنجيل مرقس — يمكنك فتحها مباشرة بالنص القبطي الصعيدي والعربي.</p>
+    <div class="datebar">
+      <input id="date" type="date">
+      <button id="load" class="btn primary">اعرض القراءات</button>
+      <button id="today" class="btn">اليوم</button>
+    </div>
+  </section>
+
+  <div class="notice">
+    نستخدم Katameros API لجلب <strong>هيكل ومراجع القراءات</strong>. لا نستورد نص الترجمة العربية الخارجية إلى ECB؛ النص الكتابي يُعرض من ترجمة ECB نفسها عندما يكون متاحًا.
+  </div>
+
+  <div id="content"><div class="loading">جارٍ تحميل القراءات…</div></div>
+
+  <div class="source">
+    المصدر البنيوي للقراءات: Katameros API (MIT). المرجع الطقسي العام للخدمات: Coptic Reader — Coptic Orthodox Metropolis of the Southern United States.
+  </div>
+</main>
+
+<script>
+const dateEl=document.getElementById('date');
+const content=document.getElementById('content');
+const pad=n=>String(n).padStart(2,'0');
+
+function localIso(d=new Date()){
+  return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+}
+function apiDate(iso){
+  const [y,m,d]=iso.split('-');
+  return d+'-'+m+'-'+y;
+}
+function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function isMark(p){
+  return /مرقس|mark/i.test((p.bookTranslation||'')+' '+(p.ref||''));
+}
+function markLink(p){
+  const ref=String(p.ref||'');
+  const m=ref.match(/(\d+)\s*:\s*(\d+)/);
+  const chapter=p.chapter || (m?m[1]:'1');
+  const verse=m?m[2]:'1';
+  return './reader.html?book=mark&chapter='+encodeURIComponent(chapter)+'&verse='+encodeURIComponent(verse);
+}
+function renderReading(r){
+  const passages=(r.passages||[]);
+  const title=r.title || 'قراءة';
+  return `<article class="reading">
+    <div class="reading-title">${esc(title)}</div>
+    ${passages.length?passages.map(p=>`
+      <div class="passage">
+        <div>
+          <div class="ref">${esc(p.ref||'')}</div>
+          <div class="book">${esc(p.bookTranslation||'')}</div>
+        </div>
+        ${isMark(p)?`<a class="open" href="${markLink(p)}">افتح في ECB ←</a>`:`<span class="soon">نص ECB قيد الترجمة</span>`}
+      </div>`).join(''):'<div class="soon">لا توجد مراجع كتابية مباشرة في هذا الجزء.</div>'}
+  </article>`;
+}
+function render(data,iso){
+  const sections=data.sections||[];
+  const title=data.title || 'قراءات '+iso;
+  content.innerHTML=`
+    <section class="dayhead"><h2>${esc(title)}</h2><p>${esc(data.periodInfo||'')}</p></section>
+    ${sections.map(sec=>`
+      <section class="section">
+        <h2>${esc(sec.title||'قسم القراءات')}</h2>
+        ${(sec.subSections||[]).map(sub=>`
+          <div class="sub">
+            <h3>${esc(sub.title||'')}</h3>
+            <div class="grid">${(sub.readings||[]).map(renderReading).join('')}</div>
+          </div>`).join('')}
+      </section>`).join('')}`;
+}
+async function load(){
+  const iso=dateEl.value||localIso();
+  dateEl.value=iso;
+  content.innerHTML='<div class="loading">جارٍ تحميل القراءات…</div>';
+  try{
+    const url='https://api.katameros.app/readings/gregorian/'+apiDate(iso)+'?languageId=3&bibleId=3';
+    const res=await fetch(url,{headers:{Accept:'application/json'}});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    render(await res.json(),iso);
+  }catch(e){
+    content.innerHTML='<div class="error">تعذر تحميل قراءات هذا التاريخ حاليًا. حاول مرة أخرى أو غيّر التاريخ.</div>';
+  }
+}
+document.getElementById('load').addEventListener('click',load);
+document.getElementById('today').addEventListener('click',()=>{dateEl.value=localIso();load()});
+dateEl.value=localIso();
+load();
+</script>
+</body>
+</html>
