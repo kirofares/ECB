@@ -4,8 +4,8 @@
   "name_en": "Matthew",
   "name_ar": "متى",
   "translation_base": "Sahidic Coptic",
-  "status": "translation_draft",
-  "review_version": "0.26",
+  "status": "translation_draft_complete",
+  "review_version": "1.0-draft",
   "source": {
     "project": "Coptic SCRIPTORIUM",
     "corpus": "sahidica.nt",
@@ -12150,6 +12150,2135 @@
           "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
         }
       ]
+    },
+    {
+      "number": 26,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 75,
+        "total_verses": 75
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:26",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-1-a",
+              "text": "ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-2-a",
+              "text": "«أنتم تعلمون أنه بعد يومين يكون الفصح، وابن الإنسان يُسلَّم لكي يُصلب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-3-a",
+              "text": "حينئذ اجتمع رؤساء الكهنة وشيوخ الشعب في دار رئيس الكهنة الذي يُدعى قيافا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-4-a",
+              "text": "وتشاوروا لكي يمسكوا يسوع بمكر ويقتلوه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-5-a",
+              "text": "لكنهم قالوا: «ليس في العيد، لئلا يحدث اضطراب في الشعب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-6-a",
+              "text": "وبينما كان يسوع في بيت عنيا، في بيت سمعان الأبرص،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-7-a",
+              "text": "تقدمت إليه امرأة معها قارورة طيب كثير الثمن، وسكبته على رأسه وهو متكئ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-8-a",
+              "text": "فلما رأى التلاميذ اغتاظوا قائلين: «لماذا هذا الإتلاف؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-9-a",
+              "text": "فقد كان يمكن أن يباع هذا بكثير ويُعطى للفقراء».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-10-a",
+              "text": "فعلم يسوع وقال لهم: «لماذا تزعجون المرأة؟ فإنها صنعت بي عملًا حسنًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-11-a",
+              "text": "فالفقراء معكم دائمًا، أما أنا فلست معكم دائمًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-12-a",
+              "text": "فإنها إذ سكبت هذا الطيب على جسدي إنما فعلت ذلك لأجل دفني.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-13-a",
+              "text": "الحق أقول لكم: حيثما يُكرز بهذا الإنجيل في العالم كله، يُذكر أيضًا ما فعلته هذه المرأة تذكارًا لها».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-14-a",
+              "text": "حينئذ ذهب واحد من الاثني عشر، الذي يُدعى يهوذا الإسخريوطي، إلى رؤساء الكهنة",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-15-a",
+              "text": "وقال: «ماذا تريدون أن تعطوني وأنا أسلمه إليكم؟» فوزنوا له ثلاثين من الفضة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-16-a",
+              "text": "ومن ذلك الوقت كان يطلب فرصة ليسلمه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-17-a",
+              "text": "وفي أول أيام الفطير تقدم التلاميذ إلى يسوع قائلين: «أين تريد أن نعد لك لتأكل الفصح؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-18-a",
+              "text": "فقال: «اذهبوا إلى المدينة إلى فلان وقولوا له: المعلم يقول: وقتي قريب؛ عندك أصنع الفصح مع تلاميذي».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-19-a",
+              "text": "ففعل التلاميذ كما أمرهم يسوع، وأعدوا الفصح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-20-a",
+              "text": "ولما جاء المساء اتكأ مع الاثني عشر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-21-a",
+              "text": "وفيما هم يأكلون قال: «الحق أقول لكم: إن واحدًا منكم سيسلمني».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-22-a",
+              "text": "فحزنوا جدًا، وبدأ كل واحد منهم يقول له: «هل أنا هو يا رب؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-23-a",
+              "text": "فأجاب وقال: «الذي غمس يده معي في الصحفة هو يسلمني.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-24-a",
+              "text": "إن ابن الإنسان يمضي كما هو مكتوب عنه، ولكن ويل لذلك الإنسان الذي يُسلَّم ابن الإنسان على يده! كان خيرًا لذلك الإنسان لو لم يولد».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-25-a",
+              "text": "فأجاب يهوذا الذي أسلمه وقال: «هل أنا هو يا معلم؟» قال له: «أنت قلت».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-26-a",
+              "text": "وفيما هم يأكلون أخذ يسوع خبزًا وبارك وكسر وأعطى التلاميذ وقال: «خذوا كلوا، هذا هو جسدي».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-27-a",
+              "text": "وأخذ كأسًا وشكر وأعطاهم قائلًا: «اشربوا منها كلكم،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-28-a",
+              "text": "لأن هذا هو دمي، دم العهد، الذي يُسفك عن كثيرين لمغفرة الخطايا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-29-a",
+              "text": "وأقول لكم: لن أشرب من الآن من ثمر الكرمة هذا حتى ذلك اليوم الذي أشربه معكم جديدًا في ملكوت أبي».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-30-a",
+              "text": "وبعدما سبحوا خرجوا إلى جبل الزيتون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-31-a",
+              "text": "حينئذ قال لهم يسوع: «كلكم ستعثرون بي في هذه الليلة، لأنه مكتوب: أضرب الراعي فتتفرق خراف القطيع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-32-a",
+              "text": "ولكن بعد قيامي أسبقكم إلى الجليل».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-33-a",
+              "text": "فأجاب بطرس وقال له: «إن عثر بك الجميع فأنا لا أعثر أبدًا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-34-a",
+              "text": "قال له يسوع: «الحق أقول لك: في هذه الليلة، قبل أن يصيح الديك، تنكرني ثلاث مرات».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-35-a",
+              "text": "قال له بطرس: «ولو لزم أن أموت معك، لن أنكرك». وهكذا قال جميع التلاميذ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-36-a",
+              "text": "حينئذ جاء معهم يسوع إلى موضع يُدعى جثسيماني، وقال للتلاميذ: «اجلسوا هنا حتى أمضي وأصلي هناك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-37-a",
+              "text": "وأخذ معه بطرس وابني زبدي، وبدأ يحزن ويكتئب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-38-a",
+              "text": "فقال لهم: «نفسي حزينة جدًا حتى الموت. ابقوا هنا واسهروا معي».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-39-a",
+              "text": "ثم تقدم قليلًا وخر على وجهه يصلي قائلًا: «يا أبي، إن أمكن فلتعبر عني هذه الكأس؛ ولكن ليس كما أريد أنا، بل كما تريد أنت».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-40-a",
+              "text": "ثم جاء إلى التلاميذ فوجدهم نائمين، فقال لبطرس: «أهكذا لم تستطيعوا أن تسهروا معي ساعة واحدة؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-41-a",
+              "text": "اسهروا وصلوا لكي لا تدخلوا في تجربة. الروح راغبة، أما الجسد فضعيف».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-42-a",
+              "text": "ومضى أيضًا ثانية وصلى قائلًا: «يا أبي، إن لم يمكن أن تعبر هذه إلا أن أشربها، فلتكن مشيئتك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-43-a",
+              "text": "ثم جاء فوجدهم أيضًا نائمين، لأن أعينهم كانت مثقلة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-44-a",
+              "text": "فتركهم ومضى أيضًا، وصلى للمرة الثالثة قائلًا الكلام نفسه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-45-a",
+              "text": "حينئذ جاء إلى تلاميذه وقال لهم: «أتنامون بعد وتستريحون؟ ها الساعة قد اقتربت، وابن الإنسان يُسلَّم إلى أيدي الخطاة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-46-a",
+              "text": "قوموا لنذهب. ها الذي يسلمني قد اقترب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 47,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-47-a",
+              "text": "وفيما هو يتكلم، إذا يهوذا، واحد من الاثني عشر، قد جاء ومعه جمع كثير بسيوف وعصي من عند رؤساء الكهنة وشيوخ الشعب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 48,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-48-a",
+              "text": "وكان الذي يسلمه قد أعطاهم علامة قائلًا: «الذي أقبله هو هو؛ أمسكوه».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 49,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-49-a",
+              "text": "وفي الحال تقدم إلى يسوع وقال: «السلام يا معلم»، وقبّله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 50,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-50-a",
+              "text": "فقال له يسوع: «يا صاحبي، لهذا جئت؟» حينئذ تقدموا وألقوا الأيدي على يسوع وأمسكوه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 51,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-51-a",
+              "text": "وإذا واحد من الذين مع يسوع مد يده واستل سيفه، وضرب عبد رئيس الكهنة وقطع أذنه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 52,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-52-a",
+              "text": "فقال له يسوع: «رد سيفك إلى مكانه، لأن كل الذين يأخذون بالسيف بالسيف يهلكون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 53,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-53-a",
+              "text": "أتظن أني لا أستطيع الآن أن أطلب إلى أبي فيقيم لي أكثر من اثني عشر جيشًا من الملائكة؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 54,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-54-a",
+              "text": "فكيف تتم الكتب أنه هكذا ينبغي أن يكون؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 55,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-55-a",
+              "text": "في تلك الساعة قال يسوع للجموع: «كأنكم خرجتم على لص بسيوف وعصي لتقبضوا عليّ! كنت كل يوم أجلس معكم أعلّم في الهيكل ولم تمسكوني.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 56,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-56-a",
+              "text": "ولكن هذا كله حدث لكي تتم كتب الأنبياء». حينئذ تركه التلاميذ جميعًا وهربوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 57,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-57-a",
+              "text": "والذين أمسكوا يسوع اقتادوه إلى قيافا رئيس الكهنة، حيث اجتمع الكتبة والشيوخ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 58,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-58-a",
+              "text": "أما بطرس فتبعه من بعيد إلى دار رئيس الكهنة، ودخل إلى الداخل وجلس مع الخدام ليرى النهاية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 59,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-59-a",
+              "text": "وكان رؤساء الكهنة والمجمع كله يطلبون شهادة زور على يسوع لكي يقتلوه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 60,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-60-a",
+              "text": "فلم يجدوا، مع أن شهود زور كثيرين تقدموا. وأخيرًا تقدم اثنان",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 61,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-61-a",
+              "text": "وقالا: «هذا قال: أستطيع أن أهدم هيكل الله، وفي ثلاثة أيام أبنيه».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 62,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-62-a",
+              "text": "فقام رئيس الكهنة وقال له: «أما تجيب بشيء؟ ماذا يشهد به هذان عليك؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 63,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-63-a",
+              "text": "أما يسوع فكان صامتًا. فقال له رئيس الكهنة: «أستحلفك بالله الحي أن تقول لنا: هل أنت المسيح ابن الله؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 64,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-64-a",
+              "text": "قال له يسوع: «أنت قلت. وأقول لكم أيضًا: من الآن ترون ابن الإنسان جالسًا عن يمين القوة وآتيًا على سحاب السماء».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 65,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-65-a",
+              "text": "حينئذ شق رئيس الكهنة ثيابه قائلًا: «لقد جدف! ما حاجتنا بعد إلى شهود؟ ها أنتم قد سمعتم تجديفه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 66,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-66-a",
+              "text": "ماذا ترون؟» فأجابوا وقالوا: «مستوجب الموت».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 67,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-67-a",
+              "text": "حينئذ بصقوا في وجهه ولكموه، وآخرون لطموه",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 68,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-68-a",
+              "text": "قائلين: «تنبأ لنا أيها المسيح، من الذي ضربك؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 69,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-69-a",
+              "text": "أما بطرس فكان جالسًا خارجًا في الدار، فجاءت إليه جارية قائلة: «وأنت كنت مع يسوع الجليلي».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 70,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-70-a",
+              "text": "فأنكر أمام الجميع قائلًا: «لا أعرف ما تقولين».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 71,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-71-a",
+              "text": "ثم خرج إلى الباب، فرأته أخرى وقالت للذين هناك: «هذا كان مع يسوع الناصري».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 72,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-72-a",
+              "text": "فأنكر أيضًا بقسم: «إني لا أعرف الرجل».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 73,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-73-a",
+              "text": "وبعد قليل تقدم الواقفون وقالوا لبطرس: «حقًا أنت أيضًا منهم، فإن لغتك تظهرك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 74,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-74-a",
+              "text": "حينئذ بدأ يلعن ويحلف: «إني لا أعرف الرجل». وللوقت صاح الديك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 75,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-26-75-a",
+              "text": "فتذكر بطرس كلام يسوع الذي قال له: «قبل أن يصيح الديك تنكرني ثلاث مرات». فخرج إلى خارج وبكى بكاءً مرًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 66,
+        "total_verses": 66
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:27",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-1-a",
+              "text": "ولما صار الصباح تشاور جميع رؤساء الكهنة وشيوخ الشعب على يسوع لكي يقتلوه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-2-a",
+              "text": "فقيدوه واقتادوه وسلموه إلى بيلاطس الوالي.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-3-a",
+              "text": "حينئذ لما رأى يهوذا الذي أسلمه أنه قد حُكم عليه، ندم ورد الثلاثين من الفضة إلى رؤساء الكهنة والشيوخ",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-4-a",
+              "text": "قائلًا: «أخطأت إذ سلمت دمًا بريئًا». فقالوا: «ما لنا؟ أنت أبصر».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-5-a",
+              "text": "فطرح الفضة في الهيكل وانصرف، ثم مضى وخنق نفسه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-6-a",
+              "text": "فأخذ رؤساء الكهنة الفضة وقالوا: «لا يحل أن نضعها في الخزانة، لأنها ثمن دم».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-7-a",
+              "text": "فتشاوروا واشتروا بها حقل الفخاري مقبرة للغرباء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-8-a",
+              "text": "لذلك دُعي ذلك الحقل «حقل الدم» إلى هذا اليوم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-9-a",
+              "text": "حينئذ تم ما قيل بإرميا النبي: «وأخذوا الثلاثين من الفضة، ثمن المثمَّن الذي ثمّنه بعض بني إسرائيل،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-10-a",
+              "text": "وأعطوها عن حقل الفخاري، كما أمرني الرب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-11-a",
+              "text": "أما يسوع فوقف أمام الوالي، فسأله الوالي قائلًا: «أأنت ملك اليهود؟» فقال يسوع: «أنت تقول».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-12-a",
+              "text": "وفيما كان رؤساء الكهنة والشيوخ يشتكون عليه لم يجب بشيء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-13-a",
+              "text": "حينئذ قال له بيلاطس: «أما تسمع كم يشهدون عليك؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-14-a",
+              "text": "فلم يجبه عن كلمة واحدة، حتى تعجب الوالي جدًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-15-a",
+              "text": "وكان الوالي معتادًا في العيد أن يطلق للجمع أسيرًا واحدًا ممن يريدون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-16-a",
+              "text": "وكان عندهم حينئذ أسير مشهور يُدعى باراباس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-17-a",
+              "text": "فإذ كانوا مجتمعين قال لهم بيلاطس: «من تريدون أن أطلق لكم: باراباس أم يسوع الذي يُدعى المسيح؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-18-a",
+              "text": "لأنه علم أنهم أسلموه حسدًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-19-a",
+              "text": "وفيما هو جالس على كرسي الحكم أرسلت إليه امرأته قائلة: «إياك وذلك البار، لأني تألمت اليوم كثيرًا في حلم بسببه».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-20-a",
+              "text": "أما رؤساء الكهنة والشيوخ فأقنعوا الجموع أن يطلبوا باراباس ويهلكوا يسوع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-21-a",
+              "text": "فأجاب الوالي وقال لهم: «أي الاثنين تريدون أن أطلق لكم؟» فقالوا: «باراباس».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-22-a",
+              "text": "قال لهم بيلاطس: «فماذا أفعل بيسوع الذي يُدعى المسيح؟» قال الجميع: «ليُصلب!»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-23-a",
+              "text": "فقال: «وأي شر فعل؟» فازدادوا صراخًا قائلين: «ليُصلب!»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-24-a",
+              "text": "فلما رأى بيلاطس أنه لا ينتفع شيئًا بل بالأحرى يحدث شغب، أخذ ماء وغسل يديه أمام الجمع قائلًا: «أنا بريء من دم هذا البار؛ أنتم أبصر».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-25-a",
+              "text": "فأجاب جميع الشعب وقالوا: «دمه علينا وعلى أولادنا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-26-a",
+              "text": "حينئذ أطلق لهم باراباس، وأما يسوع فجلده وسلمه ليُصلب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-27-a",
+              "text": "حينئذ أخذ جنود الوالي يسوع إلى دار الولاية، وجمعوا عليه الكتيبة كلها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-28-a",
+              "text": "فعروه وألبسوه رداء قرمزيًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-29-a",
+              "text": "وضفروا إكليلًا من شوك ووضعوه على رأسه، وقصبة في يمينه، وجثوا أمامه واستهزأوا به قائلين: «السلام يا ملك اليهود!»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-30-a",
+              "text": "وبصقوا عليه، وأخذوا القصبة وضربوه على رأسه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-31-a",
+              "text": "وبعدما استهزأوا به نزعوا عنه الرداء وألبسوه ثيابه، واقتادوه ليصلبوه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-32-a",
+              "text": "وفيما هم خارجون وجدوا رجلًا قيروانيًا اسمه سمعان، فسخروه لكي يحمل صليبه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-33-a",
+              "text": "ولما أتوا إلى موضع يُدعى جلجثة، أي موضع الجمجمة،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-34-a",
+              "text": "أعطوه خمرًا ممزوجة بمرارة ليشرب، فلما ذاق لم يرد أن يشرب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-35-a",
+              "text": "ولما صلبوه اقتسموا ثيابه مقترعين عليها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-36-a",
+              "text": "ثم جلسوا يحرسونه هناك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-37-a",
+              "text": "ووضعوا فوق رأسه علة مكتوبة: «هذا هو يسوع ملك اليهود».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-38-a",
+              "text": "حينئذ صُلب معه لصان، واحد عن اليمين وواحد عن اليسار.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-39-a",
+              "text": "وكان المجتازون يجدفون عليه وهم يهزون رؤوسهم",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-40-a",
+              "text": "ويقولون: «يا هادم الهيكل وبانيه في ثلاثة أيام، خلص نفسك! إن كنت ابن الله فانزل عن الصليب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-41-a",
+              "text": "وكذلك رؤساء الكهنة أيضًا، وهم يستهزئون مع الكتبة والشيوخ، قالوا:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-42-a",
+              "text": "«خلّص آخرين وأما نفسه فلا يستطيع أن يخلص! هو ملك إسرائيل؛ فلينزل الآن عن الصليب فنؤمن به.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-43-a",
+              "text": "اتكل على الله، فلينقذه الآن إن كان يريده، لأنه قال: أنا ابن الله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-44-a",
+              "text": "وبهذا أيضًا كان اللصان المصلوبان معه يعيرانه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-45-a",
+              "text": "ومن الساعة السادسة كانت ظلمة على الأرض كلها إلى الساعة التاسعة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-46-a",
+              "text": "ونحو الساعة التاسعة صرخ يسوع بصوت عظيم قائلًا: «إيلي، إيلي، لما سبقتني؟» أي: «إلهي، إلهي، لماذا تركتني؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 47,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-47-a",
+              "text": "فبعض الواقفين هناك لما سمعوا قالوا: «إنه ينادي إيليا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 48,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-48-a",
+              "text": "وفي الحال ركض واحد منهم وأخذ إسفنجة وملأها خلًا ووضعها على قصبة وسقاه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 49,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-49-a",
+              "text": "أما الباقون فقالوا: «اترك، لنرَ هل يأتي إيليا ليخلصه».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 50,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-50-a",
+              "text": "فصرخ يسوع أيضًا بصوت عظيم وأسلم الروح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 51,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-51-a",
+              "text": "وإذا حجاب الهيكل قد انشق إلى اثنين من فوق إلى أسفل، والأرض تزلزلت والصخور تشققت،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 52,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-52-a",
+              "text": "والقبور انفتحت، وقامت أجساد كثيرة لقديسين كانوا قد رقدوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 53,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-53-a",
+              "text": "وخرجوا من القبور بعد قيامته، ودخلوا المدينة المقدسة وظهروا لكثيرين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 54,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-54-a",
+              "text": "أما قائد المئة والذين معه يحرسون يسوع، فلما رأوا الزلزلة وما حدث خافوا جدًا وقالوا: «حقًا كان هذا ابن الله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 55,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-55-a",
+              "text": "وكانت هناك نساء كثيرات ينظرن من بعيد، وهن اللواتي تبعن يسوع من الجليل يخدمنه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 56,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-56-a",
+              "text": "وبينهن مريم المجدلية، ومريم أم يعقوب ويوسي، وأم ابني زبدي.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 57,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-57-a",
+              "text": "ولما جاء المساء جاء رجل غني من الرامة اسمه يوسف، وكان هو أيضًا قد صار تلميذًا ليسوع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 58,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-58-a",
+              "text": "فتقدم إلى بيلاطس وطلب جسد يسوع، حينئذ أمر بيلاطس أن يُعطى الجسد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 59,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-59-a",
+              "text": "فأخذ يوسف الجسد ولفه بكتان نقي،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 60,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-60-a",
+              "text": "ووضعه في قبره الجديد الذي كان قد نحته في الصخرة، ودحرج حجرًا كبيرًا على باب القبر ومضى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 61,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-61-a",
+              "text": "وكانت هناك مريم المجدلية ومريم الأخرى جالستين تجاه القبر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 62,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-62-a",
+              "text": "وفي الغد، الذي بعد الاستعداد، اجتمع رؤساء الكهنة والفريسيون عند بيلاطس",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 63,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-63-a",
+              "text": "قائلين: «يا سيد، قد تذكرنا أن ذلك المضل قال وهو حي: بعد ثلاثة أيام أقوم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 64,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-64-a",
+              "text": "فمر إذًا أن يُحرس القبر إلى اليوم الثالث، لئلا يأتي تلاميذه ويسرقوه ويقولوا للشعب: قام من الأموات، فتكون الضلالة الأخيرة أشر من الأولى».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 65,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-65-a",
+              "text": "فقال لهم بيلاطس: «لكم حرس؛ اذهبوا واضبطوه كما تعلمون».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 66,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-27-66-a",
+              "text": "فمضوا وضبطوا القبر، وختموا الحجر مع الحرس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 20,
+        "total_verses": 20
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:28",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-1-a",
+              "text": "وبعد السبت، عند فجر اليوم الأول من الأسبوع، جاءت مريم المجدلية ومريم الأخرى لتنظرا القبر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-2-a",
+              "text": "وإذا زلزلة عظيمة حدثت، لأن ملاك الرب نزل من السماء، وتقدم ودحرج الحجر وجلس عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-3-a",
+              "text": "وكان منظره كالبرق، ولباسه أبيض كالثلج.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-4-a",
+              "text": "ومن خوفه ارتعد الحراس وصاروا كالأموات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-5-a",
+              "text": "فأجاب الملاك وقال للمرأتين: «لا تخافا، فإني أعلم أنكما تطلبان يسوع المصلوب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-6-a",
+              "text": "ليس هو هنا، لأنه قام كما قال. تعاليا وانظرا الموضع الذي كان الرب موضوعًا فيه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-7-a",
+              "text": "واذهبا سريعًا وقولا لتلاميذه إنه قام من الأموات، وها هو يسبقكم إلى الجليل؛ هناك ترونه. ها أنا قد قلت لكما».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-8-a",
+              "text": "فخرجتا سريعًا من القبر بخوف وفرح عظيم، وركضتا لتخبرا تلاميذه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-9-a",
+              "text": "وإذا يسوع لاقاهما وقال: «سلام لكما». فتقدمتا وأمسكتا بقدميه وسجدتا له.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-10-a",
+              "text": "حينئذ قال لهما يسوع: «لا تخافا. اذهبا وقولا لإخوتي أن يمضوا إلى الجليل، وهناك يرونني».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-11-a",
+              "text": "وفيما هما ذاهبتان، إذا بعض الحرس جاءوا إلى المدينة وأخبروا رؤساء الكهنة بكل ما حدث.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-12-a",
+              "text": "فاجتمعوا مع الشيوخ وتشاوروا، وأعطوا الجنود فضة كثيرة",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-13-a",
+              "text": "قائلين: «قولوا إن تلاميذه أتوا ليلًا وسرقوه ونحن نائمون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-14-a",
+              "text": "وإن سُمع هذا عند الوالي فنحن نقنعه ونجعلكم بلا قلق».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-15-a",
+              "text": "فأخذوا الفضة وفعلوا كما عُلّموا، فانتشر هذا القول عند اليهود إلى هذا اليوم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-16-a",
+              "text": "أما التلاميذ الأحد عشر فمضوا إلى الجليل، إلى الجبل الذي عيّنه لهم يسوع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-17-a",
+              "text": "ولما رأوه سجدوا له، أما بعضهم فشكوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-18-a",
+              "text": "فتقدم يسوع وكلمهم قائلًا: «دُفع إليّ كل سلطان في السماء وعلى الأرض.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-19-a",
+              "text": "فاذهبوا وتلمذوا جميع الأمم، وعمّدوهم باسم الآب والابن والروح القدس،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-28-20-a",
+              "text": "وعلّموهم أن يحفظوا كل ما أوصيتكم به. وها أنا معكم كل الأيام إلى انقضاء الدهر».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
     }
   ],
   "public_coptic_source": {
@@ -12166,5 +14295,10 @@
     "urn": "urn:cts:copticLit:nt.matt.sahidica:1",
     "use": "linguistic and textual analysis only",
     "license_note": "Coptic SCRIPTORIUM marks this Sahidica document for academic use only; ECB does not republish its verbatim Coptic text in this structured file."
-  }
+  },
+  "translation_progress": {
+    "chapters_drafted": 28,
+    "chapters_total": 28
+  },
+  "review_status": "full_draft_complete_pending_linguistic_and_textual_review"
 }
