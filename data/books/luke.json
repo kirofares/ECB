@@ -7,16 +7,2859 @@
   "section": "gospels",
   "chapter_count": 24,
   "translation_base": "Sahidic Coptic",
-  "status": "catalogued",
+  "status": "translation_draft",
   "source_status": "source_identified",
   "publication_status": "free_electronic_attributed",
-  "review_version": null,
-  "source": {
-    "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
-    "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
-    "electronic_use": "free electronic New Testament editions with required attribution",
-    "print_use": "separate written permission required"
+  "review_version": "0.1",
+  "content_status": "translation_in_progress",
+  "chapters": [
+    {
+      "number": 1,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 80,
+        "total_verses": 80
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.luke.sahidica:1",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-1-a",
+              "text": "إذ كان كثيرون قد أخذوا في تأليف رواية عن الأمور التي تمت بيننا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-2-a",
+              "text": "كما سلمها إلينا الذين كانوا منذ البدء شهود عيان وخدامًا للكلمة،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-3-a",
+              "text": "رأيت أنا أيضًا، بعدما تتبعت كل شيء من أوله بدقة، أن أكتب إليك بالترتيب، أيها العزيز ثاوفيلس،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-4-a",
+              "text": "لكي تعرف يقين الكلام الذي تعلمته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-5-a",
+              "text": "كان في أيام هيرودس ملك اليهودية كاهن اسمه زكريا، من فرقة أبيا، وكانت امرأته من بنات هارون واسمها أليصابات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-6-a",
+              "text": "وكانا كلاهما بارين أمام الله، سالكين في جميع وصايا الرب وأحكامه بلا لوم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-7-a",
+              "text": "ولم يكن لهما ولد، لأن أليصابات كانت عاقرًا، وكانا كلاهما متقدمين في أيامهما.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-8-a",
+              "text": "وبينما كان يقوم بخدمة الكهنوت أمام الله في نوبة فرقته،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-9-a",
+              "text": "بحسب عادة الكهنوت أصابته القرعة أن يدخل هيكل الرب ويبخر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-10-a",
+              "text": "وكان كل جمهور الشعب يصلي خارجًا وقت البخور.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-11-a",
+              "text": "فظهر له ملاك الرب واقفًا عن يمين مذبح البخور.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-12-a",
+              "text": "فلما رآه زكريا اضطرب ووقع عليه خوف.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-13-a",
+              "text": "فقال له الملاك: «لا تخف يا زكريا، لأن طلبتك قد سُمعت، وامرأتك أليصابات ستلد لك ابنًا، وتدعو اسمه يوحنا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-14-a",
+              "text": "ويكون لك فرح وابتهاج، وكثيرون سيفرحون بميلاده.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-15-a",
+              "text": "لأنه يكون عظيمًا أمام الرب، ولا يشرب خمرًا ولا مسكرًا، ومن بطن أمه يمتلئ من الروح القدس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-16-a",
+              "text": "ويرد كثيرين من بني إسرائيل إلى الرب إلههم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-17-a",
+              "text": "ويتقدم أمامه بروح إيليا وقوته، ليرد قلوب الآباء إلى الأبناء، والعصاة إلى فكر الأبرار، ليهيئ للرب شعبًا مستعدًا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-18-a",
+              "text": "فقال زكريا للملاك: «كيف أعرف هذا؟ فأنا شيخ، وامرأتي متقدمة في أيامها».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-19-a",
+              "text": "فأجاب الملاك وقال له: «أنا جبرائيل، الواقف أمام الله، وقد أُرسلت لأكلمك وأبشرك بهذا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-20-a",
+              "text": "وها أنت تكون صامتًا ولا تستطيع أن تتكلم إلى اليوم الذي يحدث فيه هذا، لأنك لم تصدق كلامي الذي سيتم في وقته».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-21-a",
+              "text": "وكان الشعب ينتظر زكريا ويتعجب من تأخره في الهيكل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-22-a",
+              "text": "فلما خرج لم يستطع أن يكلمهم، فعرفوا أنه رأى رؤيا في الهيكل. وكان يشير إليهم وبقي صامتًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-23-a",
+              "text": "ولما كملت أيام خدمته مضى إلى بيته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-24-a",
+              "text": "وبعد تلك الأيام حبلت أليصابات امرأته، وأخفت نفسها خمسة أشهر، قائلة:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-25-a",
+              "text": "«هكذا صنع بي الرب في الأيام التي نظر إليّ فيها لينزع عاري بين الناس».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-26-a",
+              "text": "وفي الشهر السادس أُرسل الملاك جبرائيل من الله إلى مدينة في الجليل اسمها الناصرة،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-27-a",
+              "text": "إلى عذراء مخطوبة لرجل اسمه يوسف من بيت داود، واسم العذراء مريم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-28-a",
+              "text": "فدخل إليها وقال: «سلام لك يا ممتلئة نعمة، الرب معك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-29-a",
+              "text": "فاضطربت من الكلام، وصارت تفكر ما عسى أن تكون هذه التحية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-30-a",
+              "text": "فقال لها الملاك: «لا تخافي يا مريم، لأنك وجدت نعمة عند الله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-31-a",
+              "text": "وها أنت تحبلين وتلدين ابنًا، وتدعين اسمه يسوع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-32-a",
+              "text": "هذا يكون عظيمًا، وابن العلي يُدعى، ويعطيه الرب الإله عرش داود أبيه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-33-a",
+              "text": "ويملك على بيت يعقوب إلى الأبد، ولا يكون لملكه نهاية».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-34-a",
+              "text": "فقالت مريم للملاك: «كيف يكون هذا وأنا لا أعرف رجلًا؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-35-a",
+              "text": "فأجاب الملاك وقال لها: «الروح القدس يحل عليك، وقوة العلي تظللك؛ لذلك فالقدوس المولود منك يُدعى ابن الله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-36-a",
+              "text": "وها أليصابات نسيبتك قد حبلت هي أيضًا بابن في شيخوختها، وهذا هو الشهر السادس لتلك التي كانت تُدعى عاقرًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-37-a",
+              "text": "لأنه ليس شيء غير مستطاع عند الله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-38-a",
+              "text": "فقالت مريم: «ها أنا أمة الرب؛ ليكن لي بحسب قولك». ومضى من عندها الملاك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-39-a",
+              "text": "وفي تلك الأيام قامت مريم ومضت مسرعة إلى الجبال، إلى مدينة في يهوذا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-40-a",
+              "text": "ودخلت بيت زكريا وسلمت على أليصابات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-41-a",
+              "text": "فلما سمعت أليصابات سلام مريم، ارتكض الجنين في بطنها، وامتلأت أليصابات من الروح القدس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-42-a",
+              "text": "وصرخت بصوت عظيم وقالت: «مباركة أنت في النساء، ومباركة ثمرة بطنك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-43-a",
+              "text": "ومن أين لي هذا، أن تأتي أم ربي إليّ؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-44-a",
+              "text": "فهوذا حين صار صوت سلامك في أذني، ارتكض الجنين بابتهاج في بطني.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-45-a",
+              "text": "وطوبى للتي آمنت أن يتم ما قيل لها من الرب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-46-a",
+              "text": "فقالت مريم: «تعظم نفسي الرب،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 47,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-47-a",
+              "text": "وتبتهج روحي بالله مخلصي،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 48,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-48-a",
+              "text": "لأنه نظر إلى اتضاع أمته. فهوذا منذ الآن تطوبني جميع الأجيال،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 49,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-49-a",
+              "text": "لأن القدير صنع بي عظائم، واسمه قدوس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 50,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-50-a",
+              "text": "ورحمته من جيل إلى جيل للذين يتقونه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 51,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-51-a",
+              "text": "صنع قوة بذراعه، وشتت المتكبرين بفكر قلوبهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 52,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-52-a",
+              "text": "أنزل الأعزاء عن الكراسي ورفع المتضعين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 53,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-53-a",
+              "text": "أشبع الجياع خيرات، وصرف الأغنياء فارغين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 54,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-54-a",
+              "text": "عضد إسرائيل فتاه، متذكرًا رحمته،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 55,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-55-a",
+              "text": "كما كلم آباءنا، إبراهيم ونسله إلى الأبد».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 56,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-56-a",
+              "text": "ومكثت مريم عندها نحو ثلاثة أشهر، ثم رجعت إلى بيتها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 57,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-57-a",
+              "text": "وأما أليصابات فكمل زمانها لتلد، فولدت ابنًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 58,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-58-a",
+              "text": "وسمع جيرانها وأقرباؤها أن الرب عظّم رحمته معها، ففرحوا معها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 59,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-59-a",
+              "text": "وفي اليوم الثامن جاءوا ليختنوا الصبي، وكانوا يدعونه باسم أبيه زكريا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 60,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-60-a",
+              "text": "فأجابت أمه وقالت: «لا، بل يُدعى يوحنا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 61,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-61-a",
+              "text": "فقالوا لها: «ليس أحد في عشيرتك يُدعى بهذا الاسم».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 62,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-62-a",
+              "text": "ثم أشاروا إلى أبيه ماذا يريد أن يُدعى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 63,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-63-a",
+              "text": "فطلب لوحًا وكتب قائلًا: «اسمه يوحنا». فتعجبوا جميعًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 64,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-64-a",
+              "text": "وفي الحال انفتح فمه ولسانه، وصار يتكلم مباركًا الله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 65,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-65-a",
+              "text": "فوقع خوف على جميع جيرانهم، وتُحدث بهذه الأمور كلها في جبال اليهودية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 66,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-66-a",
+              "text": "وكل الذين سمعوا وضعوها في قلوبهم قائلين: «ترى ماذا يكون هذا الصبي؟» وكانت يد الرب معه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 67,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-67-a",
+              "text": "وامتلأ زكريا أبوه من الروح القدس وتنبأ قائلًا:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 68,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-68-a",
+              "text": "«مبارك الرب إله إسرائيل، لأنه افتقد وصنع فداء لشعبه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 69,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-69-a",
+              "text": "وأقام لنا قرن خلاص في بيت داود فتاه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 70,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-70-a",
+              "text": "كما تكلم بفم أنبيائه القديسين منذ الدهر،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 71,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-71-a",
+              "text": "خلاصًا من أعدائنا ومن يد جميع مبغضينا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 72,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-72-a",
+              "text": "ليصنع رحمة مع آبائنا ويذكر عهده المقدس،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 73,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-73-a",
+              "text": "القسم الذي حلف لإبراهيم أبينا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 74,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-74-a",
+              "text": "أن يعطينا أننا، وقد نجونا من يد أعدائنا، نعبده بلا خوف،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 75,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-75-a",
+              "text": "بالقداسة والبر أمامه جميع أيامنا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 76,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-76-a",
+              "text": "وأنت أيها الصبي تُدعى نبي العلي، لأنك تتقدم أمام وجه الرب لتعد طرقه،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 77,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-77-a",
+              "text": "لتعطي شعبه معرفة الخلاص بمغفرة خطاياهم،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 78,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-78-a",
+              "text": "بأحشاء رحمة إلهنا، التي بها يفتقدنا المشرق من العلاء،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 79,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-79-a",
+              "text": "ليضيء على الجالسين في الظلمة وظلال الموت، ويهدي أقدامنا إلى طريق السلام».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 80,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-1-80-a",
+              "text": "وأما الصبي فكان ينمو ويتقوى بالروح، وكان في البراري إلى يوم ظهوره لإسرائيل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 52,
+        "total_verses": 52
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.luke.sahidica:2",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-1-a",
+              "text": "وفي تلك الأيام صدر أمر من أغسطس قيصر أن يُكتتب كل المسكونة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-2-a",
+              "text": "وكان هذا الاكتتاب الأول حين كان كيرينيوس واليًا على سورية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-3-a",
+              "text": "فذهب الجميع ليكتتبوا، كل واحد إلى مدينته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-4-a",
+              "text": "وصعد يوسف أيضًا من الجليل، من مدينة الناصرة، إلى اليهودية، إلى مدينة داود التي تُدعى بيت لحم، لكونه من بيت داود وعشيرته،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-5-a",
+              "text": "ليكتتب مع مريم المخطوبة له، وهي حبلى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-6-a",
+              "text": "وبينما كانا هناك تمت أيامها لتلد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-7-a",
+              "text": "فولدت ابنها البكر، وقمطته وأضجعته في مذود، لأنه لم يكن لهما موضع في المنزل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-8-a",
+              "text": "وكان في تلك الناحية رعاة يقيمون في الحقول ويحرسون حراسات الليل على رعيتهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-9-a",
+              "text": "وإذا ملاك الرب وقف بهم، ومجد الرب أضاء حولهم، فخافوا خوفًا عظيمًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-10-a",
+              "text": "فقال لهم الملاك: «لا تخافوا. فها أنا أبشركم بفرح عظيم يكون لجميع الشعب،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-11-a",
+              "text": "أنه وُلد لكم اليوم في مدينة داود مخلص، هو المسيح الرب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-12-a",
+              "text": "وهذه لكم العلامة: تجدون طفلًا مقمطًا مضجعًا في مذود».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-13-a",
+              "text": "وفجأة صار مع الملاك جمهور من الجند السماوي يسبحون الله ويقولون:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-14-a",
+              "text": "«المجد لله في الأعالي، وعلى الأرض السلام، وفي الناس المسرة».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-15-a",
+              "text": "ولما مضت الملائكة عنهم إلى السماء، قال الرعاة بعضهم لبعض: «لنذهب الآن إلى بيت لحم وننظر هذا الأمر الذي حدث وأعلمنا به الرب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-16-a",
+              "text": "فجاءوا مسرعين ووجدوا مريم ويوسف والطفل مضجعًا في المذود.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-17-a",
+              "text": "فلما رأوا أخبروا بالكلام الذي قيل لهم عن هذا الصبي.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-18-a",
+              "text": "وكل الذين سمعوا تعجبوا مما قاله لهم الرعاة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-19-a",
+              "text": "وأما مريم فكانت تحفظ هذا الكلام كله متفكرة به في قلبها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-20-a",
+              "text": "ورجع الرعاة وهم يمجدون الله ويسبحونه على كل ما سمعوه ورأوه، كما قيل لهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-21-a",
+              "text": "ولما تمت ثمانية أيام ليُختن الصبي، دُعي اسمه يسوع، كما سماه الملاك قبل أن يُحبل به في البطن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-22-a",
+              "text": "ولما تمت أيام تطهيرهم بحسب ناموس موسى، أصعدوه إلى أورشليم ليقدموه للرب،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-23-a",
+              "text": "كما هو مكتوب في ناموس الرب: كل ذكر فاتح رحم يُدعى قدوسًا للرب،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-24-a",
+              "text": "ولكي يقدموا ذبيحة كما قيل في ناموس الرب: زوج يمام أو فرخي حمام.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-25-a",
+              "text": "وكان رجل في أورشليم اسمه سمعان، وهذا الرجل بار وتقي ينتظر تعزية إسرائيل، والروح القدس كان عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-26-a",
+              "text": "وكان قد أُوحي إليه بالروح القدس أنه لا يرى الموت قبل أن يرى مسيح الرب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-27-a",
+              "text": "فجاء بالروح إلى الهيكل. وعندما أدخل الأبوان الطفل يسوع ليصنعا له بحسب عادة الناموس،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-28-a",
+              "text": "أخذه هو على ذراعيه وبارك الله وقال:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-29-a",
+              "text": "«الآن تطلق عبدك يا سيد بسلام بحسب قولك،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-30-a",
+              "text": "لأن عيني قد أبصرتا خلاصك،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-31-a",
+              "text": "الذي أعددته أمام وجه جميع الشعوب،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-32-a",
+              "text": "نور إعلان للأمم ومجدًا لشعبك إسرائيل».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-33-a",
+              "text": "وكان أبوه وأمه يتعجبان مما قيل عنه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-34-a",
+              "text": "وباركهما سمعان وقال لمريم أمه: «ها هذا موضوع لسقوط وقيام كثيرين في إسرائيل، ولعلامة تُقاوم،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-35-a",
+              "text": "وأنت أيضًا يجوز سيف في نفسك، لكي تُعلن أفكار من قلوب كثيرة».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-36-a",
+              "text": "وكانت نبية اسمها حنة بنت فنوئيل، من سبط أشير، وكانت متقدمة في أيام كثيرة. عاشت مع زوجها سبع سنين بعد بكوريتها،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-37-a",
+              "text": "وهي أرملة نحو أربع وثمانين سنة، لا تفارق الهيكل، عابدة بأصوام وطلبات ليلًا ونهارًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-38-a",
+              "text": "فوقفت في تلك الساعة تسبح الرب، وتكلمت عنه مع جميع المنتظرين فداء أورشليم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-39-a",
+              "text": "ولما أكملوا كل شيء بحسب ناموس الرب، رجعوا إلى الجليل، إلى مدينتهم الناصرة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-40-a",
+              "text": "وكان الطفل ينمو ويتقوى، ممتلئًا حكمة، وكانت نعمة الله عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-41-a",
+              "text": "وكان أبواه يذهبان كل سنة إلى أورشليم في عيد الفصح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-42-a",
+              "text": "ولما كانت له اثنتا عشرة سنة، صعدوا إلى أورشليم بحسب عادة العيد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-43-a",
+              "text": "وبعدما أكملوا الأيام، حين رجعا بقي الصبي يسوع في أورشليم، ولم يعلم يوسف وأمه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-44-a",
+              "text": "وإذ ظناه بين الرفقة، ذهبا مسيرة يوم، وكانا يطلبانه بين الأقرباء والمعارف.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-45-a",
+              "text": "ولما لم يجداه رجعا إلى أورشليم يطلبانه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-46-a",
+              "text": "وبعد ثلاثة أيام وجداه في الهيكل جالسًا في وسط المعلمين، يسمعهم ويسألهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 47,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-47-a",
+              "text": "وكل الذين سمعوه بُهتوا من فهمه وإجاباته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 48,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-48-a",
+              "text": "فلما رأياه اندهشا، وقالت له أمه: «يا بني، لماذا فعلت بنا هكذا؟ ها أبوك وأنا كنا نطلبك متألمين».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 49,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-49-a",
+              "text": "فقال لهما: «لماذا كنتما تطلبانني؟ أما علمتما أنه ينبغي أن أكون فيما لأبي؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 50,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-50-a",
+              "text": "فلم يفهما الكلام الذي قاله لهما.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 51,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-51-a",
+              "text": "فنزل معهما وجاء إلى الناصرة، وكان خاضعًا لهما. وكانت أمه تحفظ هذا الكلام كله في قلبها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 52,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-2-52-a",
+              "text": "وأما يسوع فكان يتقدم في الحكمة والقامة والنعمة عند الله والناس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 38,
+        "total_verses": 38
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.luke.sahidica:3",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-1-a",
+              "text": "وفي السنة الخامسة عشرة من حكم طيباريوس قيصر، إذ كان بيلاطس البنطي واليًا على اليهودية، وهيرودس رئيس ربع على الجليل، وفيلبس أخوه رئيس ربع على إيطورية وكورة تراخونيتس، وليسانيوس رئيس ربع على الأبلية،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-2-a",
+              "text": "في أيام حنان وقيافا رئيسي الكهنة، صارت كلمة الله إلى يوحنا بن زكريا في البرية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-3-a",
+              "text": "فجاء إلى جميع الكورة المحيطة بالأردن، يكرز بمعمودية التوبة لمغفرة الخطايا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-4-a",
+              "text": "كما هو مكتوب في كتاب أقوال إشعياء النبي: «صوت صارخ في البرية: أعدوا طريق الرب، واجعلوا سبله مستقيمة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-5-a",
+              "text": "كل واد يمتلئ، وكل جبل وأكمة ينخفضان، والمعوج يصير مستقيمًا، والطرق الوعرة تصير سهلة،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-6-a",
+              "text": "ويبصر كل بشر خلاص الله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-7-a",
+              "text": "فكان يقول للجموع الخارجين ليعتمدوا على يديه: «يا نسل الأفاعي، من أراكم أن تهربوا من الغضب الآتي؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-8-a",
+              "text": "فاصنعوا أثمارًا تليق بالتوبة، ولا تبدأوا تقولون في أنفسكم: لنا إبراهيم أبًا. فإني أقول لكم إن الله قادر أن يقيم من هذه الحجارة أبناء لإبراهيم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-9-a",
+              "text": "والآن أيضًا قد وُضعت الفأس على أصل الأشجار؛ فكل شجرة لا تصنع ثمرًا جيدًا تُقطع وتُطرح في النار».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-10-a",
+              "text": "وسألته الجموع قائلة: «فماذا نفعل؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-11-a",
+              "text": "فأجاب وقال لهم: «من له ثوبان فليعط من ليس له، ومن له طعام فليفعل كذلك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-12-a",
+              "text": "وجاء جباة ضرائب أيضًا ليعتمدوا، وقالوا له: «يا معلم، ماذا نفعل؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-13-a",
+              "text": "فقال لهم: «لا تستوفوا أكثر مما عُين لكم».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-14-a",
+              "text": "وسأله جنود أيضًا قائلين: «وماذا نفعل نحن؟» فقال لهم: «لا تظلموا أحدًا ولا تشوا بأحد، واكتفوا بأجوركم».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-15-a",
+              "text": "وإذ كان الشعب ينتظر، والجميع يفكرون في قلوبهم عن يوحنا: لعله المسيح،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-16-a",
+              "text": "أجاب يوحنا الجميع قائلًا: «أنا أعمّدكم بالماء، ولكن يأتي من هو أقوى مني، الذي لست أهلًا أن أحل رباط نعليه. هو سيعمّدكم بالروح القدس والنار.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-17-a",
+              "text": "مذراته في يده لينقي بيدره، ويجمع القمح إلى مخزنه، أما التبن فيحرقه بنار لا تنطفئ».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-18-a",
+              "text": "وبأشياء أخرى كثيرة كان يعظ الشعب ويبشرهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-19-a",
+              "text": "أما هيرودس رئيس الربع، إذ وبخه يوحنا من أجل هيروديا امرأة فيلبس أخيه، ومن أجل جميع الشرور التي فعلها هيرودس،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-20-a",
+              "text": "زاد هذا أيضًا على الجميع: أنه أغلق على يوحنا في السجن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-21-a",
+              "text": "ولما اعتمد الشعب كله، واعتمد يسوع أيضًا وكان يصلي، انفتحت السماء،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-22-a",
+              "text": "ونزل عليه الروح القدس بهيئة جسدية مثل حمامة، وجاء صوت من السماء: «أنت ابني الحبيب، بك سُررت».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-23-a",
+              "text": "ولما ابتدأ يسوع كان له نحو ثلاثين سنة، وهو—كما كان يُظن—ابن يوسف، بن هالي،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-24-a",
+              "text": "بن متثات، بن لاوي، بن ملكي، بن ينا، بن يوسف،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-25-a",
+              "text": "بن متاثيا، بن عاموس، بن ناحوم، بن حسلي، بن نجاي،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-26-a",
+              "text": "بن مآث، بن متاثيا، بن شمعي، بن يوسف، بن يهوذا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-27-a",
+              "text": "بن يوحنا، بن ريسا، بن زربابل، بن شألتئيل، بن نيري،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-28-a",
+              "text": "بن ملكي، بن أدي، بن قصم، بن ألمودام، بن عير،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-29-a",
+              "text": "بن يوسي، بن أليعازر، بن يوريم، بن متثات، بن لاوي،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-30-a",
+              "text": "بن شمعون، بن يهوذا، بن يوسف، بن يونان، بن ألياقيم،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-31-a",
+              "text": "بن مليا، بن مينان، بن متاثا، بن ناثان، بن داود،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-32-a",
+              "text": "بن يسى، بن عوبيد، بن بوعز، بن سلمون، بن نحشون،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-33-a",
+              "text": "بن أميناداب، بن أرام، بن حصرون، بن فارص، بن يهوذا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-34-a",
+              "text": "بن يعقوب، بن إسحاق، بن إبراهيم، بن تارح، بن ناحور،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-35-a",
+              "text": "بن سروج، بن رعو، بن فالج، بن عابر، بن شالح،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-36-a",
+              "text": "بن قينان، بن أرفكشاد، بن سام، بن نوح، بن لامك،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-37-a",
+              "text": "بن متوشالح، بن أخنوخ، بن يارد، بن مهللئيل، بن قينان،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-3-38-a",
+              "text": "بن أنوش، بن شيث، بن آدم، ابن الله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 44,
+        "total_verses": 44
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.luke.sahidica:4",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-1-a",
+              "text": "أما يسوع، ممتلئًا من الروح القدس، فرجع من الأردن، وكان الروح يقوده في البرية",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-2-a",
+              "text": "أربعين يومًا وهو يُجرَّب من إبليس. ولم يأكل شيئًا في تلك الأيام، ولما تمت جاع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-3-a",
+              "text": "فقال له إبليس: «إن كنت ابن الله فقل لهذا الحجر أن يصير خبزًا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-4-a",
+              "text": "فأجابه يسوع: «مكتوب: ليس بالخبز وحده يحيا الإنسان».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-5-a",
+              "text": "ثم أصعده إبليس وأراه جميع ممالك المسكونة في لحظة من الزمن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-6-a",
+              "text": "وقال له إبليس: «لك أعطي هذا السلطان كله ومجدها، لأنه قد دُفع إليّ وأنا أعطيه لمن أريد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-7-a",
+              "text": "فإن سجدت أمامي يكون لك كله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-8-a",
+              "text": "فأجاب يسوع وقال له: «مكتوب: للرب إلهك تسجد، وإياه وحده تعبد».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-9-a",
+              "text": "ثم جاء به إلى أورشليم وأقامه على جناح الهيكل وقال له: «إن كنت ابن الله فألقِ نفسك من هنا إلى أسفل،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-10-a",
+              "text": "لأنه مكتوب: يوصي ملائكته بك لكي يحفظوك،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-11-a",
+              "text": "وعلى أيديهم يحملونك لئلا تصدم بحجر رجلك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-12-a",
+              "text": "فأجاب يسوع وقال له: «قيل: لا تجرّب الرب إلهك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-13-a",
+              "text": "ولما أكمل إبليس كل تجربة فارقه إلى حين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-14-a",
+              "text": "ورجع يسوع بقوة الروح إلى الجليل، وخرج خبر عنه في كل الكورة المحيطة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-15-a",
+              "text": "وكان يعلّم في مجامعهم ممجدًا من الجميع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-16-a",
+              "text": "وجاء إلى الناصرة حيث كان قد تربى، ودخل المجمع حسب عادته يوم السبت، وقام ليقرأ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-17-a",
+              "text": "فدُفع إليه سفر إشعياء النبي، ولما فتح السفر وجد الموضع الذي كان مكتوبًا فيه:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-18-a",
+              "text": "«روح الرب عليّ، لأنه مسحني لأبشر المساكين، أرسلني لأنادي للمأسورين بالإطلاق وللعمي بالبصر، وأرسل المنسحقين أحرارًا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-19-a",
+              "text": "وأنادي بسنة الرب المقبولة».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-20-a",
+              "text": "ثم طوى السفر وسلمه للخادم وجلس، وكانت عيون جميع الذين في المجمع شاخصة إليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-21-a",
+              "text": "فبدأ يقول لهم: «اليوم تم هذا المكتوب في آذانكم».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-22-a",
+              "text": "وكان الجميع يشهدون له ويتعجبون من كلمات النعمة الخارجة من فمه، وقالوا: «أليس هذا ابن يوسف؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-23-a",
+              "text": "فقال لهم: «على كل حال تقولون لي هذا المثل: أيها الطبيب اشف نفسك. كل ما سمعنا أنه حدث في كفرناحوم افعل هنا أيضًا في وطنك».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-24-a",
+              "text": "وقال: «الحق أقول لكم: ليس نبي مقبولًا في وطنه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-25-a",
+              "text": "وبالحق أقول لكم: كانت أرامل كثيرات في إسرائيل في أيام إيليا، حين أُغلقت السماء ثلاث سنين وستة أشهر وصار جوع عظيم على الأرض كلها،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-26-a",
+              "text": "ولم يُرسل إيليا إلى واحدة منهن إلا إلى امرأة أرملة في صرفة صيدا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-27-a",
+              "text": "وكان برص كثيرون في إسرائيل في زمان أليشع النبي، ولم يُطهر واحد منهم إلا نعمان السوري».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-28-a",
+              "text": "فامتلأ جميع الذين في المجمع غضبًا حين سمعوا هذا،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-29-a",
+              "text": "وقاموا وأخرجوه خارج المدينة، وقادوه إلى حافة الجبل الذي كانت مدينتهم مبنية عليه لكي يطرحوه إلى أسفل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-30-a",
+              "text": "أما هو فجاز في وسطهم ومضى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-31-a",
+              "text": "وانحدر إلى كفرناحوم، مدينة في الجليل، وكان يعلمهم في السبوت.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-32-a",
+              "text": "وكانوا يبهتون من تعليمه، لأن كلامه كان بسلطان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-33-a",
+              "text": "وكان في المجمع رجل به روح شيطان نجس، فصرخ بصوت عظيم",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-34-a",
+              "text": "قائلًا: «آه! ما لنا ولك يا يسوع الناصري؟ أجئت لتهلكنا؟ أعرف من أنت: قدوس الله».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-35-a",
+              "text": "فانتهره يسوع قائلًا: «اصمت واخرج منه». فصرعه الشيطان في الوسط وخرج منه ولم يضره بشيء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-36-a",
+              "text": "فوقع خوف على الجميع، وكانوا يكلمون بعضهم بعضًا قائلين: «ما هذه الكلمة؟ لأنه بسلطان وقوة يأمر الأرواح النجسة فتخرج».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-37-a",
+              "text": "وخرج صيته إلى كل موضع في الكورة المحيطة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-38-a",
+              "text": "ثم قام من المجمع ودخل بيت سمعان. وكانت حماة سمعان قد أخذتها حمى شديدة، فسألوه من أجلها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-39-a",
+              "text": "فوقف فوقها وانتهر الحمى فتركتها، وفي الحال قامت وصارت تخدمهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-40-a",
+              "text": "وعند غروب الشمس، كل الذين كان عندهم مرضى بأمراض متنوعة أتوا بهم إليه، فوضع يديه على كل واحد منهم وشفاهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-41-a",
+              "text": "وكانت شياطين أيضًا تخرج من كثيرين وهي تصرخ وتقول: «أنت ابن الله». فكان ينتهرهم ولا يدعهم يتكلمون، لأنهم عرفوا أنه المسيح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-42-a",
+              "text": "ولما صار النهار خرج وذهب إلى موضع مقفر، وكانت الجموع تطلبه وجاءت إليه وأمسكوه لئلا يذهب عنهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-43-a",
+              "text": "فقال لهم: «ينبغي لي أن أبشر المدن الأخرى أيضًا بملكوت الله، لأني لهذا أُرسلت».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "lk-4-44-a",
+              "text": "وكان يكرز في مجامع اليهودية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    }
+  ],
+  "public_coptic_source": {
+    "provider": "GetBible",
+    "translation": "sahidic",
+    "book_nr": 42,
+    "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+    "license": "Public Domain",
+    "api_base": "https://api.getbible.net/v2/sahidic"
   },
-  "content_status": "awaiting_translation",
-  "chapters": []
+  "analysis_source": {
+    "project": "Coptic SCRIPTORIUM",
+    "corpus": "sahidica.nt",
+    "use": "linguistic and textual analysis only",
+    "license_note": "Sahidica document metadata marks the text for academic use only; ECB does not republish its verbatim Coptic text here."
+  },
+  "translation_progress": {
+    "chapters_drafted": 4,
+    "chapters_total": 24
+  }
 }
