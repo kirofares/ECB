@@ -1,0 +1,17 @@
+{
+  "id": "lamentations",
+  "testament": "OT",
+  "name_en": "Lamentations",
+  "name_ar": "مراثي إرميا",
+  "order": 29,
+  "section": "prophets",
+  "chapter_count": 5,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

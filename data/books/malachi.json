@@ -1,0 +1,17 @@
+{
+  "id": "malachi",
+  "testament": "OT",
+  "name_en": "Malachi",
+  "name_ar": "ملاخي",
+  "order": 44,
+  "section": "minor-prophets",
+  "chapter_count": 4,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "amos",
+  "testament": "OT",
+  "name_en": "Amos",
+  "name_ar": "عاموس",
+  "order": 35,
+  "section": "minor-prophets",
+  "chapter_count": 9,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

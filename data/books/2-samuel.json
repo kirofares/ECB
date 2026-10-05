@@ -1,0 +1,17 @@
+{
+  "id": "2-samuel",
+  "testament": "OT",
+  "name_en": "2 Samuel",
+  "name_ar": "صموئيل الثاني",
+  "order": 10,
+  "section": "history",
+  "chapter_count": 24,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

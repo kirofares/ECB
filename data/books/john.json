@@ -1,0 +1,22 @@
+{
+  "id": "john",
+  "testament": "NT",
+  "name_en": "John",
+  "name_ar": "يوحنا",
+  "order": 4,
+  "section": "gospels",
+  "chapter_count": 21,
+  "translation_base": "Sahidic Coptic",
+  "status": "catalogued",
+  "source_status": "source_identified",
+  "publication_status": "free_electronic_attributed",
+  "review_version": null,
+  "source": {
+    "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
+    "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
+    "electronic_use": "free electronic New Testament editions with required attribution",
+    "print_use": "separate written permission required"
+  },
+  "content_status": "awaiting_translation",
+  "chapters": []
+}
