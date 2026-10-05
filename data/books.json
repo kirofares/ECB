@@ -690,9 +690,9 @@
       "chapter_count": 28,
       "status": "translation_draft",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_linked",
-      "publication_status": "free_electronic_attributed",
-      "review_version": "0.1",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
+      "review_version": "0.4",
       "source_file": "data/books/matthew.json",
       "chapters": [
         {
@@ -717,7 +717,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 3,
+        "chapters_total": 28
+      }
     },
     {
       "id": "mark",
@@ -729,8 +733,8 @@
       "chapter_count": 16,
       "status": "in_review",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_linked",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "review_version": "0.2",
       "chapters": [
         {
@@ -815,7 +819,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 16,
+        "chapters_total": 16
+      }
     },
     {
       "id": "luke",
@@ -825,10 +833,10 @@
       "order": 3,
       "section": "gospels",
       "chapter_count": 24,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -846,7 +854,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 24
+      }
     },
     {
       "id": "john",
@@ -856,10 +868,10 @@
       "order": 4,
       "section": "gospels",
       "chapter_count": 21,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -877,7 +889,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 21
+      }
     },
     {
       "id": "acts",
@@ -887,10 +903,10 @@
       "order": 5,
       "section": "history",
       "chapter_count": 28,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -908,7 +924,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 28
+      }
     },
     {
       "id": "romans",
@@ -918,10 +938,10 @@
       "order": 6,
       "section": "pauline",
       "chapter_count": 16,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -939,7 +959,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 16
+      }
     },
     {
       "id": "1-corinthians",
@@ -949,10 +973,10 @@
       "order": 7,
       "section": "pauline",
       "chapter_count": 16,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -970,7 +994,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 16
+      }
     },
     {
       "id": "2-corinthians",
@@ -980,10 +1008,10 @@
       "order": 8,
       "section": "pauline",
       "chapter_count": 13,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1001,7 +1029,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 13
+      }
     },
     {
       "id": "galatians",
@@ -1011,10 +1043,10 @@
       "order": 9,
       "section": "pauline",
       "chapter_count": 6,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1032,7 +1064,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 6
+      }
     },
     {
       "id": "ephesians",
@@ -1042,10 +1078,10 @@
       "order": 10,
       "section": "pauline",
       "chapter_count": 6,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1063,7 +1099,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 6
+      }
     },
     {
       "id": "philippians",
@@ -1073,10 +1113,10 @@
       "order": 11,
       "section": "pauline",
       "chapter_count": 4,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1094,7 +1134,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 4
+      }
     },
     {
       "id": "colossians",
@@ -1104,10 +1148,10 @@
       "order": 12,
       "section": "pauline",
       "chapter_count": 4,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1125,7 +1169,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 4
+      }
     },
     {
       "id": "1-thessalonians",
@@ -1135,10 +1183,10 @@
       "order": 13,
       "section": "pauline",
       "chapter_count": 5,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1156,7 +1204,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 5
+      }
     },
     {
       "id": "2-thessalonians",
@@ -1166,10 +1218,10 @@
       "order": 14,
       "section": "pauline",
       "chapter_count": 3,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1187,7 +1239,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 3
+      }
     },
     {
       "id": "1-timothy",
@@ -1197,10 +1253,10 @@
       "order": 15,
       "section": "pauline",
       "chapter_count": 6,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1218,7 +1274,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 6
+      }
     },
     {
       "id": "2-timothy",
@@ -1228,10 +1288,10 @@
       "order": 16,
       "section": "pauline",
       "chapter_count": 4,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1249,7 +1309,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 4
+      }
     },
     {
       "id": "titus",
@@ -1259,10 +1323,10 @@
       "order": 17,
       "section": "pauline",
       "chapter_count": 3,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1280,7 +1344,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 3
+      }
     },
     {
       "id": "philemon",
@@ -1290,10 +1358,10 @@
       "order": 18,
       "section": "pauline",
       "chapter_count": 1,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1311,7 +1379,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 1
+      }
     },
     {
       "id": "hebrews",
@@ -1321,10 +1393,10 @@
       "order": 19,
       "section": "pauline",
       "chapter_count": 13,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1342,7 +1414,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 13
+      }
     },
     {
       "id": "james",
@@ -1352,10 +1428,10 @@
       "order": 20,
       "section": "catholic-epistles",
       "chapter_count": 5,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1373,7 +1449,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 5
+      }
     },
     {
       "id": "1-peter",
@@ -1383,10 +1463,10 @@
       "order": 21,
       "section": "catholic-epistles",
       "chapter_count": 5,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1404,7 +1484,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 5
+      }
     },
     {
       "id": "2-peter",
@@ -1414,10 +1498,10 @@
       "order": 22,
       "section": "catholic-epistles",
       "chapter_count": 3,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1435,7 +1519,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 3
+      }
     },
     {
       "id": "1-john",
@@ -1445,10 +1533,10 @@
       "order": 23,
       "section": "catholic-epistles",
       "chapter_count": 5,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1466,7 +1554,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 5
+      }
     },
     {
       "id": "2-john",
@@ -1476,10 +1568,10 @@
       "order": 24,
       "section": "catholic-epistles",
       "chapter_count": 1,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1497,7 +1589,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 1
+      }
     },
     {
       "id": "3-john",
@@ -1507,10 +1603,10 @@
       "order": 25,
       "section": "catholic-epistles",
       "chapter_count": 1,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1528,7 +1624,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 1
+      }
     },
     {
       "id": "jude",
@@ -1538,10 +1638,10 @@
       "order": 26,
       "section": "catholic-epistles",
       "chapter_count": 1,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1559,7 +1659,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 1
+      }
     },
     {
       "id": "revelation",
@@ -1569,10 +1673,10 @@
       "order": 27,
       "section": "apocalypse",
       "chapter_count": 22,
-      "status": "catalogued",
+      "status": "coptic_source_ready_translation_pending",
       "translation_base": "Sahidic Coptic",
-      "source_status": "source_identified",
-      "publication_status": "free_electronic_attributed",
+      "source_status": "public_domain_sahidic_source_linked",
+      "publication_status": "public_domain_coptic_source",
       "source_license": "Sahidica NT specific license",
       "source_attribution": {
         "source_title": "Sahidica - A New Edition of the New Testament in Sahidic Coptic",
@@ -1590,7 +1694,11 @@
         "api_base": "https://api.getbible.net/v2/sahidic"
       },
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
-      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
+      "translation_progress": {
+        "chapters_drafted": 0,
+        "chapters_total": 22
+      }
     }
   ],
   "path_convention": {
