@@ -5,7 +5,7 @@
   "name_ar": "متى",
   "translation_base": "Sahidic Coptic",
   "status": "translation_draft",
-  "review_version": "0.3",
+  "review_version": "0.4",
   "source": {
     "project": "Coptic SCRIPTORIUM",
     "corpus": "sahidica.nt",
@@ -658,6 +658,239 @@
             {
               "id": "mt-2-23-a",
               "text": "وجاء فسكن في مدينة تُدعى الناصرة، لكي يتم ما قيل بالنبي: «إنه سيُدعى ناصريًا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 17,
+        "total_verses": 17
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:3",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-1-a",
+              "text": "وفي تلك الأيام جاء يوحنا المعمدان يكرز في برية اليهودية،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-2-a",
+              "text": "قائلًا: «توبوا، فقد اقترب ملكوت السماوات».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-3-a",
+              "text": "فهذا هو الذي قيل عنه بإشعياء النبي: «صوت صارخ في البرية: أعدّوا طريق الرب، واجعلوا مسالكه مستقيمة».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-4-a",
+              "text": "وكان يوحنا يلبس ثوبًا من وبر الإبل، وعلى خصره حزام من جلد. وكان طعامه الجراد والعسل البري.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-5-a",
+              "text": "حينئذ خرج إليه أهل أورشليم كلها، واليهودية، وكل المنطقة المحيطة بالأردن،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-6-a",
+              "text": "وكانوا يعتمدون على يديه في نهر الأردن، معترفين بخطاياهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-7-a",
+              "text": "فلما رأى كثيرين من الفريسيين والصدوقيين يأتون إلى المعمودية، قال لهم: «يا نسل الأفاعي، من أرشدكم إلى الهرب من الغضب الآتي؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-8-a",
+              "text": "فاصنعوا ثمرًا يليق بالتوبة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-9-a",
+              "text": "ولا تفكروا أن تقولوا في أنفسكم: لنا إبراهيم أبًا. فإني أقول لكم إن الله قادر أن يقيم من هذه الحجارة أبناء لإبراهيم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-10-a",
+              "text": "والآن قد وُضعت الفأس على أصل الأشجار؛ فكل شجرة لا تصنع ثمرًا صالحًا تُقطع وتُطرح في النار.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-11-a",
+              "text": "أنا أعمّدكم بالماء للتوبة، أما الذي يأتي بعدي فهو أقوى مني، ولست أهلًا أن أحمل نعليه. هو سيعمّدكم بالروح القدس والنار.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-12-a",
+              "text": "مذراته في يده، وسينقّي بيدره، ويجمع قمحه إلى المخزن، أما التبن فيحرقه بنار لا تنطفئ».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-13-a",
+              "text": "حينئذ جاء يسوع من الجليل إلى الأردن، إلى يوحنا، ليعتمد على يديه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-14-a",
+              "text": "أما يوحنا فكان يمنعه قائلًا: «أنا المحتاج أن أعتمد على يديك، وأنت تأتي إليّ؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-15-a",
+              "text": "فأجابه يسوع: «دع الأمر الآن، لأنه هكذا يليق بنا أن نتمم كل بر». فسمح له.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-16-a",
+              "text": "ولما اعتمد يسوع، صعد في الحال من الماء. وإذا السماوات قد انفتحت، فرأى روح الله نازلًا كحمامة وآتيًا عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-3-17-a",
+              "text": "وإذا صوت من السماوات يقول: «هذا هو ابني الحبيب، الذي به سُررت».",
               "align": []
             }
           ],
