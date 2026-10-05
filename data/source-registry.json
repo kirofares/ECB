@@ -58,6 +58,21 @@
       "license": "CC BY 4.0",
       "url": "https://github.com/CopticScriptorium/corpora",
       "notes": "Used for the Sahidic Mark witness currently displayed in the parallel ECB reader, with source attribution."
+    },
+    {
+      "id": "getbible-sahidic-horner",
+      "name": "GetBible Sahidic NT — George William Horner 1911",
+      "authority": "George William Horner / GetBible distribution",
+      "role": [
+        "public-sahidic-publication-base",
+        "new-testament-source",
+        "reader-source"
+      ],
+      "status": "approved_public_domain_source",
+      "official": false,
+      "license": "Public Domain",
+      "api": "https://api.getbible.net/v2/sahidic/",
+      "notes": "Public-domain electronic distribution of Horner's 1911 Sahidic New Testament. Used by ECB as the public publication backbone; Coptic SCRIPTORIUM remains an analytical comparison source where useful."
     }
   ],
   "importRules": [
