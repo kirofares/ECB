@@ -1,7 +1,7 @@
 {
   "project": "The Egyptian Coptic Bible – Arabic Translation",
   "shortName": "ECB",
-  "version": 2,
+  "version": 3,
   "canon": {
     "tradition": "Coptic Orthodox",
     "old_testament_books": 46,
@@ -47,7 +47,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/genesis.json"
     },
     {
       "id": "exodus",
@@ -60,7 +61,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/exodus.json"
     },
     {
       "id": "leviticus",
@@ -73,7 +75,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/leviticus.json"
     },
     {
       "id": "numbers",
@@ -86,7 +89,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/numbers.json"
     },
     {
       "id": "deuteronomy",
@@ -99,7 +103,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/deuteronomy.json"
     },
     {
       "id": "joshua",
@@ -112,7 +117,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/joshua.json"
     },
     {
       "id": "judges",
@@ -125,7 +131,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/judges.json"
     },
     {
       "id": "ruth",
@@ -138,7 +145,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/ruth.json"
     },
     {
       "id": "1-samuel",
@@ -151,7 +159,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/1-samuel.json"
     },
     {
       "id": "2-samuel",
@@ -164,7 +173,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/2-samuel.json"
     },
     {
       "id": "1-kings",
@@ -177,7 +187,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/1-kings.json"
     },
     {
       "id": "2-kings",
@@ -190,7 +201,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/2-kings.json"
     },
     {
       "id": "1-chronicles",
@@ -203,7 +215,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/1-chronicles.json"
     },
     {
       "id": "2-chronicles",
@@ -216,7 +229,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/2-chronicles.json"
     },
     {
       "id": "ezra",
@@ -229,7 +243,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/ezra.json"
     },
     {
       "id": "nehemiah",
@@ -242,7 +257,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/nehemiah.json"
     },
     {
       "id": "tobit",
@@ -255,7 +271,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/tobit.json"
     },
     {
       "id": "judith",
@@ -268,7 +285,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/judith.json"
     },
     {
       "id": "esther",
@@ -281,7 +299,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/esther.json"
     },
     {
       "id": "job",
@@ -294,7 +313,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/job.json"
     },
     {
       "id": "psalms",
@@ -307,7 +327,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/psalms.json"
     },
     {
       "id": "proverbs",
@@ -320,7 +341,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/proverbs.json"
     },
     {
       "id": "ecclesiastes",
@@ -333,7 +355,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/ecclesiastes.json"
     },
     {
       "id": "song-of-songs",
@@ -346,7 +369,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/song-of-songs.json"
     },
     {
       "id": "wisdom",
@@ -359,7 +383,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/wisdom.json"
     },
     {
       "id": "sirach",
@@ -372,7 +397,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/sirach.json"
     },
     {
       "id": "isaiah",
@@ -385,7 +411,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/isaiah.json"
     },
     {
       "id": "jeremiah",
@@ -398,7 +425,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/jeremiah.json"
     },
     {
       "id": "lamentations",
@@ -411,7 +439,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/lamentations.json"
     },
     {
       "id": "baruch",
@@ -424,7 +453,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/baruch.json"
     },
     {
       "id": "ezekiel",
@@ -437,7 +467,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/ezekiel.json"
     },
     {
       "id": "daniel",
@@ -450,7 +481,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/daniel.json"
     },
     {
       "id": "hosea",
@@ -463,7 +495,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/hosea.json"
     },
     {
       "id": "joel",
@@ -476,7 +509,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/joel.json"
     },
     {
       "id": "amos",
@@ -489,7 +523,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/amos.json"
     },
     {
       "id": "obadiah",
@@ -502,7 +537,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/obadiah.json"
     },
     {
       "id": "jonah",
@@ -515,7 +551,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/jonah.json"
     },
     {
       "id": "micah",
@@ -528,7 +565,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/micah.json"
     },
     {
       "id": "nahum",
@@ -541,7 +579,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/nahum.json"
     },
     {
       "id": "habakkuk",
@@ -554,7 +593,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/habakkuk.json"
     },
     {
       "id": "zephaniah",
@@ -567,7 +607,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/zephaniah.json"
     },
     {
       "id": "haggai",
@@ -580,7 +621,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/haggai.json"
     },
     {
       "id": "zechariah",
@@ -593,7 +635,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/zechariah.json"
     },
     {
       "id": "malachi",
@@ -606,7 +649,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/malachi.json"
     },
     {
       "id": "1-maccabees",
@@ -619,7 +663,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/1-maccabees.json"
     },
     {
       "id": "2-maccabees",
@@ -632,7 +677,8 @@
       "status": "catalogued",
       "translation_base": "Sahidic Coptic / CoptOT witness as available",
       "source_status": "verify_per_book",
-      "publication_status": "source_and_rights_review"
+      "publication_status": "source_and_rights_review",
+      "source_file": "data/books/2-maccabees.json"
     },
     {
       "id": "matthew",
@@ -748,7 +794,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/mark.json"
     },
     {
       "id": "luke",
@@ -768,7 +815,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/luke.json"
     },
     {
       "id": "john",
@@ -788,7 +836,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/john.json"
     },
     {
       "id": "acts",
@@ -808,7 +857,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/acts.json"
     },
     {
       "id": "romans",
@@ -828,7 +878,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/romans.json"
     },
     {
       "id": "1-corinthians",
@@ -848,7 +899,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/1-corinthians.json"
     },
     {
       "id": "2-corinthians",
@@ -868,7 +920,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/2-corinthians.json"
     },
     {
       "id": "galatians",
@@ -888,7 +941,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/galatians.json"
     },
     {
       "id": "ephesians",
@@ -908,7 +962,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/ephesians.json"
     },
     {
       "id": "philippians",
@@ -928,7 +983,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/philippians.json"
     },
     {
       "id": "colossians",
@@ -948,7 +1004,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/colossians.json"
     },
     {
       "id": "1-thessalonians",
@@ -968,7 +1025,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/1-thessalonians.json"
     },
     {
       "id": "2-thessalonians",
@@ -988,7 +1046,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/2-thessalonians.json"
     },
     {
       "id": "1-timothy",
@@ -1008,7 +1067,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/1-timothy.json"
     },
     {
       "id": "2-timothy",
@@ -1028,7 +1088,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/2-timothy.json"
     },
     {
       "id": "titus",
@@ -1048,7 +1109,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/titus.json"
     },
     {
       "id": "philemon",
@@ -1068,7 +1130,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/philemon.json"
     },
     {
       "id": "hebrews",
@@ -1088,7 +1151,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/hebrews.json"
     },
     {
       "id": "james",
@@ -1108,7 +1172,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/james.json"
     },
     {
       "id": "1-peter",
@@ -1128,7 +1193,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/1-peter.json"
     },
     {
       "id": "2-peter",
@@ -1148,7 +1214,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/2-peter.json"
     },
     {
       "id": "1-john",
@@ -1168,7 +1235,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/1-john.json"
     },
     {
       "id": "2-john",
@@ -1188,7 +1256,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/2-john.json"
     },
     {
       "id": "3-john",
@@ -1208,7 +1277,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/3-john.json"
     },
     {
       "id": "jude",
@@ -1228,7 +1298,8 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/jude.json"
     },
     {
       "id": "revelation",
@@ -1248,7 +1319,15 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "source_file": "data/books/revelation.json"
     }
-  ]
+  ],
+  "path_convention": {
+    "structured_book_data": "data/books/<book-id>.json",
+    "working_text": "texts/<book-id>/",
+    "project_docs": "docs/",
+    "liturgical_data": "data/liturgical-library.json",
+    "source_registry": "data/source-registry.json"
+  }
 }

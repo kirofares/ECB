@@ -1,0 +1,17 @@
+{
+  "id": "song-of-songs",
+  "testament": "OT",
+  "name_en": "Song of Songs",
+  "name_ar": "نشيد الأنشاد",
+  "order": 24,
+  "section": "wisdom",
+  "chapter_count": 8,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

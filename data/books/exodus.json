@@ -1,0 +1,17 @@
+{
+  "id": "exodus",
+  "testament": "OT",
+  "name_en": "Exodus",
+  "name_ar": "الخروج",
+  "order": 2,
+  "section": "law",
+  "chapter_count": 40,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}

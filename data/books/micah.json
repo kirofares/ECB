@@ -1,0 +1,17 @@
+{
+  "id": "micah",
+  "testament": "OT",
+  "name_en": "Micah",
+  "name_ar": "ميخا",
+  "order": 38,
+  "section": "minor-prophets",
+  "chapter_count": 7,
+  "translation_base": "Sahidic Coptic / CoptOT witness as available",
+  "status": "catalogued",
+  "source_status": "verify_per_book",
+  "publication_status": "source_and_rights_review",
+  "review_version": null,
+  "source": null,
+  "content_status": "awaiting_translation",
+  "chapters": []
+}
