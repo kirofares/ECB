@@ -260,21 +260,70 @@
 
   async function loadSelectedBookData(){
     const book = selectedBook();
-    if(!book || !book.source_file || book._sourceLoaded || state.loadingBook === book.id) return;
+    if(!book || book._sourceLoaded || state.loadingBook === book.id) return;
     state.loadingBook = book.id;
     try{
-      const r = await fetch('./' + book.source_file);
-      if(!r.ok) throw new Error('Book data failed to load: ' + book.id);
-      const external = await r.json();
+      let external = {};
+      if(book.source_file){
+        const r = await fetch('./' + book.source_file);
+        if(r.ok) external = await r.json();
+      }
+
+      let merged = {
+        ...book,
+        ...external,
+        chapter_count: book.chapter_count || external.chapter_count,
+        source_file: book.source_file
+      };
+
+      const pub = book.public_coptic_source;
+      if(pub && pub.provider === 'GetBible' && pub.translation === 'sahidic' && pub.book_nr){
+        try{
+          const gr = await fetch(pub.api_base + '/' + pub.book_nr + '.json');
+          if(gr.ok){
+            const gb = await gr.json();
+            const sourceChapters = Array.isArray(gb.chapters) ? gb.chapters : [];
+            const existingChapters = merged.chapters || [];
+            const byChapter = new Map(existingChapters.map(c => [Number(c.number),c]));
+
+            merged.chapters = sourceChapters.map(ch => {
+              const chNo = Number(ch.chapter || ch.number);
+              const priorCh = byChapter.get(chNo) || {number:chNo,verses:[]};
+              const priorVerses = new Map((priorCh.verses||[]).map(v => [Number(v.number),v]));
+              const verses = (ch.verses||[]).map(v => {
+                const vNo = Number(v.verse || v.number);
+                const prior = priorVerses.get(vNo) || {};
+                const cid = book.id + '-' + chNo + '-' + vNo + '-c-horner';
+                const priorArabic = prior.arabic || [];
+                return {
+                  ...prior,
+                  number:vNo,
+                  coptic:[{
+                    id:cid,
+                    text:v.text || '',
+                    align:priorArabic.length ? priorArabic.map(a=>a.id) : [],
+                    gloss:'Horner 1911 Sahidic — Public Domain'
+                  }],
+                  arabic:priorArabic.map(a => ({
+                    ...a,
+                    align:[cid]
+                  })),
+                  sourceStatus:'horner_public_domain',
+                  alignmentLevel:priorArabic.length ? (prior.alignmentLevel || prior.alignment_level || 'verse') : 'source_only'
+                };
+              });
+              return {...priorCh,number:chNo,verses,status:priorCh.status || 'coptic_source_loaded'};
+            });
+            merged.public_source_loaded=true;
+          }
+        }catch(e){
+          console.error('Public Sahidic source failed',e);
+        }
+      }
+
       const index = state.data.books.findIndex(b => b.id === book.id);
       if(index >= 0){
-        state.data.books[index] = {
-          ...book,
-          ...external,
-          chapter_count: book.chapter_count || external.chapter_count,
-          source_file: book.source_file,
-          _sourceLoaded:true
-        };
+        state.data.books[index] = {...merged,_sourceLoaded:true};
       }
     }catch(err){
       console.error(err);
@@ -353,7 +402,11 @@
         : 'ECB — ' + book.name_en + ' • ' + (book.status || 'catalogued') + review;
     }
     const source = book.source;
-    if(source){
+    const pub = book.public_coptic_source;
+    if(pub && book.public_source_loaded){
+      sourceNoticeAr.textContent = ' المصدر القبطي للنشر: Horner 1911 — قبطي صعيدي — Public Domain عبر GetBible • الترجمة العربية: ECB قيد المراجعة.';
+      sourceNoticeEn.textContent = ' Publication Coptic source: Horner 1911 Sahidic — Public Domain via GetBible • Arabic: ECB translation under review.';
+    }else if(source){
       sourceNoticeAr.textContent = ' المصدر القبطي: ' + (source.source_title || source.project || 'موثّق في ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • حالة النص: ' + (chapter.status || book.status || 'draft') + '.';
       sourceNoticeEn.textContent = ' Coptic source: ' + (source.source_title || source.project || 'documented in ECB') + ' • ' + (source.copyright || '') + ' • ' + (source.urn || '') + ' • text status: ' + (chapter.status || book.status || 'draft') + '.';
     }else{
@@ -403,7 +456,9 @@
           </div>
           <div class="pane arabic">
             <div class="pane-title">العربية / ARABIC</div>
-            <div class="tokens">${(verse.arabic || []).map(t => tokenHtml(t,'arabic')).join(' ')}</div>
+            <div class="tokens">${verse.arabic?.length
+              ? verse.arabic.map(t => tokenHtml(t,'arabic')).join(' ')
+              : `<span class="empty">${currentLang()==='ar' ? 'الترجمة العربية المباشرة قيد العمل والمراجعة' : 'Direct Arabic translation is in progress'}</span>`}</div>
           </div>
         </div>
         <div class="details">
