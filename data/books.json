@@ -688,11 +688,11 @@
       "order": 1,
       "section": "gospels",
       "chapter_count": 28,
-      "status": "translation_draft",
+      "status": "translation_draft_complete",
       "translation_base": "Sahidic Coptic",
       "source_status": "public_domain_sahidic_source_linked",
       "publication_status": "public_domain_coptic_source",
-      "review_version": "0.4",
+      "review_version": "1.0-draft",
       "source_file": "data/books/matthew.json",
       "chapters": [
         {
@@ -719,7 +719,7 @@
       "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
       "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available",
       "translation_progress": {
-        "chapters_drafted": 3,
+        "chapters_drafted": 28,
         "chapters_total": 28
       }
     },
