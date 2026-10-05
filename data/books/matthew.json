@@ -5,7 +5,7 @@
   "name_ar": "متى",
   "translation_base": "Sahidic Coptic",
   "status": "translation_draft",
-  "review_version": "0.2",
+  "review_version": "0.3",
   "source": {
     "project": "Coptic SCRIPTORIUM",
     "corpus": "sahidica.nt",
@@ -347,6 +347,317 @@
             {
               "id": "mt-1-25-a",
               "text": "ولم يعرفها حتى ولدت ابنها، ودعا اسمه يسوع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 23,
+        "total_verses": 23
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:2",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-1-a",
+              "text": "وبعدما وُلد يسوع في بيت لحم اليهودية في أيام هيرودس الملك، إذا بمجوس أتوا من المشارق إلى أورشليم، يقولون:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-2-a",
+              "text": "«أين هو ملك اليهود الذي وُلد؟ فقد رأينا نجمه في المشارق، وجئنا لنسجد له».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-3-a",
+              "text": "فلما سمع هيرودس الملك اضطرب جدًا، وأورشليم كلها معه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-4-a",
+              "text": "وجمع كل رؤساء الكهنة وكتبة الشعب، وسألهم أين يولد المسيح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-5-a",
+              "text": "فقالوا له: «في بيت لحم اليهودية، لأنه هكذا مكتوب بالنبي:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-6-a",
+              "text": "وأنت يا بيت لحم، أرض يهوذا، لست الأقل بين حكام يهوذا، لأن منك يخرج حاكم يرعى شعبي إسرائيل».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-7-a",
+              "text": "حينئذ دعا هيرودس المجوس سرًا، واستعلم منهم عن وقت ظهور النجم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-8-a",
+              "text": "وأرسلهم إلى بيت لحم وقال: «اذهبوا وابحثوا بدقة عن الصبي؛ ومتى وجدتموه فأخبروني، لكي آتي أنا أيضًا وأسجد له».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-9-a",
+              "text": "فلما سمعوا كلام الملك مضوا. وإذا النجم الذي رأوه في المشارق يتقدمهم حتى جاء ووقف فوق الموضع الذي كان فيه الصبي.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-10-a",
+              "text": "فلما رأوا النجم فرحوا فرحًا عظيمًا جدًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-11-a",
+              "text": "ودخلوا البيت، فرأوا الصبي مع مريم أمه، فسقطوا وسجدوا له. وفتحوا كنوزهم وقدموا له هدايا: ذهبًا ولبانًا ومرًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-12-a",
+              "text": "ثم أُنذروا في حلم ألا يرجعوا إلى هيرودس، فانصرفوا إلى بلادهم من طريق آخر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-13-a",
+              "text": "وبعدما انصرفوا، إذا بملاك الرب ظهر في حلم ليوسف وقال: «قم وخذ الصبي وأمه، واهرب إلى مصر، وابق هناك حتى أقول لك، لأن هيرودس سيطلب الصبي ليهلكه».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-14-a",
+              "text": "فقام وأخذ الصبي وأمه ليلًا، ومضى إلى مصر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-15-a",
+              "text": "وكان هناك حتى مات هيرودس، لكي يتم ما قاله الرب بالنبي: «من مصر دعوت ابني».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-16-a",
+              "text": "حينئذ، لما رأى هيرودس أن المجوس سخروا به، غضب جدًا، وأرسل فقتل جميع الصبيان الذين في بيت لحم وفي جميع تخومها، من ابن سنتين فما دون، بحسب الوقت الذي تحققه من المجوس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-17-a",
+              "text": "حينئذ تم ما قيل بإرميا النبي:",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-18-a",
+              "text": "«صوت سُمع في الرامة، بكاء ونحيب كثير؛ راحيل تبكي على أولادها، ولا تريد أن تتعزى لأنهم ليسوا موجودين».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-19-a",
+              "text": "ولما مات هيرودس، إذا بملاك الرب ظهر في حلم ليوسف في مصر،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-20-a",
+              "text": "وقال: «قم وخذ الصبي وأمه، واذهب إلى أرض إسرائيل، لأن الذين كانوا يطلبون نفس الصبي قد ماتوا».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-21-a",
+              "text": "فقام وأخذ الصبي وأمه، وجاء إلى أرض إسرائيل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-22-a",
+              "text": "فلما سمع أن أرخيلاوس يملك على اليهودية بدل هيرودس أبيه، خاف أن يذهب إلى هناك. وإذ أُنذر في حلم، انصرف إلى نواحي الجليل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-2-23-a",
+              "text": "وجاء فسكن في مدينة تُدعى الناصرة، لكي يتم ما قيل بالنبي: «إنه سيُدعى ناصريًا».",
               "align": []
             }
           ],
