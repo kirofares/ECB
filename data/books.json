@@ -1,7 +1,7 @@
 {
   "project": "The Egyptian Coptic Bible – Arabic Translation",
   "shortName": "ECB",
-  "version": 3,
+  "version": 4,
   "canon": {
     "tradition": "Coptic Orthodox",
     "old_testament_books": 46,
@@ -707,7 +707,17 @@
         "copyright": "Copyright (c)2000-2006 by J Warren Wells. All rights reserved.",
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
-      }
+      },
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 40,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "mark",
@@ -795,7 +805,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/mark.json"
+      "source_file": "data/books/mark.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 41,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "luke",
@@ -816,7 +836,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/luke.json"
+      "source_file": "data/books/luke.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 42,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "john",
@@ -837,7 +867,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/john.json"
+      "source_file": "data/books/john.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 43,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "acts",
@@ -858,7 +898,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/acts.json"
+      "source_file": "data/books/acts.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 44,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "romans",
@@ -879,7 +929,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/romans.json"
+      "source_file": "data/books/romans.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 45,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "1-corinthians",
@@ -900,7 +960,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/1-corinthians.json"
+      "source_file": "data/books/1-corinthians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 46,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "2-corinthians",
@@ -921,7 +991,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/2-corinthians.json"
+      "source_file": "data/books/2-corinthians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 47,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "galatians",
@@ -942,7 +1022,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/galatians.json"
+      "source_file": "data/books/galatians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 48,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "ephesians",
@@ -963,7 +1053,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/ephesians.json"
+      "source_file": "data/books/ephesians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 49,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "philippians",
@@ -984,7 +1084,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/philippians.json"
+      "source_file": "data/books/philippians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 50,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "colossians",
@@ -1005,7 +1115,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/colossians.json"
+      "source_file": "data/books/colossians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 51,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "1-thessalonians",
@@ -1026,7 +1146,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/1-thessalonians.json"
+      "source_file": "data/books/1-thessalonians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 52,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "2-thessalonians",
@@ -1047,7 +1177,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/2-thessalonians.json"
+      "source_file": "data/books/2-thessalonians.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 53,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "1-timothy",
@@ -1068,7 +1208,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/1-timothy.json"
+      "source_file": "data/books/1-timothy.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 54,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "2-timothy",
@@ -1089,7 +1239,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/2-timothy.json"
+      "source_file": "data/books/2-timothy.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 55,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "titus",
@@ -1110,7 +1270,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/titus.json"
+      "source_file": "data/books/titus.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 56,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "philemon",
@@ -1131,7 +1301,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/philemon.json"
+      "source_file": "data/books/philemon.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 57,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "hebrews",
@@ -1152,7 +1332,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/hebrews.json"
+      "source_file": "data/books/hebrews.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 58,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "james",
@@ -1173,7 +1363,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/james.json"
+      "source_file": "data/books/james.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 59,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "1-peter",
@@ -1194,7 +1394,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/1-peter.json"
+      "source_file": "data/books/1-peter.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 60,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "2-peter",
@@ -1215,7 +1425,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/2-peter.json"
+      "source_file": "data/books/2-peter.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 61,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "1-john",
@@ -1236,7 +1456,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/1-john.json"
+      "source_file": "data/books/1-john.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 62,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "2-john",
@@ -1257,7 +1487,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/2-john.json"
+      "source_file": "data/books/2-john.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 63,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "3-john",
@@ -1278,7 +1518,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/3-john.json"
+      "source_file": "data/books/3-john.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 64,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "jude",
@@ -1299,7 +1549,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/jude.json"
+      "source_file": "data/books/jude.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 65,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     },
     {
       "id": "revelation",
@@ -1320,7 +1580,17 @@
         "electronic_use": "free electronic New Testament editions with required attribution",
         "print_use": "separate written permission required"
       },
-      "source_file": "data/books/revelation.json"
+      "source_file": "data/books/revelation.json",
+      "public_coptic_source": {
+        "provider": "GetBible",
+        "translation": "sahidic",
+        "book_nr": 66,
+        "edition": "George William Horner, The Coptic Version of the New Testament in the Southern Dialect (1911)",
+        "license": "Public Domain",
+        "api_base": "https://api.getbible.net/v2/sahidic"
+      },
+      "publication_source_priority": "Horner 1911 public-domain Sahidic via GetBible",
+      "analysis_source": "Coptic SCRIPTORIUM / Sahidica where available"
     }
   ],
   "path_convention": {
