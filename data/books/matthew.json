@@ -5,7 +5,7 @@
   "name_ar": "متى",
   "translation_base": "Sahidic Coptic",
   "status": "translation_draft",
-  "review_version": "0.23",
+  "review_version": "0.26",
   "source": {
     "project": "Coptic SCRIPTORIUM",
     "corpus": "sahidica.nt",
@@ -10339,6 +10339,1811 @@
             {
               "id": "mt-22-46-a",
               "text": "فلم يستطع أحد أن يجيبه بكلمة، ولا تجرأ أحد من ذلك اليوم أن يسأله بعد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 39,
+        "total_verses": 39
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:23",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-1-a",
+              "text": "حينئذ كلم يسوع الجموع وتلاميذه",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-2-a",
+              "text": "قائلًا: «على كرسي موسى جلس الكتبة والفريسيون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-3-a",
+              "text": "فكل ما يقولون لكم أن تحفظوه فاحفظوه واعملوا به، ولكن بحسب أعمالهم لا تعملوا؛ لأنهم يقولون ولا يفعلون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-4-a",
+              "text": "فإنهم يربطون أحمالًا ثقيلة ويضعونها على أكتاف الناس، أما هم فلا يريدون أن يحركوها بإصبعهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-5-a",
+              "text": "وكل أعمالهم يفعلونها لكي يراهم الناس؛ فيعرضون عصائبهم ويطيلون أهداب ثيابهم،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-6-a",
+              "text": "ويحبون المواضع الأولى في الولائم، والمقاعد الأولى في المجامع،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-7-a",
+              "text": "والتحيات في الأسواق، وأن يدعوهم الناس: يا معلم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-8-a",
+              "text": "أما أنتم فلا تُدعوا معلمين، لأن معلمكم واحد، وأنتم جميعًا إخوة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-9-a",
+              "text": "ولا تدعوا لكم أبًا على الأرض، لأن أباكم واحد، الذي في السماوات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-10-a",
+              "text": "ولا تُدعوا مرشدين، لأن مرشدكم واحد، المسيح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-11-a",
+              "text": "وأعظمكم يكون خادمًا لكم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-12-a",
+              "text": "ومن يرفع نفسه يتضع، ومن يضع نفسه يرتفع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-13-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تغلقون ملكوت السماوات أمام الناس؛ فلا أنتم تدخلون، ولا الداخلين تتركونهم يدخلون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "textual_review_required",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-14-a",
+              "text": "[…] ",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source",
+          "textual_note": "Sahidica analysis has an empty normalized slot between Matthew 23:13 and 23:15. ECB leaves 23:14 as a lacuna pending witness reconciliation."
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-15-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تطوفون البحر والبر لتصنعوا دخيلًا واحدًا، ومتى صار تجعلونه ابنًا لجهنم أكثر منكم مرتين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-16-a",
+              "text": "ويل لكم أيها القادة العميان، القائلون: من حلف بالهيكل فلا شيء، ومن حلف بذهب الهيكل يكون ملزمًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-17-a",
+              "text": "أيها الجهال والعميان، أيهما أعظم: الذهب أم الهيكل الذي قدّس الذهب؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-18-a",
+              "text": "ومن حلف بالمذبح فلا شيء، ومن حلف بالقربان الذي عليه يكون ملزمًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-19-a",
+              "text": "أيها العميان، أيهما أعظم: القربان أم المذبح الذي يقدّس القربان؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-20-a",
+              "text": "فمن حلف بالمذبح فقد حلف به وبكل ما عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-21-a",
+              "text": "ومن حلف بالهيكل فقد حلف به وبالساكن فيه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-22-a",
+              "text": "ومن حلف بالسماء فقد حلف بعرش الله وبالجالس عليه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-23-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تعشرون النعنع والشبث والكمون، وتركتم أثقل ما في الناموس: الحكم والرحمة والإيمان. كان ينبغي أن تعملوا هذه ولا تتركوا تلك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-24-a",
+              "text": "يا قادة عميان، تصفّون البعوضة وتبلعون الجمل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-25-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تنظفون خارج الكأس والصحفة، أما داخلهما فمملوء اختطافًا وانغماسًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-26-a",
+              "text": "يا فريسي أعمى، نظف أولًا داخل الكأس، لكي يصير خارجها أيضًا نظيفًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-27-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تشبهون قبورًا مبيضة، تظهر من خارج جميلة، أما من داخل فمملوءة عظام أموات وكل نجاسة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-28-a",
+              "text": "هكذا أنتم أيضًا: من خارج تظهرون للناس أبرارًا، أما من داخل فمملوءون رياء وإثمًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-29-a",
+              "text": "ويل لكم أيها الكتبة والفريسيون المراؤون، لأنكم تبنون قبور الأنبياء وتزينون مدافن الأبرار،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-30-a",
+              "text": "وتقولون: لو كنا في أيام آبائنا لما اشتركنا معهم في دم الأنبياء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-31-a",
+              "text": "فأنتم تشهدون على أنفسكم أنكم أبناء الذين قتلوا الأنبياء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-32-a",
+              "text": "فأكملوا أنتم أيضًا مكيال آبائكم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-33-a",
+              "text": "أيها الحيات، يا نسل الأفاعي، كيف تهربون من دينونة جهنم؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-34-a",
+              "text": "لذلك ها أنا أرسل إليكم أنبياء وحكماء وكتبة؛ فمنهم تقتلون وتصلبون، ومنهم تجلدون في مجامعكم وتطاردون من مدينة إلى مدينة،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-35-a",
+              "text": "لكي يأتي عليكم كل دم بار سُفك على الأرض، من دم هابيل البار إلى دم زكريا بن برخيا الذي قتلتموه بين الهيكل والمذبح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-36-a",
+              "text": "الحق أقول لكم: إن هذا كله يأتي على هذا الجيل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-37-a",
+              "text": "يا أورشليم، يا أورشليم، يا قاتلة الأنبياء وراجمة المرسلين إليها! كم مرة أردت أن أجمع أبناءك كما تجمع الدجاجة فراخها تحت جناحيها، ولم تريدوا!",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-38-a",
+              "text": "ها بيتكم يُترك لكم خرابًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-23-39-a",
+              "text": "فإني أقول لكم: لن تروني من الآن حتى تقولوا: مبارك الآتي باسم الرب».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 51,
+        "total_verses": 51
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:24",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-1-a",
+              "text": "وخرج يسوع من الهيكل ومضى، فتقدم تلاميذه لكي يروه أبنية الهيكل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-2-a",
+              "text": "فأجاب وقال لهم: «أما ترون هذا كله؟ الحق أقول لكم: لن يُترك هنا حجر على حجر إلا ويُنقض».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-3-a",
+              "text": "وفيما هو جالس على جبل الزيتون تقدم إليه التلاميذ على انفراد قائلين: «قل لنا، متى يكون هذا؟ وما علامة مجيئك وانقضاء الدهر؟»",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-4-a",
+              "text": "فأجاب يسوع وقال لهم: «انظروا لئلا يضلكم أحد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-5-a",
+              "text": "فإن كثيرين سيأتون باسمي قائلين: أنا هو المسيح، ويضلون كثيرين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-6-a",
+              "text": "وسوف تسمعون بحروب وأخبار حروب. انظروا ألا تضطربوا، لأنه لا بد أن تكون هذه، ولكن النهاية ليست بعد.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-7-a",
+              "text": "فستقوم أمة على أمة، ومملكة على مملكة، وتكون مجاعات وزلازل في أماكن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-8-a",
+              "text": "ولكن هذه كلها بداية الأوجاع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-9-a",
+              "text": "حينئذ يسلمونكم إلى ضيق ويقتلونكم، وتكونون مبغضين من جميع الأمم بسبب اسمي.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-10-a",
+              "text": "وحينئذ يعثر كثيرون، ويسلم بعضهم بعضًا ويبغض بعضهم بعضًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-11-a",
+              "text": "ويقوم أنبياء كذبة كثيرون ويضلون كثيرين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-12-a",
+              "text": "ولكثرة الإثم تبرد محبة الكثيرين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-13-a",
+              "text": "أما من يصبر إلى النهاية فهو يخلص.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-14-a",
+              "text": "ويُكرز بإنجيل الملكوت هذا في المسكونة كلها شهادة لجميع الأمم، وحينئذ تأتي النهاية.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-15-a",
+              "text": "فمتى رأيتم رجسة الخراب التي قيل عنها بدانيال النبي قائمة في الموضع المقدس—ليفهم القارئ—",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-16-a",
+              "text": "فحينئذ ليهرب الذين في اليهودية إلى الجبال.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-17-a",
+              "text": "ومن كان على السطح فلا ينزل ليأخذ شيئًا من بيته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-18-a",
+              "text": "ومن كان في الحقل فلا يرجع إلى الوراء ليأخذ ثوبه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-19-a",
+              "text": "وويل للحبالى والمرضعات في تلك الأيام.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-20-a",
+              "text": "وصلوا لكي لا يكون هربكم في الشتاء ولا في السبت.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-21-a",
+              "text": "لأنه يكون حينئذ ضيق عظيم لم يكن مثله منذ بدء العالم إلى الآن، ولن يكون.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-22-a",
+              "text": "ولو لم تُقصّر تلك الأيام لما خلص جسد؛ ولكن من أجل المختارين تُقصّر تلك الأيام.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-23-a",
+              "text": "حينئذ إن قال لكم أحد: ها المسيح هنا، أو هناك، فلا تصدقوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-24-a",
+              "text": "لأنه سيقوم مسحاء كذبة وأنبياء كذبة، ويعطون آيات وعجائب عظيمة، حتى يضلوا—إن أمكن—المختارين أيضًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-25-a",
+              "text": "ها أنا قد أخبرتكم من قبل.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-26-a",
+              "text": "فإن قالوا لكم: ها هو في البرية، فلا تخرجوا؛ ها هو في المخادع، فلا تصدقوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-27-a",
+              "text": "لأنه كما يخرج البرق من المشارق ويظهر إلى المغارب، هكذا يكون مجيء ابن الإنسان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-28-a",
+              "text": "فحيث تكون الجثة، هناك تجتمع النسور.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-29-a",
+              "text": "وللوقت بعد ضيق تلك الأيام تظلم الشمس، والقمر لا يعطي ضوءه، والنجوم تسقط من السماء، وقوات السماوات تتزعزع.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-30-a",
+              "text": "وحينئذ تظهر علامة ابن الإنسان في السماء، وحينئذ تنوح جميع قبائل الأرض، ويرون ابن الإنسان آتيًا على سحاب السماء بقوة ومجد عظيم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-31-a",
+              "text": "ويرسل ملائكته بصوت بوق عظيم، فيجمعون مختاريه من الرياح الأربع، من أقصى السماوات إلى أقصاها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-32-a",
+              "text": "ومن شجرة التين تعلموا المثل: متى صار غصنها لينًا وأخرجت أوراقها تعلمون أن الصيف قريب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-33-a",
+              "text": "هكذا أنتم أيضًا، متى رأيتم هذا كله فاعلموا أنه قريب، على الأبواب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-34-a",
+              "text": "الحق أقول لكم: لا يمضي هذا الجيل حتى يكون هذا كله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-35-a",
+              "text": "السماء والأرض تزولان، أما كلامي فلا يزول.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-36-a",
+              "text": "وأما ذلك اليوم وتلك الساعة فلا يعرفهما أحد، ولا ملائكة السماوات، إلا الآب وحده.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-37-a",
+              "text": "وكما كانت أيام نوح، هكذا يكون مجيء ابن الإنسان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-38-a",
+              "text": "فكما كانوا في الأيام التي قبل الطوفان يأكلون ويشربون ويتزوجون ويزوّجون إلى اليوم الذي دخل فيه نوح الفلك،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-39-a",
+              "text": "ولم يعلموا حتى جاء الطوفان وأخذ الجميع، هكذا يكون أيضًا مجيء ابن الإنسان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-40-a",
+              "text": "حينئذ يكون اثنان في الحقل؛ يؤخذ واحد ويُترك الآخر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-41-a",
+              "text": "وتكون امرأتان تطحنان على الرحى؛ تؤخذ واحدة وتُترك الأخرى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-42-a",
+              "text": "فاسهروا إذًا، لأنكم لا تعلمون في أية ساعة يأتي ربكم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-43-a",
+              "text": "واعلموا هذا: أنه لو عرف رب البيت في أي هزيع يأتي اللص، لسهر ولم يدع بيته يُنقب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-44-a",
+              "text": "لذلك كونوا أنتم أيضًا مستعدين، لأنه في ساعة لا تظنون يأتي ابن الإنسان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-45-a",
+              "text": "فمن هو العبد الأمين الحكيم الذي أقامه سيده على خدمه ليعطيهم الطعام في حينه؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-46-a",
+              "text": "طوبى لذلك العبد الذي إذا جاء سيده يجده يفعل هكذا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 47,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-47-a",
+              "text": "الحق أقول لكم إنه يقيمه على جميع أمواله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 48,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-48-a",
+              "text": "ولكن إن قال ذلك العبد الشرير في قلبه: سيدي يتأخر،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 49,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-49-a",
+              "text": "وبدأ يضرب رفقاءه العبيد، ويأكل ويشرب مع السكارى،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 50,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-50-a",
+              "text": "يأتي سيد ذلك العبد في يوم لا ينتظره وفي ساعة لا يعرفها،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 51,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-24-51-a",
+              "text": "فيقطعه ويجعل نصيبه مع المرائين؛ هناك يكون البكاء وصرير الأسنان».",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "status": "translation_draft_complete",
+      "coverage": {
+        "from_verse": 1,
+        "to_verse": 46,
+        "total_verses": 46
+      },
+      "analysis_urn": "urn:cts:copticLit:nt.matt.sahidica:25",
+      "verses": [
+        {
+          "number": 1,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-1-a",
+              "text": "«حينئذ يشبه ملكوت السماوات عشر عذارى أخذن مصابيحهن وخرجن للقاء العريس.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 2,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-2-a",
+              "text": "وكان خمس منهن جاهلات وخمس حكيمات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 3,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-3-a",
+              "text": "فالجاهلات أخذن مصابيحهن ولم يأخذن معهن زيتًا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 4,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-4-a",
+              "text": "أما الحكيمات فأخذن زيتًا في أوعيتهن مع مصابيحهن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 5,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-5-a",
+              "text": "وإذ أبطأ العريس نعسن جميعًا ونمن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 6,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-6-a",
+              "text": "وفي نصف الليل صار صراخ: ها العريس! اخرجن للقائه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 7,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-7-a",
+              "text": "فقامت أولئك العذارى جميعًا وأصلحن مصابيحهن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 8,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-8-a",
+              "text": "فقالت الجاهلات للحكيمات: أعطيننا من زيتكن، فإن مصابيحنا تنطفئ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 9,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-9-a",
+              "text": "فأجابت الحكيمات قائلات: لئلا لا يكفي لنا ولكن، اذهبن بالحري إلى الباعة واشترين لأنفسكن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 10,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-10-a",
+              "text": "وفيما هن ذاهبات ليشترين جاء العريس، والمستعدات دخلن معه إلى العرس، وأُغلق الباب.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 11,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-11-a",
+              "text": "وأخيرًا جاءت بقية العذارى أيضًا قائلات: يا سيد، يا سيد، افتح لنا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 12,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-12-a",
+              "text": "فأجاب وقال: الحق أقول لكن: إني لا أعرفكن.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 13,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-13-a",
+              "text": "فاسهروا إذًا، لأنكم لا تعرفون اليوم ولا الساعة.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 14,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-14-a",
+              "text": "فإنه مثل إنسان مسافر دعا عبيده وسلمهم أمواله.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 15,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-15-a",
+              "text": "فأعطى واحدًا خمس وزنات، وآخر وزنتين، وآخر وزنة، كل واحد بحسب طاقته، وسافر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 16,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-16-a",
+              "text": "فمضى الذي أخذ الخمس وزنات وتاجر بها وربح خمسًا أخرى.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 17,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-17-a",
+              "text": "وهكذا الذي أخذ الوزنتين ربح اثنتين أخريين.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 18,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-18-a",
+              "text": "أما الذي أخذ الواحدة فمضى وحفر في الأرض وأخفى مال سيده.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 19,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-19-a",
+              "text": "وبعد زمان طويل جاء سيد أولئك العبيد وحاسبهم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 20,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-20-a",
+              "text": "فجاء الذي أخذ الخمس وزنات وقدم خمس وزنات أخرى قائلًا: يا سيد، خمس وزنات سلمتني؛ ها خمس وزنات أخرى ربحتها.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 21,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-21-a",
+              "text": "فقال له سيده: حسنًا أيها العبد الصالح الأمين. كنت أمينًا في القليل فأقيمك على الكثير. ادخل إلى فرح سيدك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 22,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-22-a",
+              "text": "وجاء أيضًا الذي أخذ الوزنتين وقال: يا سيد، وزنتين سلمتني؛ ها وزنتان أخريان ربحتهما.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 23,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-23-a",
+              "text": "فقال له سيده: حسنًا أيها العبد الصالح الأمين. كنت أمينًا في القليل فأقيمك على الكثير. ادخل إلى فرح سيدك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 24,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-24-a",
+              "text": "ثم جاء الذي أخذ الوزنة الواحدة وقال: يا سيد، عرفتك أنك إنسان قاسٍ، تحصد حيث لم تزرع وتجمع من حيث لم تبذر.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 25,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-25-a",
+              "text": "فخفت ومضيت وأخفيت وزنتك في الأرض. ها الذي لك.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 26,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-26-a",
+              "text": "فأجاب سيده وقال له: أيها العبد الشرير الكسلان، عرفت أني أحصد حيث لم أزرع وأجمع من حيث لم أبذر؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 27,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-27-a",
+              "text": "فكان ينبغي أن تضع مالي عند الصيارفة، وعند مجيئي كنت آخذ الذي لي مع ربح.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 28,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-28-a",
+              "text": "فخذوا منه الوزنة وأعطوها للذي له العشر وزنات.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 29,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-29-a",
+              "text": "لأن كل من له يُعطى فيزداد، ومن ليس له فالذي عنده يؤخذ منه.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 30,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-30-a",
+              "text": "والعبد غير النافع اطرحوه إلى الظلمة الخارجية؛ هناك يكون البكاء وصرير الأسنان.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 31,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-31-a",
+              "text": "ومتى جاء ابن الإنسان في مجده وجميع الملائكة معه، حينئذ يجلس على عرش مجده.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 32,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-32-a",
+              "text": "وتُجمع أمامه جميع الأمم، فيميز بعضهم من بعض كما يميز الراعي الخراف من الجداء.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 33,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-33-a",
+              "text": "فيقيم الخراف عن يمينه، والجداء عن يساره.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 34,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-34-a",
+              "text": "حينئذ يقول الملك للذين عن يمينه: تعالوا يا مباركي أبي، رثوا الملكوت المعد لكم منذ تأسيس العالم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 35,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-35-a",
+              "text": "لأني جعت فأطعمتموني، عطشت فسقيتموني، كنت غريبًا فآويتموني،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 36,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-36-a",
+              "text": "عريانًا فكسوتموني، مرضت فزرتموني، كنت في السجن فأتيتم إليّ.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 37,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-37-a",
+              "text": "حينئذ يجيبه الأبرار قائلين: يا رب، متى رأيناك جائعًا فأطعمناك، أو عطشان فسقيناك؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 38,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-38-a",
+              "text": "ومتى رأيناك غريبًا فآويناك، أو عريانًا فكسوناك؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 39,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-39-a",
+              "text": "ومتى رأيناك مريضًا أو في السجن فأتينا إليك؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 40,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-40-a",
+              "text": "فيجيب الملك ويقول لهم: الحق أقول لكم: بما أنكم فعلتموه بواحد من إخوتي هؤلاء الأصاغر، فبي فعلتم.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 41,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-41-a",
+              "text": "ثم يقول أيضًا للذين عن يساره: اذهبوا عني يا ملاعين إلى النار الأبدية المعدة لإبليس وملائكته.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 42,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-42-a",
+              "text": "لأني جعت فلم تطعموني، عطشت فلم تسقوني،",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 43,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-43-a",
+              "text": "كنت غريبًا فلم تؤووني، عريانًا فلم تكسوني، مريضًا وفي السجن فلم تزوروني.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 44,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-44-a",
+              "text": "حينئذ يجيبونه هم أيضًا قائلين: يا رب، متى رأيناك جائعًا أو عطشان أو غريبًا أو عريانًا أو مريضًا أو في السجن ولم نخدمك؟",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 45,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-45-a",
+              "text": "حينئذ يجيبهم قائلًا: الحق أقول لكم: بما أنكم لم تفعلوه بواحد من هؤلاء الأصاغر، فبي لم تفعلوا.",
+              "align": []
+            }
+          ],
+          "publication_coptic": "loaded dynamically from Horner 1911 public-domain source"
+        },
+        {
+          "number": 46,
+          "status": "draft",
+          "alignment_level": "verse",
+          "arabic": [
+            {
+              "id": "mt-25-46-a",
+              "text": "ويمضي هؤلاء إلى عقاب أبدي، والأبرار إلى حياة أبدية».",
               "align": []
             }
           ],
